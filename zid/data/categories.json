@@ -1,0 +1,80 @@
+[
+  {
+    "id": 5,
+    "name_ar": "Shipping & Fulfilment",
+    "name_en": "Shipping & Fulfilment",
+    "app_count": 204
+  },
+  {
+    "id": 13,
+    "name_ar": "Mobile Apps",
+    "name_en": "Mobile Apps",
+    "app_count": 4
+  },
+  {
+    "id": 10,
+    "name_ar": "Marketing",
+    "name_en": "Marketing",
+    "app_count": 102
+  },
+  {
+    "id": 9,
+    "name_ar": "Customer Support",
+    "name_en": "Customer Support",
+    "app_count": 48
+  },
+  {
+    "id": 2,
+    "name_ar": "Accounting",
+    "name_en": "Accounting",
+    "app_count": 35
+  },
+  {
+    "id": 1,
+    "name_ar": "Inventory management",
+    "name_en": "Inventory Management",
+    "app_count": 33
+  },
+  {
+    "id": 4,
+    "name_ar": "Analytics & Reporting",
+    "name_en": "Analytics & Reporting",
+    "app_count": 25
+  },
+  {
+    "id": 11,
+    "name_ar": "Productivity",
+    "name_en": "Productivity",
+    "app_count": 20
+  },
+  {
+    "id": 6,
+    "name_ar": "Finding Products",
+    "name_en": "Finding Products",
+    "app_count": 6
+  },
+  {
+    "id": 12,
+    "name_ar": "Payments",
+    "name_en": "Payments",
+    "app_count": 9
+  },
+  {
+    "id": 8,
+    "name_ar": "Operations",
+    "name_en": "Operations",
+    "app_count": 33
+  },
+  {
+    "id": 14,
+    "name_ar": "Campaign tracking",
+    "name_en": "Campaign Tracking",
+    "app_count": 9
+  },
+  {
+    "id": 15,
+    "name_ar": "Sales Channels",
+    "name_en": "Sales Channels",
+    "app_count": 4
+  }
+]

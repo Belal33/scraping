@@ -30,9 +30,10 @@
   - 🔗 https://www.tga.gov.sa/ar/LicensedCompanies
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
 
-- [ ] **Zid** — Get Apps
+- [x] **Zid** — Get Apps
   - 🔗 https://apps.zid.sa/en/applications
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
+  - ✅ Output: `zid/output/zid_apps.csv`
 
 - [ ] **Salla** — Get Apps
   - 🔗 https://apps.salla.sa/en/categories
