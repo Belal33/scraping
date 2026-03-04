@@ -1,5 +1,7 @@
 # Deliverect Integrations Scraper
 
+> **Source URL:** https://www.deliverect.com/en/integrations
+
 Scrapes all integration partners from [deliverect.com/en/integrations](https://www.deliverect.com/en/integrations) and exports them to CSV with metadata.
 
 ## Output
