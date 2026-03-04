@@ -1,0 +1,12 @@
+Date,Task Name,Status,Resources,Task,,
+3/4/2026,Build An automated monitor hook on these marketplaces,FALSE,,,,
+3/4/2026,Extract all Partners and add them to the list and mention which prooduct its related to,FALSE,,,,
+3/4/2026,check Urban Piper integration page,FALSE,https://www.urbanpiper.com/integrations,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",,
+3/4/2026,get Deliverect integration page ,FALSE,https://www.deliverect.com/en/integrations,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",,
+3/4/2026,get their Marketplace Foodics,FALSE,https://www.foodics.com/marketplace/,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",,
+3/4/2026, get Identify Logistics Partner for Loops Track ,FALSE,https://www.tga.gov.sa/ar/LicensedCompanies,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",https://www.tga.gov.sa/ar/LicensedCompanies/LicensedCompany/1,https://www.tga.gov.sa/ar/LicensedCompanies/LicensedCompany/2
+3/4/2026, get Zid apps,FALSE,https://apps.zid.sa/en/applications,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",,
+3/4/2026, get Salla apps,FALSE,https://apps.salla.sa/en/categories,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",,
+3/4/2026, get Shopify apps,FALSE,https://www.shopify.com/partners/directory/services/development-and-troubleshooting/custom-apps-integrations,"get all info by fileres. Get Partner Details. Alwayse Segment by. coountries, categoreis, tags.",,
+3/4/2026, get Amazon SPN Partners,FALSE,https://sellercentral.amazon.com/gspn?ref_=svs_gspn_soaspn_hp&initialSessionID=135-8827804-3080613&ld=NSGoogle&pageName=US%3ASD%3ASOA-spn,,,
+3/4/2026,MARN,,https://marn.com/en/marketplace/,,,
