@@ -1,0 +1,730 @@
+[
+  {
+    "name": "3sPOS",
+    "slug": "3spos"
+  },
+  {
+    "name": "Access POS",
+    "slug": "access-pos"
+  },
+  {
+    "name": "Adloggs",
+    "slug": "adloggs"
+  },
+  {
+    "name": "Agilysis",
+    "slug": "agilysis"
+  },
+  {
+    "name": "All POS",
+    "slug": "all-pos"
+  },
+  {
+    "name": "Amepos",
+    "slug": "amepos"
+  },
+  {
+    "name": "App4",
+    "slug": "app4"
+  },
+  {
+    "name": "BestPOS/FnB 360",
+    "slug": "bestpos-fnb-360"
+  },
+  {
+    "name": "Billberry",
+    "slug": "billberry"
+  },
+  {
+    "name": "BIMPOS",
+    "slug": "bimpos"
+  },
+  {
+    "name": "Bitsila",
+    "slug": "bitsila"
+  },
+  {
+    "name": "Biz1Book",
+    "slug": "biz1book"
+  },
+  {
+    "name": "Blue Lotus 360",
+    "slug": "blue-lotus-360"
+  },
+  {
+    "name": "Bravery Kitchen",
+    "slug": "bravery-kitchen"
+  },
+  {
+    "name": "Bridge/Explorex",
+    "slug": "bridge-explorex"
+  },
+  {
+    "name": "CaptainPad",
+    "slug": "captainpad"
+  },
+  {
+    "name": "Careem",
+    "slug": "careem"
+  },
+  {
+    "name": "Careem Box",
+    "slug": "careem-box"
+  },
+  {
+    "name": "Cari",
+    "slug": "cari"
+  },
+  {
+    "name": "ChatFood",
+    "slug": "chatfood"
+  },
+  {
+    "name": "Chownow",
+    "slug": "chownow"
+  },
+  {
+    "name": "Cibo",
+    "slug": "cibo"
+  },
+  {
+    "name": "Ciferon",
+    "slug": "ciferon"
+  },
+  {
+    "name": "Cowrks",
+    "slug": "cowrks"
+  },
+  {
+    "name": "CW Suite",
+    "slug": "cw-suite"
+  },
+  {
+    "name": "Cyntra AI",
+    "slug": "cyntra-ai"
+  },
+  {
+    "name": "Cypheron POS",
+    "slug": "cypheron-pos"
+  },
+  {
+    "name": "Datamate/Hotsoft Purple Key",
+    "slug": "datamate-hotsoft-purple-key"
+  },
+  {
+    "name": "DCA",
+    "slug": "dca"
+  },
+  {
+    "name": "Deliveroo",
+    "slug": "deliveroo"
+  },
+  {
+    "name": "Devourin",
+    "slug": "devourin"
+  },
+  {
+    "name": "Dgtera",
+    "slug": "dgtera"
+  },
+  {
+    "name": "Didifood",
+    "slug": "didifood"
+  },
+  {
+    "name": "Digipos/Digitory",
+    "slug": "digipos-digitory"
+  },
+  {
+    "name": "Digirestro/Concourse",
+    "slug": "digirestro-concourse"
+  },
+  {
+    "name": "Dineorder",
+    "slug": "dineorder"
+  },
+  {
+    "name": "Dineplan",
+    "slug": "dineplan"
+  },
+  {
+    "name": "Dinner Daddy",
+    "slug": "dinner-daddy"
+  },
+  {
+    "name": "Dino POS",
+    "slug": "dino-pos"
+  },
+  {
+    "name": "Doordash",
+    "slug": "doordash"
+  },
+  {
+    "name": "DotPe",
+    "slug": "dotpe"
+  },
+  {
+    "name": "Dunzo",
+    "slug": "dunzo"
+  },
+  {
+    "name": "E-retail",
+    "slug": "e-retail"
+  },
+  {
+    "name": "EatStreet",
+    "slug": "eatstreet"
+  },
+  {
+    "name": "El Dahan Restaurants",
+    "slug": "el-dahan-restaurants"
+  },
+  {
+    "name": "Enqueue",
+    "slug": "enqueue"
+  },
+  {
+    "name": "Enstore",
+    "slug": "enstore"
+  },
+  {
+    "name": "Epos Now",
+    "slug": "epos-now"
+  },
+  {
+    "name": "Eresto",
+    "slug": "eresto"
+  },
+  {
+    "name": "eZee Optimus",
+    "slug": "ezee-optimus"
+  },
+  {
+    "name": "Flip Office",
+    "slug": "flip-office"
+  },
+  {
+    "name": "Flipdish",
+    "slug": "flipdish"
+  },
+  {
+    "name": "Foaps",
+    "slug": "foaps"
+  },
+  {
+    "name": "Fodista",
+    "slug": "fodista"
+  },
+  {
+    "name": "Foodhub",
+    "slug": "foodhub"
+  },
+  {
+    "name": "Foodics",
+    "slug": "foodics"
+  },
+  {
+    "name": "Foodzapp",
+    "slug": "foodzapp"
+  },
+  {
+    "name": "ForkPOS",
+    "slug": "forkpos"
+  },
+  {
+    "name": "Fusion Innovative",
+    "slug": "fusion-innovative"
+  },
+  {
+    "name": "G5POS",
+    "slug": "g5pos"
+  },
+  {
+    "name": "Geidea",
+    "slug": "geidea"
+  },
+  {
+    "name": "Gintaa",
+    "slug": "gintaa"
+  },
+  {
+    "name": "Glovo",
+    "slug": "glovo"
+  },
+  {
+    "name": "GoFrugal",
+    "slug": "gofrugal"
+  },
+  {
+    "name": "Grafterr/ePOS Hybrid",
+    "slug": "grafterr-epos-hybrid"
+  },
+  {
+    "name": "Grubhub",
+    "slug": "grubhub"
+  },
+  {
+    "name": "Hungerbox-POS",
+    "slug": "hungerbox-pos"
+  },
+  {
+    "name": "HungerStation",
+    "slug": "hungerstation"
+  },
+  {
+    "name": "HungryPanda",
+    "slug": "hungrypanda"
+  },
+  {
+    "name": "I-Dine/Innosolv",
+    "slug": "i-dine-innosolv"
+  },
+  {
+    "name": "Instashop",
+    "slug": "instashop"
+  },
+  {
+    "name": "Isthara",
+    "slug": "isthara"
+  },
+  {
+    "name": "Jahez",
+    "slug": "jahez"
+  },
+  {
+    "name": "JPOS/Sanguine",
+    "slug": "jpos-sanguine"
+  },
+  {
+    "name": "Just Eat",
+    "slug": "just-eat"
+  },
+  {
+    "name": "kayana POS",
+    "slug": "kayana-pos"
+  },
+  {
+    "name": "Keeta",
+    "slug": "keeta"
+  },
+  {
+    "name": "Kuber POS",
+    "slug": "kuber-pos"
+  },
+  {
+    "name": "Kurve",
+    "slug": "kurve"
+  },
+  {
+    "name": "Lightspeed",
+    "slug": "lightspeed"
+  },
+  {
+    "name": "LingaPOS",
+    "slug": "lingapos"
+  },
+  {
+    "name": "Loyverse",
+    "slug": "loyverse"
+  },
+  {
+    "name": "LS Retail",
+    "slug": "ls-retail"
+  },
+  {
+    "name": "Lucid",
+    "slug": "lucid"
+  },
+  {
+    "name": "Masalabox",
+    "slug": "masalabox"
+  },
+  {
+    "name": "Menew",
+    "slug": "menew"
+  },
+  {
+    "name": "Micros Oracle Symphony Gen 1",
+    "slug": "micros-oracle-symphony-gen-1"
+  },
+  {
+    "name": "Micros Oracle Symphony Gen 2",
+    "slug": "micros-oracle-symphony-gen-2"
+  },
+  {
+    "name": "Micros Oracle Symphony RES 3700",
+    "slug": "micros-oracle-symphony-res-3700"
+  },
+  {
+    "name": "Mr Mandoob",
+    "slug": "mr-mandoob"
+  },
+  {
+    "name": "Mrsool",
+    "slug": "mrsool"
+  },
+  {
+    "name": "MyGenie",
+    "slug": "mygenie"
+  },
+  {
+    "name": "Mymenu",
+    "slug": "mymenu"
+  },
+  {
+    "name": "MyOrderBox",
+    "slug": "myorderbox"
+  },
+  {
+    "name": "Nash",
+    "slug": "nash"
+  },
+  {
+    "name": "NCR BSL",
+    "slug": "ncr-bsl"
+  },
+  {
+    "name": "Ninja",
+    "slug": "ninja"
+  },
+  {
+    "name": "Ninjacart",
+    "slug": "ninjacart"
+  },
+  {
+    "name": "Noonfood",
+    "slug": "noonfood"
+  },
+  {
+    "name": "NOQ",
+    "slug": "noq"
+  },
+  {
+    "name": "Nuba Soft",
+    "slug": "nuba-soft"
+  },
+  {
+    "name": "Ocim",
+    "slug": "ocim"
+  },
+  {
+    "name": "Odoo",
+    "slug": "odoo"
+  },
+  {
+    "name": "OMAK POS",
+    "slug": "omak-pos"
+  },
+  {
+    "name": "OMEGA POS Technology",
+    "slug": "omega-pos-technology"
+  },
+  {
+    "name": "Ordable",
+    "slug": "ordable"
+  },
+  {
+    "name": "Orderable",
+    "slug": "orderable"
+  },
+  {
+    "name": "OrderSune",
+    "slug": "ordersune"
+  },
+  {
+    "name": "PAR Brink",
+    "slug": "par-brink"
+  },
+  {
+    "name": "Phenix POS",
+    "slug": "phenix-pos"
+  },
+  {
+    "name": "Phylo POS",
+    "slug": "phylo-pos"
+  },
+  {
+    "name": "Polaris Technology",
+    "slug": "polaris-technology"
+  },
+  {
+    "name": "PosBytz",
+    "slug": "posbytz"
+  },
+  {
+    "name": "Posify",
+    "slug": "posify"
+  },
+  {
+    "name": "Positeasy",
+    "slug": "positeasy"
+  },
+  {
+    "name": "Postmates",
+    "slug": "postmates"
+  },
+  {
+    "name": "Prologic",
+    "slug": "prologic"
+  },
+  {
+    "name": "QPos",
+    "slug": "qpos"
+  },
+  {
+    "name": "QRKey Pos",
+    "slug": "qrkey-pos"
+  },
+  {
+    "name": "Queuebuster",
+    "slug": "queuebuster"
+  },
+  {
+    "name": "Radyes",
+    "slug": "radyes"
+  },
+  {
+    "name": "Rafeeq",
+    "slug": "rafeeq"
+  },
+  {
+    "name": "Rancelab",
+    "slug": "rancelab"
+  },
+  {
+    "name": "Rappi",
+    "slug": "rappi"
+  },
+  {
+    "name": "Rappi Cargo",
+    "slug": "rappi-cargo"
+  },
+  {
+    "name": "Rawnest",
+    "slug": "rawnest"
+  },
+  {
+    "name": "RestoSuite",
+    "slug": "restosuite"
+  },
+  {
+    "name": "Revel",
+    "slug": "revel"
+  },
+  {
+    "name": "Romio Technologies",
+    "slug": "romio-technologies"
+  },
+  {
+    "name": "Royal POS",
+    "slug": "royal-pos"
+  },
+  {
+    "name": "SAAG Systems",
+    "slug": "saag-systems"
+  },
+  {
+    "name": "Sahlhub",
+    "slug": "sahlhub"
+  },
+  {
+    "name": "SambaPOS",
+    "slug": "sambapos"
+  },
+  {
+    "name": "Sapaad",
+    "slug": "sapaad"
+  },
+  {
+    "name": "Semnox",
+    "slug": "semnox"
+  },
+  {
+    "name": "Sequential Soft/HIO POS",
+    "slug": "sequential-soft-hio-pos"
+  },
+  {
+    "name": "Sero",
+    "slug": "sero"
+  },
+  {
+    "name": "Shadowfax",
+    "slug": "shadowfax"
+  },
+  {
+    "name": "Sigmoss",
+    "slug": "sigmoss"
+  },
+  {
+    "name": "SimpleTouch",
+    "slug": "simpletouch"
+  },
+  {
+    "name": "Skip the Dishes",
+    "slug": "skip-the-dishes"
+  },
+  {
+    "name": "Slerp",
+    "slug": "slerp"
+  },
+  {
+    "name": "Smart POS",
+    "slug": "smart-pos"
+  },
+  {
+    "name": "SmartQ",
+    "slug": "smartq"
+  },
+  {
+    "name": "Smiles",
+    "slug": "smiles"
+  },
+  {
+    "name": "Sonic POS",
+    "slug": "sonic-pos"
+  },
+  {
+    "name": "Sparktech",
+    "slug": "sparktech"
+  },
+  {
+    "name": "SpeQue POS",
+    "slug": "speque-pos"
+  },
+  {
+    "name": "Spotlight",
+    "slug": "spotlight"
+  },
+  {
+    "name": "Square",
+    "slug": "square"
+  },
+  {
+    "name": "Squirrel",
+    "slug": "squirrel"
+  },
+  {
+    "name": "Stackedin",
+    "slug": "stackedin"
+  },
+  {
+    "name": "Stuart",
+    "slug": "stuart"
+  },
+  {
+    "name": "SummerPOS/Toastpie",
+    "slug": "summerpos-toastpie"
+  },
+  {
+    "name": "Sumup",
+    "slug": "sumup"
+  },
+  {
+    "name": "Supy",
+    "slug": "supy"
+  },
+  {
+    "name": "Svika",
+    "slug": "svika"
+  },
+  {
+    "name": "Swiggy",
+    "slug": "swiggy"
+  },
+  {
+    "name": "SynQues/Q4 Retail",
+    "slug": "synques-q4-retail"
+  },
+  {
+    "name": "Syrve",
+    "slug": "syrve"
+  },
+  {
+    "name": "Talabat",
+    "slug": "talabat"
+  },
+  {
+    "name": "Talabna",
+    "slug": "talabna"
+  },
+  {
+    "name": "Tevalis",
+    "slug": "tevalis"
+  },
+  {
+    "name": "The Chefz",
+    "slug": "the-chefz"
+  },
+  {
+    "name": "The On Demand Company",
+    "slug": "the-on-demand-company"
+  },
+  {
+    "name": "Thinksoftwares",
+    "slug": "thinksoftwares"
+  },
+  {
+    "name": "Tipplr",
+    "slug": "tipplr"
+  },
+  {
+    "name": "TMBill",
+    "slug": "tmbill"
+  },
+  {
+    "name": "Toast",
+    "slug": "toast"
+  },
+  {
+    "name": "TouchBistro",
+    "slug": "touchbistro"
+  },
+  {
+    "name": "ToYou",
+    "slug": "toyou"
+  },
+  {
+    "name": "Tray",
+    "slug": "tray"
+  },
+  {
+    "name": "Uber Eats",
+    "slug": "uber-eats"
+  },
+  {
+    "name": "Uengage",
+    "slug": "uengage"
+  },
+  {
+    "name": "Urbandart",
+    "slug": "urbandart"
+  },
+  {
+    "name": "Vada",
+    "slug": "vada"
+  },
+  {
+    "name": "Vertex",
+    "slug": "vertex"
+  },
+  {
+    "name": "Weevi",
+    "slug": "weevi"
+  },
+  {
+    "name": "Yotto Labs",
+    "slug": "yotto-labs"
+  },
+  {
+    "name": "Your buddy",
+    "slug": "your-buddy"
+  },
+  {
+    "name": "Zentrades/Smartserv",
+    "slug": "zentrades-smartserv"
+  },
+  {
+    "name": "Zomato",
+    "slug": "zomato"
+  }
+]
