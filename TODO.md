@@ -49,5 +49,7 @@
   - 🔗 https://sellercentral.amazon.com/gspn
   - ✅ Output: `amazon_spn/output/amazon_spn_providers.csv` (148 unique providers, 18 categories, US→US)
 
-- [ ] **MARN** — Get Marketplace
+- [x] **MARN** — Get Marketplace
   - 🔗 https://marn.com/en/marketplace/
+  - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
+  - ✅ Output: `marn/output/marn_marketplace.csv` (20 grid partners + 7 hero-logo-only, Arabic data enriched)
