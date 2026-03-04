@@ -39,9 +39,10 @@
   - 🔗 https://apps.salla.sa/en/categories
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
 
-- [ ] **Shopify** — Get Partner Apps
+- [x] **Shopify** — Get Partner Apps
   - 🔗 https://www.shopify.com/partners/directory/services/development-and-troubleshooting/custom-apps-integrations
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
+  - ✅ Output: `shopify/output/shopify_partners.csv` (2527 partners, 75 countries)
 
 - [ ] **Amazon SPN** — Get SPN Partners
   - 🔗 https://sellercentral.amazon.com/gspn
