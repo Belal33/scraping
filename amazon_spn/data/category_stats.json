@@ -1,0 +1,74 @@
+{
+  "Account Management": {
+    "total_available": 740,
+    "extracted": 12
+  },
+  "Accounting": {
+    "total_available": 74,
+    "extracted": 12
+  },
+  "Advertising Optimization": {
+    "total_available": 553,
+    "extracted": 12
+  },
+  "Cataloguing": {
+    "total_available": 305,
+    "extracted": 12
+  },
+  "Compliance": {
+    "total_available": 86,
+    "extracted": 12
+  },
+  "Enhanced Brand Content": {
+    "total_available": 284,
+    "extracted": 12
+  },
+  "Excess Inventory": {
+    "total_available": 30,
+    "extracted": 12
+  },
+  "FBA Preparation": {
+    "total_available": 93,
+    "extracted": 12
+  },
+  "Imaging": {
+    "total_available": 148,
+    "extracted": 12
+  },
+  "International Returns": {
+    "total_available": 30,
+    "extracted": 12
+  },
+  "International Shipping": {
+    "total_available": 74,
+    "extracted": 12
+  },
+  "IP Accelerator": {
+    "total_available": 14,
+    "extracted": 12
+  },
+  "Manufacturing": {
+    "total_available": 233,
+    "extracted": 12
+  },
+  "Storage": {
+    "total_available": 45,
+    "extracted": 12
+  },
+  "Sustainability": {
+    "total_available": 9,
+    "extracted": 9
+  },
+  "Taxes": {
+    "total_available": 52,
+    "extracted": 12
+  },
+  "Training": {
+    "total_available": 119,
+    "extracted": 12
+  },
+  "Translation": {
+    "total_available": 23,
+    "extracted": 12
+  }
+}

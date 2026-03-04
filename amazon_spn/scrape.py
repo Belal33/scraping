@@ -18,7 +18,7 @@ import re
 import time
 import html as html_mod
 
-from scrapling import Fetcher
+from scrapling.fetchers import Fetcher
 
 # ---------------------------------------------------------------------------
 # Config
@@ -57,6 +57,11 @@ SERVICE_CATEGORIES = [
 ]
 
 # Star rating CSS class to numeric value mapping
+def clean_text(text):
+    """Normalize whitespace: replace newlines/tabs with spaces, collapse multiples."""
+    return re.sub(r'\s+', ' ', text).strip()
+
+
 STAR_RATING_MAP = {
     "a-star-5": 5.0,
     "a-star-4-5": 4.5,
@@ -102,21 +107,26 @@ def fetch_category(category, force=False):
 
     url = build_search_url(category)
     print(f"    Fetching: {url}")
-    fetcher = Fetcher(auto_match=False)
-    resp = fetcher.get(url)
-    html_content = resp.body if hasattr(resp, 'body') else str(resp)
 
-    # Try to get the HTML as string
-    if hasattr(resp, 'text'):
-        html_content = resp.text
-    elif hasattr(resp, 'content'):
-        html_content = resp.content.decode('utf-8', errors='replace') if isinstance(resp.content, bytes) else resp.content
+    page = Fetcher.get(
+        url,
+        stealthy_headers=True,
+        follow_redirects=True,
+    )
+
+    html_content = ""
+    if page.status == 200:
+        # The response body contains the raw HTML
+        html_content = page.body.decode("utf-8", errors="replace") if isinstance(page.body, bytes) else str(page.body)
+    else:
+        print(f"    ⚠ HTTP {page.status}")
+        return ""
 
     # Save cache
     with open(cp, "w", encoding="utf-8") as f:
         json.dump({"url": url, "category": category, "html": html_content}, f)
 
-    time.sleep(1)  # Polite delay
+    time.sleep(1.5)  # Polite delay
     return html_content
 
 
@@ -146,7 +156,7 @@ def extract_providers_from_html(html_content, category):
 
         # --- Name ---
         name_el = card.css("span.a-size-medium.a-color-base")
-        name = name_el[0].get_all_text(strip=True) if name_el else ""
+        name = clean_text(name_el[0].get_all_text(strip=True)) if name_el else ""
         if not name:
             continue
 
@@ -158,7 +168,7 @@ def extract_providers_from_html(html_content, category):
         price_el = card.css("div.provider-card-price")
         price_text = ""
         if price_el:
-            price_text = price_el[0].get_all_text(strip=True)
+            price_text = clean_text(price_el[0].get_all_text(strip=True))
             # Clean up: "Starts at USD 49.00 per month" -> "USD 49.00 per month"
             price_text = price_text.replace("Starts at", "").strip()
 
@@ -172,25 +182,33 @@ def extract_providers_from_html(html_content, category):
                     rating = str(val)
                     break
 
-        # --- Reviews ---
+        # --- Reviews & Requests received ---
+        # Use regex on the card's raw HTML for reliability
+        # The card HTML contains: "417<span...></span>Reviews" in rating-review divs
         reviews = ""
-        review_spans = card.css("div.provider-card-rating-review span.a-size-mini.a-color-tertiary")
-        for span in review_spans:
-            text = span.get_all_text(strip=True)
-            if "Reviews" in text or "Review" in text:
-                reviews = re.sub(r'[^\d]', '', text)
-                break
-
-        # --- Requests received ---
         requests_received = ""
         rating_divs = card.css("div.provider-card-rating-review")
         for rdiv in rating_divs:
-            text = rdiv.get_all_text(strip=True)
-            if "requests received" in text:
-                match = re.search(r'(\d+)', text)
+            # Get the raw HTML of this div for regex matching
+            raw_html = str(rdiv)
+            text = clean_text(rdiv.get_all_text(strip=True))
+
+            # Check for requests received
+            if "requests received" in text.lower() or "requests received" in raw_html.lower():
+                match = re.search(r'(\d[\d,]*)', text)
                 if match:
                     requests_received = f"More than {match.group(1)}"
-                break
+            # Check for reviews (pattern: NUMBER + Reviews in the HTML)
+            elif "review" in text.lower() or "Review" in raw_html:
+                # Try to extract from raw HTML first (more reliable)
+                rev_match = re.search(r'>(\d[\d,]*)<', raw_html)
+                if rev_match:
+                    reviews = rev_match.group(1)
+                else:
+                    # Fallback to text
+                    match = re.search(r'(\d[\d,]*)', text)
+                    if match:
+                        reviews = match.group(1)
 
         # --- Specialities (from title attribute) ---
         specialities = ""
@@ -232,7 +250,7 @@ def extract_providers_from_html(html_content, category):
             "requests_received": requests_received,
             "categories": category,
             "badges": "; ".join(badges),
-            "specialities": html_mod.unescape(specialities) if specialities else "",
+            "specialities": clean_text(html_mod.unescape(specialities)) if specialities else "",
             "sell_from": SELL_FROM,
             "sell_in": SELL_IN,
         })

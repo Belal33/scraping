@@ -35,17 +35,19 @@
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
   - ✅ Output: `zid/output/zid_apps.csv`
 
-- [ ] **Salla** — Get Apps
+- [x] **Salla** — Get Apps
   - 🔗 https://apps.salla.sa/en/categories
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
+  - ✅ Output: `salla/output/salla_apps.csv`
 
 - [x] **Shopify** — Get Partner Apps
   - 🔗 https://www.shopify.com/partners/directory/services/development-and-troubleshooting/custom-apps-integrations
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
   - ✅ Output: `shopify/output/shopify_partners.csv` (2527 partners, 75 countries)
 
-- [ ] **Amazon SPN** — Get SPN Partners
+- [x] **Amazon SPN** — Get SPN Partners
   - 🔗 https://sellercentral.amazon.com/gspn
+  - ✅ Output: `amazon_spn/output/amazon_spn_providers.csv` (148 unique providers, 18 categories, US→US)
 
 - [ ] **MARN** — Get Marketplace
   - 🔗 https://marn.com/en/marketplace/
