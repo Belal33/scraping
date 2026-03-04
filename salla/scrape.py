@@ -1,120 +1,143 @@
 """
-Helper script to extract apps from MCP-fetched HTML pages.
-Reads the saved MCP response files, parses them, and saves the results.
+Salla App Store Scraper
+================================
+Extracts all marketplace app partners from apps.salla.sa.
 
-This is the step 1 of the scraping pipeline:
-  1. Fetch pages via MCP → save as mcp_pages_*.json
-  2. Run this script → produces data/apps_listing.json
-  3. Fetch detail pages via MCP → save as mcp_details_*.json  
-  4. Run scrape.py --parse → produces output/salla_apps.csv
+Uses the internal Salla Marketplace API:
+  - Apps:       https://api.salla.dev/marketplace/v1/apps?page=N
+  - Categories: https://api.salla.dev/marketplace/v1/categories
+
+Phase 1: Fetch categories from the API.
+Phase 2: Paginate through all apps (12 per page).
+Phase 3: For each app, fetch its detail page for extended info.
+Phase 4: Build the final CSV.
+
+Dependencies: stdlib only (urllib, json, csv, os, time, re, sys).
 """
+import csv
 import json
 import os
 import re
 import sys
-import glob
+import time
+import urllib.request
+import urllib.error
+
+# ── Configuration ──────────────────────────────────────────────────────────
+API_BASE = "https://api.salla.dev/marketplace/v1"
+APPS_URL = f"{API_BASE}/apps"
+CATEGORIES_URL = f"{API_BASE}/categories"
+APP_DETAIL_URL = "https://apps.salla.sa/en/app"  # /en/app/{id}
+
+PER_PAGE = 12  # API default, cannot be changed
+RATE_LIMIT = 0.5  # seconds between API calls
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 
-
-def unescape_html(text):
-    """Unescape common HTML entities."""
-    text = text.replace("&amp;", "&")
-    text = text.replace("&lt;", "<")
-    text = text.replace("&gt;", ">")
-    text = text.replace("&quot;", '"')
-    text = text.replace("&#39;", "'")
-    text = text.replace("&nbsp;", " ")
-    return text.strip()
+SALLA_COUNTRIES = ["Saudi Arabia"]
 
 
-def parse_listing_apps(html):
-    """Parse app cards from listing page HTML."""
-    apps = []
-    app_blocks = re.split(r'<div class="app-item\s', html)
+# ── HTTP helpers ───────────────────────────────────────────────────────────
+def api_get(url, retries=3, timeout=30):
+    """Make a GET request and return parsed JSON."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "application/json",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://apps.salla.sa/",
+    }
+    req = urllib.request.Request(url, headers=headers)
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                return data
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+            if attempt < retries - 1:
+                wait = 2 ** attempt
+                print(f"    ⚠ Retry {attempt + 1}/{retries} for {url}: {e}")
+                time.sleep(wait)
+            else:
+                print(f"    ✗ Failed after {retries} attempts: {url}")
+                raise
 
-    for block in app_blocks[1:]:
-        app = {}
 
-        # App ID
-        id_match = re.search(r'href="/en/app/(\d+)\?category=all"', block)
-        if not id_match:
-            id_match = re.search(r'href="/en/app/(\d+)', block)
-        if not id_match:
-            continue
+def fetch_html(url, retries=3, timeout=30):
+    """Fetch raw HTML from a URL."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "text/html",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    req = urllib.request.Request(url, headers=headers)
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8")
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+            if attempt < retries - 1:
+                wait = 2 ** attempt
+                print(f"    ⚠ Retry {attempt + 1}/{retries}: {e}")
+                time.sleep(wait)
+            else:
+                return ""
 
-        app_id = id_match.group(1)
-        app["id"] = app_id
-        app["url"] = f"https://apps.salla.sa/en/app/{app_id}"
 
-        # Name
-        name_match = re.search(
-            r'<h2[^>]*>.*?<a[^>]*>.*?<span>(.*?)</span>', block, re.DOTALL
-        )
-        app["name"] = unescape_html(name_match.group(1)) if name_match else ""
+# ── Phase 1: Fetch categories ────────────────────────────────────────────
+def fetch_categories():
+    """Fetch all categories from the API."""
+    print("  Fetching categories...")
+    data = api_get(CATEGORIES_URL)
+    categories = data.get("data", [])
+    cat_map = {}
+    for cat in categories:
+        slug = cat.get("slug", "")
+        en_name = cat.get("name", {}).get("en", slug)
+        cat_map[slug] = en_name
+    print(f"  Found {len(cat_map)} categories")
+    return cat_map
 
-        # Logo
-        logo_match = re.search(
-            r'class="appLogo[^"]*"[^>]*style=\'[^\']*url\("([^"]+)"\)', block
-        )
-        app["logo_url"] = logo_match.group(1) if logo_match else ""
 
-        # Developer
-        dev_match = re.search(r'href="/en/company/(\d+)"[^>]*>(.*?)</a>', block)
-        if dev_match:
-            app["developer_id"] = dev_match.group(1)
-            app["developer_name"] = unescape_html(dev_match.group(2))
+# ── Phase 2: Fetch all apps (paginated) ──────────────────────────────────
+def fetch_all_apps():
+    """Fetch all apps via the paginated API."""
+    page = 1
+    all_apps = []
+    total_pages = None
+
+    while True:
+        url = f"{APPS_URL}?page={page}"
+        print(f"  Page {page}" + (f"/{total_pages}" if total_pages else "") + "...", end="", flush=True)
+
+        data = api_get(url)
+        apps = data.get("data", [])
+        pagination = data.get("pagination", {})
+
+        if total_pages is None:
+            total_pages = pagination.get("totalPages", 1)
+            total_apps = pagination.get("total", 0)
+            print(f" ({len(apps)} apps, {total_apps} total across {total_pages} pages)")
         else:
-            app["developer_id"] = ""
-            app["developer_name"] = ""
+            print(f" ({len(apps)} apps)")
 
-        # Pricing
-        price_match = re.search(
-            r'<div class="[^"]*text-sm leading-5 text-gray-500[^"]*">\s*<span>(.*?)</span>',
-            block, re.DOTALL
-        )
-        if price_match:
-            price_text = re.sub(r'<[^>]+>', '', price_match.group(1))
-            app["pricing"] = unescape_html(price_text.strip())
-        else:
-            app["pricing"] = ""
+        all_apps.extend(apps)
 
-        # Rating
-        yellow_stars = len(re.findall(r'sicon-star2[^"]*text-yellow-400', block))
-        app["avg_rating"] = str(yellow_stars) if yellow_stars > 0 else ""
+        if page >= total_pages or not apps:
+            break
 
-        ratings_match = re.search(r'\((\d+)\s*Ratings?\)', block)
-        app["total_ratings"] = ratings_match.group(1) if ratings_match else "0"
+        page += 1
+        time.sleep(RATE_LIMIT)
 
-        # Description
-        desc_match = re.search(
-            r'<p class="line-clamp[^"]*">(.*?)</p>', block, re.DOTALL
-        )
-        if desc_match:
-            desc = re.sub(r'<[^>]+>', '', desc_match.group(1))
-            app["description"] = unescape_html(desc.strip())
-        else:
-            app["description"] = ""
-
-        # Categories
-        categories = []
-        tag_matches = re.findall(r'<span class="fix-font">(.*?)</span>', block)
-        for tag in tag_matches:
-            cat = unescape_html(tag)
-            if cat and cat not in categories:
-                categories.append(cat)
-        app["categories"] = categories
-
-        if app["name"]:
-            apps.append(app)
-
-    return apps
+    return all_apps
 
 
+# ── Phase 3: Parse detail pages for extended info ─────────────────────────
 def parse_detail_page(html):
-    """Extract extended info from an app detail page."""
+    """Extract extended info from app detail page HTML."""
     detail = {}
 
     # Developer website
@@ -139,207 +162,236 @@ def parse_detail_page(html):
     if desc_match:
         desc = re.sub(r'<[^>]+>', ' ', desc_match.group(1))
         desc = re.sub(r'\s+', ' ', desc).strip()
-        detail["long_description"] = unescape_html(desc[:500])
+        detail["long_description"] = desc[:500]
     else:
         detail["long_description"] = ""
 
     return detail
 
 
-def parse_mcp_response(filepath):
-    """Parse a file containing one or more MCP JSON responses.
-    
-    The file may contain multiple JSON objects concatenated together
-    (one per URL fetched).
-    """
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
+def enrich_apps_with_details(apps_list, batch_size=10):
+    """Fetch detail pages for each app and enrich with extra info."""
+    enriched_count = 0
+    total = len(apps_list)
 
-    # Split into individual JSON objects
-    results = []
-    decoder = json.JSONDecoder()
-    idx = 0
-    while idx < len(content):
-        content_stripped = content[idx:].lstrip()
-        if not content_stripped:
-            break
-        try:
-            obj, end_idx = decoder.raw_decode(content_stripped)
-            results.append(obj)
-            idx += (len(content[idx:]) - len(content_stripped)) + end_idx
-        except json.JSONDecodeError:
-            break
+    for i, app in enumerate(apps_list):
+        app_id = app.get("id")
+        if not app_id:
+            continue
 
-    return results
+        url = f"{APP_DETAIL_URL}/{app_id}"
+        pct = (i + 1) / total * 100
+        print(f"\r  Detail [{i+1}/{total}] ({pct:.0f}%) {app.get('name', {}).get('en', '')}...", end="", flush=True)
+
+        html = fetch_html(url)
+        if html:
+            detail = parse_detail_page(html)
+            app.update(detail)
+            enriched_count += 1
+
+        time.sleep(RATE_LIMIT)
+
+    print(f"\n  Enriched {enriched_count}/{total} apps with detail page info")
 
 
-def process_listing_files():
-    """Process all MCP listing page files and extract apps."""
-    all_apps = []
+# ── Phase 4: Build pricing string from plans ─────────────────────────────
+def extract_pricing(app):
+    """Build a human-readable pricing string from API plan data."""
+    plan_type = app.get("plan_type", "")
+    plans = app.get("plans", [])
+    trial = app.get("plan_trial")
+
+    if plan_type == "free" or not plans:
+        return "Free"
+
+    parts = []
+    for plan in plans:
+        name_en = plan.get("name", {}).get("en", "")
+        price = plan.get("price", 0)
+        recurring = plan.get("recurring", "")
+        old_price = plan.get("old_price")
+
+        if recurring == "free":
+            parts.append(f"{name_en}: Free")
+        elif recurring == "one-time":
+            parts.append(f"{name_en}: {price} SAR")
+        else:
+            parts.append(f"{name_en}: {price} SAR/{recurring}")
+
+    pricing_str = " | ".join(parts) if parts else plan_type
+
+    if trial:
+        pricing_str = f"{trial}-day trial, {pricing_str}"
+
+    return pricing_str
+
+
+# ── Phase 5: Build and save CSV ───────────────────────────────────────────
+def build_records(apps, categories_map):
+    """Transform raw API app objects into CSV-ready records."""
+    records = []
     seen_ids = set()
 
-    # Process all mcp_pages_*.json files
-    files = sorted(glob.glob(os.path.join(DATA_DIR, "mcp_pages_*.json")))
-    if not files:
-        print("No mcp_pages_*.json files found in data/")
-        return []
-
-    for filepath in files:
-        print(f"  Processing {os.path.basename(filepath)}...")
-        responses = parse_mcp_response(filepath)
-
-        for resp in responses:
-            url = resp.get("url", "")
-            content_list = resp.get("content", [])
-            html = "".join(content_list) if content_list else ""
-
-            if not html:
-                print(f"    Empty content for {url}")
-                continue
-
-            apps = parse_listing_apps(html)
-            new_count = 0
-            for app in apps:
-                if app["id"] not in seen_ids:
-                    seen_ids.add(app["id"])
-                    all_apps.append(app)
-                    new_count += 1
-
-            page_match = re.search(r'page=(\d+)', url)
-            page_num = page_match.group(1) if page_match else "?"
-            print(f"    Page {page_num}: {len(apps)} apps ({new_count} new, total: {len(all_apps)})")
-
-    return all_apps
-
-
-def process_detail_files(apps_list):
-    """Process MCP detail page files and enrich apps."""
-    app_map = {a["id"]: a for a in apps_list}
-
-    files = sorted(glob.glob(os.path.join(DATA_DIR, "mcp_details_*.json")))
-    if not files:
-        print("  No mcp_details_*.json files found (skipping enrichment)")
-        return apps_list
-
-    enriched = 0
-    for filepath in files:
-        print(f"  Processing {os.path.basename(filepath)}...")
-        responses = parse_mcp_response(filepath)
-
-        for resp in responses:
-            url = resp.get("url", "")
-            content_list = resp.get("content", [])
-            html = "".join(content_list) if content_list else ""
-
-            if not html:
-                continue
-
-            # Extract app ID from URL
-            id_match = re.search(r'/app/(\d+)', url)
-            if not id_match:
-                continue
-
-            app_id = id_match.group(1)
-            if app_id in app_map:
-                detail = parse_detail_page(html)
-                app_map[app_id].update(detail)
-                enriched += 1
-
-    print(f"  Enriched {enriched} apps with detail page info")
-    return list(app_map.values())
-
-
-def build_csv(apps_list, csv_path):
-    """Build and save CSV from apps list."""
-    import csv
-
-    fieldnames = [
-        "name", "slug", "url", "logo_url", "countries", "categories",
-        "tags", "description", "developer_name", "developer_url",
-        "developer_phone", "developer_email", "avg_rating", "total_ratings",
-        "pricing",
-    ]
-
-    records = []
-    seen = set()
-    for app in apps_list:
+    for app in apps:
         app_id = app.get("id")
-        if not app_id or app_id in seen:
+        if not app_id or app_id in seen_ids:
             continue
-        seen.add(app_id)
+        seen_ids.add(app_id)
 
-        name = app.get("name", "").strip()
-        if not name:
+        # Name (prefer English)
+        name_obj = app.get("name", {})
+        name = name_obj.get("en", "") if isinstance(name_obj, dict) else str(name_obj)
+        if not name.strip():
             continue
 
-        pricing = app.get("pricing", "")
+        # Categories
+        cat_slugs = app.get("categories", [])
+        cat_names = []
+        for cat in cat_slugs:
+            if isinstance(cat, dict):
+                en = cat.get("name", {}).get("en", cat.get("slug", ""))
+                cat_names.append(en)
+            elif isinstance(cat, str):
+                cat_names.append(categories_map.get(cat, cat))
+
+        # Company / Developer
+        company = app.get("company", {}) or {}
+        company_name_raw = company.get("name", "")
+        if isinstance(company_name_raw, str):
+            # Decode unicode escapes if present
+            try:
+                company_name = company_name_raw.encode().decode("unicode_escape")
+            except (UnicodeDecodeError, UnicodeEncodeError):
+                company_name = company_name_raw
+        else:
+            company_name = company_name_raw
+
+        # Description
+        desc_obj = app.get("short_description", {})
+        description = desc_obj.get("en", "") if isinstance(desc_obj, dict) else str(desc_obj)
+        long_desc = app.get("long_description", "")
+        if long_desc:
+            description = long_desc
+
+        # Logo
+        logo = app.get("logo", {})
+        logo_url = logo.get("url", "") if isinstance(logo, dict) else ""
+
+        # Rating
+        rating = app.get("rating", 0)
+        reviews_count = app.get("reviews_count", 0)
+
+        # Pricing
+        pricing = extract_pricing(app)
+
+        # Tags
         tags = []
-        if "Free" in pricing and "Paid" not in pricing:
+        plan_type = app.get("plan_type", "")
+        if plan_type == "free":
             tags.append("Free")
-        elif pricing and "Free" not in pricing:
+        elif plan_type == "recurring":
             tags.append("Paid")
-        if "Free" in pricing and "Paid" in pricing:
-            tags.append("Freemium")
-
-        description = app.get("long_description") or app.get("description", "")
+            tags.append("Subscription")
+        elif plan_type == "on_demand":
+            tags.append("Paid")
+            tags.append("On Demand")
+        elif plan_type == "one_time":
+            tags.append("Paid")
+            tags.append("One-Time")
+        if app.get("plan_trial"):
+            tags.append("Free Trial")
+        if app.get("one_click_installation"):
+            tags.append("One-Click Install")
 
         records.append({
-            "name": name,
+            "name": name.strip(),
             "slug": str(app_id),
-            "url": app.get("url", ""),
-            "logo_url": app.get("logo_url", ""),
-            "countries": "Saudi Arabia",
-            "categories": "; ".join(app.get("categories", [])),
+            "url": f"https://apps.salla.sa/en/app/{app_id}",
+            "logo_url": logo_url,
+            "countries": "; ".join(SALLA_COUNTRIES),
+            "categories": "; ".join(cat_names),
             "tags": "; ".join(tags),
-            "description": description,
-            "developer_name": app.get("developer_name", ""),
+            "description": description.strip(),
+            "developer_name": company_name,
+            "developer_id": str(company.get("id", "")),
             "developer_url": app.get("developer_url", ""),
             "developer_phone": app.get("developer_phone", ""),
             "developer_email": app.get("developer_email", ""),
-            "avg_rating": app.get("avg_rating", ""),
-            "total_ratings": app.get("total_ratings", "0"),
+            "avg_rating": str(rating) if rating else "",
+            "total_ratings": str(reviews_count),
             "pricing": pricing,
         })
-
-    with open(csv_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
-        for r in records:
-            writer.writerow(r)
 
     return records
 
 
+def save_csv(records, filepath):
+    """Save records to CSV."""
+    fieldnames = [
+        "name", "slug", "url", "logo_url", "countries", "categories",
+        "tags", "description", "developer_name", "developer_id",
+        "developer_url", "developer_phone", "developer_email",
+        "avg_rating", "total_ratings", "pricing",
+    ]
+
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(records)
+
+    print(f"  ✓ Saved {len(records)} records → {filepath}")
+
+
+# ── Main ──────────────────────────────────────────────────────────────────
 def main():
     print("=" * 60)
-    print("  Salla App Store — Parse MCP Data")
+    print("  Salla App Store Scraper")
     print("=" * 60)
 
-    # Step 1: Parse listing pages
-    print("\n[1/3] Parsing listing pages...")
-    all_apps = process_listing_files()
-    print(f"\n      Total unique apps: {len(all_apps)}")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    # Save listing data
-    listing_path = os.path.join(DATA_DIR, "apps_listing.json")
-    with open(listing_path, "w", encoding="utf-8") as f:
+    # Phase 1: Fetch categories
+    print("\n[1/4] Fetching categories...")
+    categories_map = fetch_categories()
+
+    # Save categories
+    cat_path = os.path.join(DATA_DIR, "categories.json")
+    with open(cat_path, "w", encoding="utf-8") as f:
+        json.dump(categories_map, f, indent=2, ensure_ascii=False)
+
+    # Phase 2: Fetch all apps
+    print("\n[2/4] Fetching all apps...")
+    all_apps = fetch_all_apps()
+    print(f"\n  Total apps fetched: {len(all_apps)}")
+
+    # Save raw API data
+    raw_path = os.path.join(DATA_DIR, "apps_raw.json")
+    with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(all_apps, f, indent=2, ensure_ascii=False)
-    print(f"      Saved → {listing_path}")
+    print(f"  Saved raw data → {raw_path}")
 
-    # Step 2: Enrich with detail pages (if available)
-    print("\n[2/3] Enriching with detail pages...")
-    all_apps = process_detail_files(all_apps)
+    # Phase 3: Enrich with detail pages (optional — can be slow)
+    skip_details = "--skip-details" in sys.argv
+    if not skip_details:
+        print(f"\n[3/4] Fetching detail pages ({len(all_apps)} apps)...")
+        print("  (Use --skip-details to skip this step)")
+        enrich_apps_with_details(all_apps)
 
-    enriched_path = os.path.join(DATA_DIR, "apps_enriched.json")
-    with open(enriched_path, "w", encoding="utf-8") as f:
-        json.dump(all_apps, f, indent=2, ensure_ascii=False)
+        enriched_path = os.path.join(DATA_DIR, "apps_enriched.json")
+        with open(enriched_path, "w", encoding="utf-8") as f:
+            json.dump(all_apps, f, indent=2, ensure_ascii=False)
+    else:
+        print("\n[3/4] Skipping detail page enrichment (--skip-details)")
 
-    # Step 3: Build CSV
-    print("\n[3/3] Building CSV...")
+    # Phase 4: Build CSV
+    print("\n[4/4] Building CSV...")
+    records = build_records(all_apps, categories_map)
     csv_path = os.path.join(OUTPUT_DIR, "salla_apps.csv")
-    records = build_csv(all_apps, csv_path)
+    save_csv(records, csv_path)
 
-    # Stats
+    # ── Stats ──
     cat_counts = {}
     for r in records:
         for cat in r["categories"].split("; "):
@@ -352,14 +404,16 @@ def main():
     with_email = sum(1 for r in records if r["developer_email"])
     free_apps = sum(1 for r in records if "Free" in r["tags"])
     paid_apps = sum(1 for r in records if "Paid" in r["tags"])
+    trial_apps = sum(1 for r in records if "Free Trial" in r["tags"])
 
     print(f"\n{'=' * 60}")
-    print(f"  ✓ Saved {len(records)} apps → {csv_path}")
+    print(f"  ✓ COMPLETE: {len(records)} apps → {csv_path}")
     print(f"  Descriptions:  {with_desc}/{len(records)}")
     print(f"  Developers:    {with_dev}/{len(records)}")
     print(f"  Dev Emails:    {with_email}/{len(records)}")
     print(f"  Free:          {free_apps}")
     print(f"  Paid:          {paid_apps}")
+    print(f"  Free Trial:    {trial_apps}")
     print(f"\n  Category Breakdown:")
     for cat, cnt in sorted(cat_counts.items(), key=lambda x: -x[1]):
         print(f"    {cat}: {cnt}")
