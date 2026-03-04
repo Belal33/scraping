@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "Uber Eats logo",
+    "slug": "uber-eats",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464727-uber-eats-icon.svg"
+  },
+  {
+    "name": "Square logo",
+    "slug": "square",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464417-square-logo-svg-vector_1.svg"
+  },
+  {
+    "name": "DoorDash logo",
+    "slug": "doordash",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464681-svg_logo_container.svg"
+  },
+  {
+    "name": "Clover logo",
+    "slug": "clover",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464681-clover-icon.svg"
+  },
+  {
+    "name": "Uber Direct",
+    "slug": "uber-direct",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464895-uber-direct-deliverect-logo.svg"
+  },
+  {
+    "name": "Deliveroo",
+    "slug": "deliveroo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465758-deliveroo_160wide-01.svg"
+  },
+  {
+    "name": "Toast",
+    "slug": "toast",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464331-toast-deliverect-logo.svg"
+  },
+  {
+    "name": "WRS",
+    "slug": "wrs",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464332-wrs-deliverect-logo.svg"
+  },
+  {
+    "name": "Aloha Cloud",
+    "slug": "aloha-cloud",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1757525431-aloha-cloud-ncr-voyix.png&w=64&q=75"
+  },
+  {
+    "name": "Flooid",
+    "slug": "flooid",
+    "logo_url": "https://www.datocms-assets.com/165162/1762468560-flooid-logo.svg"
+  },
+  {
+    "name": "FreedomPay",
+    "slug": "freedompay",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464340-freedompay-deliverect-logo.svg"
+  },
+  {
+    "name": "EDGEPoS",
+    "slug": "edgepos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464537-edgepos-logo.png&w=64&q=75"
+  },
+  {
+    "name": "PandaGo",
+    "slug": "pandago",
+    "logo_url": "https://www.datocms-assets.com/165162/1767713271-pandago_logo.svg"
+  },
+  {
+    "name": "Micros Simphony",
+    "slug": "micros-simphony",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1762795086-oracle-micros-simphony-logo-1.png&w=64&q=75"
+  },
+  {
+    "name": "PAR Tech - Pixel Point",
+    "slug": "par-tech-pixel-point",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465548-pixelpoint_final_logo_smol.svg"
+  },
+  {
+    "name": "Zonal",
+    "slug": "zonal",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465750-zonal_160wide-01.svg"
+  },
+  {
+    "name": "Takeaway.com",
+    "slug": "takeaway-com",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465753-takeaway_160wide-01.svg"
+  },
+  {
+    "name": "Just Eat",
+    "slug": "just-eat",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465755-justeat_160wide-01.svg"
+  },
+  {
+    "name": "iPratico",
+    "slug": "ipratico",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464762-ipratico-logo-deliverect.svg"
+  },
+  {
+    "name": "Lightspeed",
+    "slug": "lightspeed",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464331-lightspeed_160wide-01.svg"
+  },
+  {
+    "name": "Kounta by Lightspeed",
+    "slug": "kounta-by-lightspeed",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465755-kounta_160wide-01.svg"
+  },
+  {
+    "name": "Access EPoS",
+    "slug": "access-epos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464390-access-deliverect-logo.svg"
+  },
+  {
+    "name": "TouchBistro",
+    "slug": "touchbistro",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464783-touchbistro-deliverect-integration-logo.jpg&w=64&q=75"
+  },
+  {
+    "name": "Lightspeed POS K-Series",
+    "slug": "lightspeed-pos-kseries",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301901-lightspeed-deliverect-logo.svg"
+  },
+  {
+    "name": "Tevalis",
+    "slug": "tevalis",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753465300-tevalis-deliverect-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Stuart",
+    "slug": "stuart",
+    "logo_url": "https://www.datocms-assets.com/165162/1767710927-stuart_idls6hm6uv_0.svg"
+  },
+  {
+    "name": "4Soft",
+    "slug": "4soft",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1767713854-4soft-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Careem Express",
+    "slug": "careem-express",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464741-careem-express-deliverect-logo.svg"
+  },
+  {
+    "name": "Eatintime",
+    "slug": "eatintime",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300326-eatintime-deliverect-logo.svg"
+  },
+  {
+    "name": "Ondway",
+    "slug": "ondway",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464738-ondway-deliverect-logo.svg"
+  },
+  {
+    "name": "Gigable",
+    "slug": "gigable",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465106-gigable.svg"
+  },
+  {
+    "name": "My Menu",
+    "slug": "my-digi-menu",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300207-my-menu-deliverect-logo.svg"
+  },
+  {
+    "name": "Madic",
+    "slug": "madic",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464742-madic-deliverect-logo.svg"
+  },
+  {
+    "name": "Skip",
+    "slug": "skip",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464417-skip.svg"
+  },
+  {
+    "name": "Lyve",
+    "slug": "lyve",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301723-lyve-deliverect-logo.svg"
+  },
+  {
+    "name": "Zucchetti",
+    "slug": "zucchetti",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464700-zuchetti-deliverect-logo.svg"
+  },
+  {
+    "name": "Max Delivery",
+    "slug": "max-delivery",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464738-max-delivery-deliverect-logo.svg"
+  },
+  {
+    "name": "Closer Logistics",
+    "slug": "closer-logistics",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464739-closer-logistics-deliverect-logo.svg"
+  },
+  {
+    "name": "Wolt Drive",
+    "slug": "wolt-drive",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465541-wolt_logo_final_small.svg"
+  },
+  {
+    "name": "Relay",
+    "slug": "relay",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464741-relay-deliverect-logo.svg"
+  },
+  {
+    "name": "Paytronix",
+    "slug": "paytronix",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1771471809-access_paytronix_dark.png&w=64&q=75"
+  },
+  {
+    "name": "Ai-Menu",
+    "slug": "ai-menu",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301685-ai-menu-deliverect-logo.svg"
+  },
+  {
+    "name": "Omega",
+    "slug": "omega",
+    "logo_url": "https://www.datocms-assets.com/165162/1756193901-omega-software-deliverect-logo.svg"
+  },
+  {
+    "name": "Noon Food",
+    "slug": "noon-food",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464362-noon-food-deliverect-logo.svg"
+  },
+  {
+    "name": "Caviar POS",
+    "slug": "caviar-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756193910-caviarpos-deliverect-logo.svg"
+  },
+  {
+    "name": "Leat",
+    "slug": "leat",
+    "logo_url": "https://www.datocms-assets.com/165162/1756193907-leat-deliverect-logo.svg"
+  },
+  {
+    "name": "Shiji Group",
+    "slug": "shiji-group",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764233999-infrasyspos_shiji-deliverect-logo.png&w=64&q=75"
+  },
+  {
+    "name": "DoorDash Drive",
+    "slug": "doordash-drive",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464681-svg_logo_container.svg"
+  },
+  {
+    "name": "Sociavore",
+    "slug": "sociavore",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465549-untitled_design-5.svg"
+  },
+  {
+    "name": "Looped",
+    "slug": "looped",
+    "logo_url": "https://www.datocms-assets.com/165162/1756193911-looped-deliverect-logo.svg"
+  },
+  {
+    "name": "gastronovi",
+    "slug": "gastronovi",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464316-gastronovi-deliverect-logo.svg"
+  },
+  {
+    "name": "Grubhub",
+    "slug": "grubhub",
+    "logo_url": "https://www.datocms-assets.com/165162/1767995429-grubhub_idawnclqdh_0.svg"
+  },
+  {
+    "name": "MENUU",
+    "slug": "menuu",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464327-menuu-deliverect-logo.svg"
+  },
+  {
+    "name": "Jahez",
+    "slug": "jahez",
+    "logo_url": "https://www.datocms-assets.com/165162/1762467545-jahez.svg"
+  },
+  {
+    "name": "RocketBox",
+    "slug": "rocketbox",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464337-rocketbox-deliverect-logo.svg"
+  },
+  {
+    "name": "Bites - By Delivery Collective",
+    "slug": "bites",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464338-bites-deliverect-logo.svg"
+  },
+  {
+    "name": "SpotOn",
+    "slug": "spoton",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464337-spoton-deliverect-logo.svg"
+  },
+  {
+    "name": "Paystack",
+    "slug": "paystack",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464332-paystack-deliverect-logo.svg"
+  },
+  {
+    "name": "Ped'Allo",
+    "slug": "pedallo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464342-pedallo-deliverect-logo.svg"
+  },
+  {
+    "name": "Eber",
+    "slug": "eber",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765806931-eber-site-logo.webp&w=64&q=75"
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "logo_url": "https://www.datocms-assets.com/165162/1767794064-stripe_wordmark-slate.svg"
+  },
+  {
+    "name": "Airwallex",
+    "slug": "airwallex",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464341-airwallex-deliverect-logo.svg"
+  },
+  {
+    "name": "Paymob",
+    "slug": "paymob",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768398562-paymob-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Mollie",
+    "slug": "mollie",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464342-mollie-deliverect-logo.svg"
+  },
+  {
+    "name": "Adyen",
+    "slug": "adyen",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464342-adyen-deliverect-logo.svg"
+  },
+  {
+    "name": "Genius",
+    "slug": "genius",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464349-genius-deliverect-logo.svg"
+  },
+  {
+    "name": "Foodora",
+    "slug": "foodora",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-foodora_160wide-01.svg"
+  },
+  {
+    "name": "ES Kassasystem",
+    "slug": "es-kassasystem",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464344-es_kassasystem.svg"
+  },
+  {
+    "name": "itim",
+    "slug": "itim",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464346-itim-dliverect-logo.svg"
+  },
+  {
+    "name": "Valk Solutions",
+    "slug": "valk-solutions",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464346-valk-solutions-deliverect-logo.svg"
+  },
+  {
+    "name": "GaP Solutions POS",
+    "slug": "gap-solutions-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464348-gap-solutions-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "SuperSonic POS",
+    "slug": "supersonic-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464347-supersonicpos-deliverect-logo.svg"
+  },
+  {
+    "name": "EDM",
+    "slug": "edm",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464349-edm-deliverect-logo.svg"
+  },
+  {
+    "name": "VOICEplug",
+    "slug": "voiceplug",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464349-voiceplug-deliverect-logo.svg"
+  },
+  {
+    "name": "LS Central by LS Retail",
+    "slug": "ls-central-by-ls-retail",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464351-ls-retail-logo.svg"
+  },
+  {
+    "name": "Waitrr",
+    "slug": "waitrr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465551-waitrr_logo_final_smol.svg"
+  },
+  {
+    "name": "HungryPanda",
+    "slug": "hungrypanda",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465087-hungry_panda.svg"
+  },
+  {
+    "name": "Apicbase",
+    "slug": "apicbase",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465758-apicbase_160wide-01.svg"
+  },
+  {
+    "name": "Tablevibe",
+    "slug": "tablevibe",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464821-tablevibe-deliverect-logo.svg"
+  },
+  {
+    "name": "Maitre'D",
+    "slug": "maitre-d",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465546-maitre-d_final_logo_small.svg"
+  },
+  {
+    "name": "Raptor POS",
+    "slug": "raptor-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465071-raptor.svg"
+  },
+  {
+    "name": "Micros RES 3700",
+    "slug": "micros-res-3700",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465753-microsres_160wide-01.svg"
+  },
+  {
+    "name": "SevenRooms",
+    "slug": "sevenrooms",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465539-ritual_final_logo_small.svg"
+  },
+  {
+    "name": "Blink",
+    "slug": "blink",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464930-blink_co-technologies_deliverect_logo.svg"
+  },
+  {
+    "name": "ArmPOS",
+    "slug": "armpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464930-armpos-deliverect-logo.svg"
+  },
+  {
+    "name": "Smooth Commerce",
+    "slug": "smooth-commerce",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765806998-smooth-commerce.png&w=64&q=75"
+  },
+  {
+    "name": "DizLog",
+    "slug": "dizlog",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1767880350-dizlog-logo.jpg&w=64&q=75"
+  },
+  {
+    "name": "Ordering",
+    "slug": "ordering",
+    "logo_url": "https://www.datocms-assets.com/165162/1756305002-ordering-deliverect-logo.svg"
+  },
+  {
+    "name": "Wolt",
+    "slug": "wolt",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465541-wolt_logo_final_small.svg"
+  },
+  {
+    "name": "Snappy Shopper",
+    "slug": "snappy-shopper",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464542-snappy-shopper-deliverect-logo.svg"
+  },
+  {
+    "name": "El Cheff",
+    "slug": "el-cheff",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464391-el_cheff-logo-light.svg"
+  },
+  {
+    "name": "Keeta",
+    "slug": "keeta",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464356-keeta-deliverect-logo.svg"
+  },
+  {
+    "name": "Flynt",
+    "slug": "flynt",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465136-flynt.svg"
+  },
+  {
+    "name": "Ordermonkey",
+    "slug": "ordermonkey",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464970-ordermonkey.svg"
+  },
+  {
+    "name": "Passepartout",
+    "slug": "passepartout",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464365-passepartout-deliverect-logo.svg"
+  },
+  {
+    "name": "TCPOS",
+    "slug": "tcpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1767973004-logo_tcpos.svg"
+  },
+  {
+    "name": "Virnika",
+    "slug": "virnika",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464436-virnika-deliverect-logo.svg"
+  },
+  {
+    "name": "LoungeUp by D-Edge",
+    "slug": "loungeup",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464396-logo_loungeup_by_d-edge.png&w=64&q=75"
+  },
+  {
+    "name": "Scanfie",
+    "slug": "scanfie",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765807239-scanfie-kassasystemen-logo.png&w=64&q=75"
+  },
+  {
+    "name": "S4D",
+    "slug": "s4d",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464896-solutions4delivery-deliverect-logo.svg"
+  },
+  {
+    "name": "WooRestaurant",
+    "slug": "woorestaurant",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464394-woorestaurant-deliverect-logo.svg"
+  },
+  {
+    "name": "Top Caisse",
+    "slug": "top-caisse",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464380-top-caisse-deliverect-logo.svg"
+  },
+  {
+    "name": "SMARTWAY",
+    "slug": "smartway",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464393-smartway-deliverect-logo.svg"
+  },
+  {
+    "name": "Iridi",
+    "slug": "iridi",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464396-iridi-deliverect-logo.svg"
+  },
+  {
+    "name": "Cover Manager",
+    "slug": "cover-manager",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465578-cover_manager_final_logo_small.svg"
+  },
+  {
+    "name": "Lasersoft",
+    "slug": "lasersoft",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464551-lasersoft-deliverect-logo.svg"
+  },
+  {
+    "name": "Zone Soft",
+    "slug": "zone-soft",
+    "logo_url": "https://www.datocms-assets.com/165162/1765791489-zone-soft-deliverect-logo.svg"
+  },
+  {
+    "name": "Facebook",
+    "slug": "facebook",
+    "logo_url": "https://www.datocms-assets.com/165162/1767880264-facebook_icon.svg"
+  },
+  {
+    "name": "Instagram",
+    "slug": "instagram",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464511-instagram_logo_2016.svg"
+  },
+  {
+    "name": "Grafterr",
+    "slug": "grafterr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465018-grafterr-logo.svg"
+  },
+  {
+    "name": "Coursicab",
+    "slug": "coursicab",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465543-coursicab_final_logo.svg"
+  },
+  {
+    "name": "Xetux",
+    "slug": "xetux",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301602-xetux-deliverect-logo.svg"
+  },
+  {
+    "name": "Telnet",
+    "slug": "telnet",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301562-grupo-telnet-deliverect-logo.svg"
+  },
+  {
+    "name": "Visual Touch",
+    "slug": "visual-touch",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301525-visual-touch-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Twirll",
+    "slug": "twirll",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465124-twirll.svg"
+  },
+  {
+    "name": "FANTUAN Delivery",
+    "slug": "fantuan-delivery",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464421-fantuan-logo-svg-2.png&w=64&q=75"
+  },
+  {
+    "name": "\u00c1gora",
+    "slug": "agora",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465746-logo-agora-01.svg"
+  },
+  {
+    "name": "Trivec",
+    "slug": "trivec",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465753-trivec_160wide-01.svg"
+  },
+  {
+    "name": "POSPAL",
+    "slug": "pospal",
+    "logo_url": "https://www.datocms-assets.com/165162/1759304249-pospal-deliverect-logo.svg"
+  },
+  {
+    "name": "Careem",
+    "slug": "careem",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464331-careem-deliverect-logo.svg"
+  },
+  {
+    "name": "Foodics",
+    "slug": "foodics",
+    "logo_url": "https://www.datocms-assets.com/165162/1768300226-foodics-logo.svg"
+  },
+  {
+    "name": "Restroworks",
+    "slug": "restroworks",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464645-restroworks.png&w=64&q=75"
+  },
+  {
+    "name": "Caspeco",
+    "slug": "caspeco",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1767713687-caspeco-logo.jpeg&w=64&q=75"
+  },
+  {
+    "name": "SumUp POS",
+    "slug": "sumup-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464791-sumup-deliverect-logo.svg"
+  },
+  {
+    "name": "Dishcovery",
+    "slug": "dishcovery",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301482-dishcovery-deliverect-logo.svg"
+  },
+  {
+    "name": "The Entertainer",
+    "slug": "the-entertainer",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464409-theentertainer-deliverect-logo.svg"
+  },
+  {
+    "name": "App4",
+    "slug": "app4",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465055-app4-logo.svg"
+  },
+  {
+    "name": "MenuDelite",
+    "slug": "menudelite",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301433-menu-delite-deliverect-logo.svg"
+  },
+  {
+    "name": "Foodpanda",
+    "slug": "foodpanda",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465543-foodpanda_final_logo_smol.svg"
+  },
+  {
+    "name": "ToYou",
+    "slug": "to-you",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464506-toyou_final_logo-01.png&w=64&q=75"
+  },
+  {
+    "name": "WhatsApp",
+    "slug": "whatsapp",
+    "logo_url": "https://www.datocms-assets.com/165162/1767714093-whatsapp_logo_alternative_0.svg"
+  },
+  {
+    "name": "ezCater",
+    "slug": "ezcater",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464627-ezcater-deliverect-logo.svg"
+  },
+  {
+    "name": "orderBilly",
+    "slug": "orderbilly",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465143-orderbilly-1.svg"
+  },
+  {
+    "name": "Catcher",
+    "slug": "catcher",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304924-catcher-deliverect-logo.svg"
+  },
+  {
+    "name": "TASK",
+    "slug": "task",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464529-task-deliverect-logo.svg"
+  },
+  {
+    "name": "HungerStation",
+    "slug": "hungerstation",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464390-hungerstation-deliverect-logo.svg"
+  },
+  {
+    "name": "Grab Food",
+    "slug": "grab-food",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-grabfood_160wide-01.svg"
+  },
+  {
+    "name": "OpenTable",
+    "slug": "opentable",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464491-opentable-deliverect-logo.svg"
+  },
+  {
+    "name": "Glovo On Demand",
+    "slug": "glovo-on-demand",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464414-glovo-on-demand-deliverect-logo.svg"
+  },
+  {
+    "name": "iMenu360",
+    "slug": "imenu360",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464415-imenu360-deliverect-logo.svg"
+  },
+  {
+    "name": "QuiDitSoft",
+    "slug": "quiditsoft",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464436-quiditsoft-deliverect-logo.svg"
+  },
+  {
+    "name": "Nugttah",
+    "slug": "nugttah",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464418-nugttah-deliverect-logo.svg"
+  },
+  {
+    "name": "PYE",
+    "slug": "pye",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464418-pye-deliverect-logo.svg"
+  },
+  {
+    "name": "Ninja",
+    "slug": "ninja",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464438-ninja-deliverect-logo.svg"
+  },
+  {
+    "name": "Shopcaisse",
+    "slug": "shopcaisse",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464441-shopcaisse-deliverect-logo.svg"
+  },
+  {
+    "name": "Limerr Technologies",
+    "slug": "limerr-technologies",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464444-limerr-technologies-logo-deliverect.svg"
+  },
+  {
+    "name": "Pattern",
+    "slug": "pattern",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464445-pattern-app-deliverect-logo.svg"
+  },
+  {
+    "name": "PlateRate",
+    "slug": "platerate",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464445-platerate-deliverect-logo.svg"
+  },
+  {
+    "name": "Tabesto",
+    "slug": "tabesto",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464954-tabesto-deliverect-logo.svg"
+  },
+  {
+    "name": "Thrive POS",
+    "slug": "thrive-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464478-thrive-logo.png&w=64&q=75"
+  },
+  {
+    "name": "ABCPOS",
+    "slug": "abcpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464501-abcpos-deliverect-logo.svg"
+  },
+  {
+    "name": "BiteBerry",
+    "slug": "biteberry",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464506-biteberry-deliverect-logo.svg"
+  },
+  {
+    "name": "Relayfy",
+    "slug": "relayfy",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464530-relayfy-deliverect-logo.svg"
+  },
+  {
+    "name": "Bite Kiosk",
+    "slug": "bite-kiosk",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464536-bite-kiosk-deliverect-logo.svg"
+  },
+  {
+    "name": "Mrsool",
+    "slug": "mrsool",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464540-mrsool-deliverect-logo.svg"
+  },
+  {
+    "name": "TechServe POS",
+    "slug": "techserve-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464540-techservepos-deliverect-logo.svg"
+  },
+  {
+    "name": "LazyWait",
+    "slug": "lazywait",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464856-lazywait-deliverect.svg"
+  },
+  {
+    "name": "RockSpoon",
+    "slug": "rockspoon",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464552-rockspoon-deliverect-logo.svg"
+  },
+  {
+    "name": "Edoss Project",
+    "slug": "edoss-project",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464628-edoss-project-deliverect-logo.svg"
+  },
+  {
+    "name": "Velocissimo",
+    "slug": "velocissimo",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304881-velocissimo-deliverect-logo.svg"
+  },
+  {
+    "name": "aDomicil.io",
+    "slug": "adomicil-io",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304851-adomicilio-deliverect-logo.svg"
+  },
+  {
+    "name": "Ajour",
+    "slug": "ajour",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464602-ajournordic-deliverect-logo.svg"
+  },
+  {
+    "name": "Profitek",
+    "slug": "Profitek",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465085-profitek.svg"
+  },
+  {
+    "name": "Boxie",
+    "slug": "boxie",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465189-boxie.svg"
+  },
+  {
+    "name": "Cari",
+    "slug": "cari",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464944-cari-deliverect-logo.svg"
+  },
+  {
+    "name": "Carr\u00e9 POS",
+    "slug": "carre-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465580-carrepos_final_logo_smol.svg"
+  },
+  {
+    "name": "ChatFood",
+    "slug": "chatfood",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465557-chatfood_final_logo_smol.svg"
+  },
+  {
+    "name": "Cheerfy",
+    "slug": "cheerfy",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465579-cheerfy_logo.svg"
+  },
+  {
+    "name": "Clickeat",
+    "slug": "clickeat",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465557-clickeat_final_logo_smol.svg"
+  },
+  {
+    "name": "EatEasy",
+    "slug": "eateasy",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304823-eateasy-deliverect-logo.svg"
+  },
+  {
+    "name": "Crave Interactive Ltd",
+    "slug": "crave-interactive-ltd",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465578-crave_final_logo_small.svg"
+  },
+  {
+    "name": "ChowBus POS",
+    "slug": "chowbus-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464898-chowbus-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Cratis International",
+    "slug": "cratis-international",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304765-cratis-international-deliverect-logo.svg"
+  },
+  {
+    "name": "Fudeat",
+    "slug": "fudeat",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464744-fudeat-deliverect-logo.svg"
+  },
+  {
+    "name": "BDP Software",
+    "slug": "bdp-software",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304790-bdp-software-deliverect-logo.svg"
+  },
+  {
+    "name": "Bolt",
+    "slug": "bolt",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465011-bolt_160wide-01.svg"
+  },
+  {
+    "name": "Givex",
+    "slug": "givex",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465558-givex_final_logo_smol.svg"
+  },
+  {
+    "name": "Glop",
+    "slug": "glop",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465647-partner_logos-1.svg"
+  },
+  {
+    "name": "GoGetters",
+    "slug": "gogetters",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464968-gogetters-logo.svg"
+  },
+  {
+    "name": "DiDi Food",
+    "slug": "didi-food",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465761-didi_food_logo-01.svg"
+  },
+  {
+    "name": "Hungrrr",
+    "slug": "hungrrr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-hungrrr_160px-01.svg"
+  },
+  {
+    "name": "Flipdish POS",
+    "slug": "flipdish-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464791-flipdish-logo.svg"
+  },
+  {
+    "name": "HIOPOS",
+    "slug": "hiopos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464968-hiopos-logo.svg"
+  },
+  {
+    "name": "MealShift",
+    "slug": "mealshift",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465546-mealshift_final_logo_smol.svg"
+  },
+  {
+    "name": "Justo",
+    "slug": "justo",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304738-justo-deliverect-logo.svg"
+  },
+  {
+    "name": "Me&u",
+    "slug": "meandu",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464396-me_u-primary_logo-black.png&w=64&q=75"
+  },
+  {
+    "name": "Ordeno",
+    "slug": "ordeno",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464764-ordeno-logo-deliverect.svg"
+  },
+  {
+    "name": "Innovorder",
+    "slug": "innovorder",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304709-innovorder-deliverect-logo.svg"
+  },
+  {
+    "name": "OrderPay",
+    "slug": "orderpay",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304672-orderpay-deliverect-logo.svg"
+  },
+  {
+    "name": "Eatic",
+    "slug": "eatic",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465581-eatic_final_logo_smol.svg"
+  },
+  {
+    "name": "ParTech Brink",
+    "slug": "partech-brink",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465548-partech_logo_final_smol.svg"
+  },
+  {
+    "name": "Popmenu",
+    "slug": "popmenu",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464929-popmenu-deliverect-logo.svg"
+  },
+  {
+    "name": "NCC",
+    "slug": "ncc",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304050-ncc-deliverect-logo.svg"
+  },
+  {
+    "name": "Grubbrr",
+    "slug": "grubbrr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465543-grubbrr_logo_final_smol.svg"
+  },
+  {
+    "name": "Ordit",
+    "slug": "ordit",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304024-ordit-deliverect-logo.svg"
+  },
+  {
+    "name": "Rafeeq",
+    "slug": "rafeeq",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304627-rafeeq-deliverect-logo.svg"
+  },
+  {
+    "name": "PLUG & POS",
+    "slug": "plug-and-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304113-plug-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "N\u014dwn",
+    "slug": "nown",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465809-nown-01.svg"
+  },
+  {
+    "name": "Partoo Food",
+    "slug": "partoo-food",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753465199-logo-partoo-food-vf-1.png&w=64&q=75"
+  },
+  {
+    "name": "Ritual",
+    "slug": "ritual",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465679-ritual_logo.svg"
+  },
+  {
+    "name": "Sayl Cloud",
+    "slug": "sayl-cloud",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464930-saylcloud-deliverect-logo.svg"
+  },
+  {
+    "name": "ServedUp",
+    "slug": "servedup",
+    "logo_url": "https://www.datocms-assets.com/165162/1756304595-served-up-deliverect-logo.svg"
+  },
+  {
+    "name": "See You Food",
+    "slug": "see-you-food",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465154-seeyoufood.svg"
+  },
+  {
+    "name": "Smartendr",
+    "slug": "smartendr",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464901-smartendr-deliverect-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Sunday App",
+    "slug": "sunday-app",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303493-sunday-deliverect-logo.svg"
+  },
+  {
+    "name": "Try Order",
+    "slug": "order",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464855-order-deliverect-logo.svg"
+  },
+  {
+    "name": "SwypePOS",
+    "slug": "swypepos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303995-swype-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Table Service",
+    "slug": "table-service",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464845-table-service-deliverect-icon.svg"
+  },
+  {
+    "name": "OrderMate",
+    "slug": "ordermate",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303437-ordermate-deliverect-logo.svg"
+  },
+  {
+    "name": "TastyCloud",
+    "slug": "tastycloud",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464483-tastycloud-deliverect-logo.svg"
+  },
+  {
+    "name": "QuickPOS",
+    "slug": "quickpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465531-partner_logos-1.svg"
+  },
+  {
+    "name": "Rappi",
+    "slug": "rappi",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465759-rappi_logo-01.svg"
+  },
+  {
+    "name": "Symbioz",
+    "slug": "symbioz",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465540-symbioz_final_logo_small.svg"
+  },
+  {
+    "name": "The Chefz",
+    "slug": "the-chefz",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303955-the-chefz-deliverect-logo.svg"
+  },
+  {
+    "name": "SmilePOS",
+    "slug": "smilepos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465540-partner_logos.svg"
+  },
+  {
+    "name": "Snackpass",
+    "slug": "snackpass",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303396-snackpass-deliverect-logo.svg"
+  },
+  {
+    "name": "Xperio",
+    "slug": "xperio",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303327-xperio-deliverect-logo.svg"
+  },
+  {
+    "name": "Tutti Delivery",
+    "slug": "tutti-delivery",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303362-tutti-delivery-deliverect-logo.svg"
+  },
+  {
+    "name": "Skeat",
+    "slug": "skeat",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465540-skeat_final_logo_small.svg"
+  },
+  {
+    "name": "Zyda",
+    "slug": "zyda",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301348-zyda-deliverect-logo.svg"
+  },
+  {
+    "name": "Weebo",
+    "slug": "weebo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464951-weebo-deliverect-logo.svg"
+  },
+  {
+    "name": "Weevi",
+    "slug": "weevi",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465071-weevi.svg"
+  },
+  {
+    "name": "SoftRestaurant",
+    "slug": "softrestaurant",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465479-download.svg"
+  },
+  {
+    "name": "Silverware POS",
+    "slug": "silverware-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303291-silverware-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "WISDOMPOS",
+    "slug": "wisdompos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301381-wisdompos-deliverect-logo.svg"
+  },
+  {
+    "name": "What The Fork",
+    "slug": "what-the-fork",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465017-whatthefork-logo.svg"
+  },
+  {
+    "name": "TWEE",
+    "slug": "twee",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465147-twee.svg"
+  },
+  {
+    "name": "Supermenu POS",
+    "slug": "supermenu-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303256-supermenu-deliverect-logo.svg"
+  },
+  {
+    "name": "TicknCook",
+    "slug": "tickncook",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301162-tickncook-deliverect-logo.svg"
+  },
+  {
+    "name": "Tazz.ro",
+    "slug": "tazz-ro",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465471-tazz-ro_logo.svg"
+  },
+  {
+    "name": "Tribu Emprendedores",
+    "slug": "tribu-emprendedores",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465474-tribu_logo.svg"
+  },
+  {
+    "name": "Shippr",
+    "slug": "shippr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465486-shippr_logo.svg"
+  },
+  {
+    "name": "RestoLabs",
+    "slug": "restolabs",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465551-restolabs_logo.svg"
+  },
+  {
+    "name": "Softcaisse",
+    "slug": "softcaisse",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465549-untitled_design-3.svg"
+  },
+  {
+    "name": "Gastro Kurier",
+    "slug": "gastro-kurier",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464737-gastro-kurier-deliverect-logo.svg"
+  },
+  {
+    "name": "ENABLE Tech",
+    "slug": "enable-tech",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301313-enable-deliverect-logo.svg"
+  },
+  {
+    "name": "Easy POS",
+    "slug": "easy-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301271-easy-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Vendus",
+    "slug": "vendus",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301204-vendus-deliverect-logo.svg"
+  },
+  {
+    "name": "6XPOS",
+    "slug": "6xpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303192-6xpos-deliverect-logo.svg"
+  },
+  {
+    "name": "Beethere",
+    "slug": "beethere",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464739-beethere-deliverect-logo.svg"
+  },
+  {
+    "name": "The b!te Network",
+    "slug": "the-bite-network",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465149-the_b_te_network.svg"
+  },
+  {
+    "name": "RESTEC",
+    "slug": "restec",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303158-restec-deliverect-logo.svg"
+  },
+  {
+    "name": "Gstock",
+    "slug": "gstock",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303128-gstock-deliverect-logo.svg"
+  },
+  {
+    "name": "Acrelec",
+    "slug": "acrelec",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465468-acrelec_logo.svg"
+  },
+  {
+    "name": "Tawseelah",
+    "slug": "tawseelah",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464739-tawseelah-deliverect-logo.svg"
+  },
+  {
+    "name": "TopServe",
+    "slug": "topserve",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301105-top-serve-deliverect-logo.svg"
+  },
+  {
+    "name": "Cluvi",
+    "slug": "cluvi",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464577-cluvi-deliverect-logo.svg"
+  },
+  {
+    "name": "Obypay",
+    "slug": "obypay",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303061-obypay-deliverect-logo.svg"
+  },
+  {
+    "name": "LINA TeamCloud",
+    "slug": "lina-teamcloud",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464675-lina-teamcloud-deliverect-logo.svg"
+  },
+  {
+    "name": "ZEROSIX",
+    "slug": "zerosix",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464588-zerosix-deliverect-logo.svg"
+  },
+  {
+    "name": "mobileMenu",
+    "slug": "mobilemenu",
+    "logo_url": "https://www.datocms-assets.com/165162/1756303008-mobilemenu-deliverect-logo.svg"
+  },
+  {
+    "name": "Leajlak Logistics",
+    "slug": "leajlak-logistics",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464627-lealjack-deliverect-logo.svg"
+  },
+  {
+    "name": "3S POS",
+    "slug": "3s-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464627-3spos-deliverect-logo.svg"
+  },
+  {
+    "name": "DeliverZero",
+    "slug": "deliverzero",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464628-deliverzero-deliverect-logo.svg"
+  },
+  {
+    "name": "Piment\u00f3n",
+    "slug": "pimenton",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464674-pimenton-deliverect-logo.svg"
+  },
+  {
+    "name": "Restolution",
+    "slug": "restolution",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464680-restolution-deliverect-logo.svg"
+  },
+  {
+    "name": "Zack AI",
+    "slug": "zack-ai",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464702-zack-ai-deliverect-logo.svg"
+  },
+  {
+    "name": "RouteMasters",
+    "slug": "routemasters",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464702-routemasters-deliverect-logo.svg"
+  },
+  {
+    "name": "Foodhub",
+    "slug": "foodhub",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464491-foodhub-for-business-deliverect.svg"
+  },
+  {
+    "name": "Glovo",
+    "slug": "glovo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-glovo_160wide-01.svg"
+  },
+  {
+    "name": "Smoothr",
+    "slug": "smoothr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465549-smoothr_final_logo_smol.svg"
+  },
+  {
+    "name": "Jelp Delivery",
+    "slug": "jelp-delivery",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302957-jelp-delivery-deliverect-logo.svg"
+  },
+  {
+    "name": "RunX",
+    "slug": "runx",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464878-runx.svg"
+  },
+  {
+    "name": "Shipday",
+    "slug": "shipday",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464469-shipday-deliverect-logo.svg"
+  },
+  {
+    "name": "Tookan by Jungleworks",
+    "slug": "tookan-by-jungleworks",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464969-tookan-logo.svg"
+  },
+  {
+    "name": "Vromo",
+    "slug": "vromo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465684-vromo_logo.svg"
+  },
+  {
+    "name": "Syrve",
+    "slug": "syrve",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465020-syrve-deliverect-logo.svg"
+  },
+  {
+    "name": "Nymbl",
+    "slug": "nymbl",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464742-nymbl-deliverect-logo.svg"
+  },
+  {
+    "name": "WIYAK",
+    "slug": "wiyak",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464744-wiyak-deliverect-logo.svg"
+  },
+  {
+    "name": "March Soft",
+    "slug": "march-soft",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464742-march-soft-deliverect-logo.svg"
+  },
+  {
+    "name": "Amrk",
+    "slug": "amrk",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464762-amrk-logo-deliverect.svg"
+  },
+  {
+    "name": "Auphan",
+    "slug": "auphan",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465761-auphan_logo_white_background-01.svg"
+  },
+  {
+    "name": "Revel Systems",
+    "slug": "revel-systems",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464329-revel_160wide-01.svg"
+  },
+  {
+    "name": "Lieferando",
+    "slug": "lieferando",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-lieferando_160wide-01.svg"
+  },
+  {
+    "name": "Postmates",
+    "slug": "postmates",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465753-postmates_160wide-01.svg"
+  },
+  {
+    "name": "Smood",
+    "slug": "smood",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464990-smood-logo.svg"
+  },
+  {
+    "name": "ICRTouch",
+    "slug": "icrtouch",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465755-icrtouch_160wide-01.svg"
+  },
+  {
+    "name": "Cluster",
+    "slug": "cluster",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465758-cluster_160x160-01.svg"
+  },
+  {
+    "name": "Countr",
+    "slug": "countr",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465557-countr_final_logo_smol.svg"
+  },
+  {
+    "name": "Delivery Hero",
+    "slug": "delivery-hero",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465759-deliveryhero_160wide-01.svg"
+  },
+  {
+    "name": "Clyo Systems",
+    "slug": "clyo-systems",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465557-clyo_final_logo_smol.svg"
+  },
+  {
+    "name": "L'Addition",
+    "slug": "l-addition",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465558-l-addition_logo_small_final.svg"
+  },
+  {
+    "name": "MyOrderBox",
+    "slug": "myorderbox",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465877-myorderbox_160wide-01.svg"
+  },
+  {
+    "name": "Guestline",
+    "slug": "guestline",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-guestline_160wide-01.svg"
+  },
+  {
+    "name": "Tissl HORIZON",
+    "slug": "tissl-horizon",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464676-tissl-deliverect-logo.svg"
+  },
+  {
+    "name": "Kobas",
+    "slug": "kobas",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465558-kobas_final_logo_small.svg"
+  },
+  {
+    "name": "Caviar",
+    "slug": "caviar",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465878-caviar_160wide-01.svg"
+  },
+  {
+    "name": "Menlog",
+    "slug": "menlog",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465546-menlog_final_logo_smol.svg"
+  },
+  {
+    "name": "Cashpad",
+    "slug": "cashpad",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465555-cashpad_final_logo_smol.svg"
+  },
+  {
+    "name": "Presto Express",
+    "slug": "presto-express",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465606-presto_express_logo_160.svg"
+  },
+  {
+    "name": "StoreKit",
+    "slug": "storekit",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302920-storekit-deliverect-logo.svg"
+  },
+  {
+    "name": "Slerp",
+    "slug": "slerp",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465753-slerp_160x160-01.svg"
+  },
+  {
+    "name": "Flipdish",
+    "slug": "flipdish",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465694-untitled_design-2-3.svg"
+  },
+  {
+    "name": "Hypersoft",
+    "slug": "hypersoft",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465756-hypersoft_160wide-01.svg"
+  },
+  {
+    "name": "5Loyalty",
+    "slug": "5loyalty",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465759-5loyalty_160wide-01.svg"
+  },
+  {
+    "name": "Thuisbezorgd",
+    "slug": "thuisbezorgd",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465752-thuisbezorgd_160wide-01.svg"
+  },
+  {
+    "name": "CapInfo",
+    "slug": "capinfo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465759-capinfo-01.svg"
+  },
+  {
+    "name": "Belorder",
+    "slug": "belorder",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465761-belorder_new_logo-01.svg"
+  },
+  {
+    "name": "Mealsy",
+    "slug": "mealsy",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465759-mealsy_red.svg"
+  },
+  {
+    "name": "Veloce",
+    "slug": "veloce",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465749-veloce_logo-01.svg"
+  },
+  {
+    "name": "Codisys",
+    "slug": "codisys",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465579-codisys_final_logo_smol.svg"
+  },
+  {
+    "name": "RadYes",
+    "slug": "radyes",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465747-img_radyes-01.svg"
+  },
+  {
+    "name": "Nextt",
+    "slug": "nextt",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465746-nexxt_logo-01.svg"
+  },
+  {
+    "name": "Ranger",
+    "slug": "ranger",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465582-ranger_pos_final_logo_2.svg"
+  },
+  {
+    "name": "Prologic First",
+    "slug": "prologic-first",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465548-prologicl_logo_final_smol.svg"
+  },
+  {
+    "name": "Nomee",
+    "slug": "nomee",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465546-nomeepos_final_logo_smol.svg"
+  },
+  {
+    "name": "Force7web",
+    "slug": "force7web",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465543-force7web_final_logo_smol.svg"
+  },
+  {
+    "name": "Arch2Order",
+    "slug": "arch2order",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465580-arch2order_final_logo.svg"
+  },
+  {
+    "name": "Best POS",
+    "slug": "best-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465705-untitled_design-1-2.svg"
+  },
+  {
+    "name": "Hippos",
+    "slug": "hippos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465545-hippos_final_logo_smol.svg"
+  },
+  {
+    "name": "My Lemonade",
+    "slug": "my-lemonade",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465704-my_lemonade_logo-2.svg"
+  },
+  {
+    "name": "Di Develop",
+    "slug": "di-develop",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465703-logos.svg"
+  },
+  {
+    "name": "EasyOrder",
+    "slug": "easyorder",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465452-untitled_design-5.svg"
+  },
+  {
+    "name": "Prefectos",
+    "slug": "prefectos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465548-prefectos_logo_final_smol.svg"
+  },
+  {
+    "name": "Cassa in Cloud",
+    "slug": "cassa-in-cloud",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465557-cassa_in_cloud_final_logo_smol.svg"
+  },
+  {
+    "name": "pointOne",
+    "slug": "pointone",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465694-untitled_design-2-2.svg"
+  },
+  {
+    "name": "Mealeo",
+    "slug": "mealeo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465546-mealeo_logo_final_smol.svg"
+  },
+  {
+    "name": "Koust",
+    "slug": "koust",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465545-koust_final_logo_smol.svg"
+  },
+  {
+    "name": "EPOS Direct",
+    "slug": "epos-direct",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465691-epos_direct_logo.svg"
+  },
+  {
+    "name": "LOKE",
+    "slug": "loke",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302393-loke-deliverect-logo.svg"
+  },
+  {
+    "name": "Inpulse",
+    "slug": "inpulse",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302862-inpulse-deliverect-logo.svg"
+  },
+  {
+    "name": "ordable/",
+    "slug": "ordable",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302357-ordable-deliverect-logo.svg"
+  },
+  {
+    "name": "Empay",
+    "slug": "empay",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302812-empay-deliverect-logo.svg"
+  },
+  {
+    "name": "Menulog",
+    "slug": "menulog",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465309-menulog_final_logo_smol.svg"
+  },
+  {
+    "name": "PedidosYa",
+    "slug": "pedidosya",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465705-pedidosya.svg"
+  },
+  {
+    "name": "Zii",
+    "slug": "zii",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302288-zii-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Tipsi",
+    "slug": "miss-tipsi",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464755-tipsi-deliverect-logo.svg"
+  },
+  {
+    "name": "Revo",
+    "slug": "revo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464755-revo-deliverect-logo.svg"
+  },
+  {
+    "name": "MobiPOS",
+    "slug": "mobipos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302720-mobi-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Tilby",
+    "slug": "tilby",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302667-tilby-deliverect-logo.svg"
+  },
+  {
+    "name": "Epos Now",
+    "slug": "epos-now",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465426-untitled_design-1.svg"
+  },
+  {
+    "name": "Mr Yum",
+    "slug": "mr-yum",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465546-mr_yum_final_logo_small.svg"
+  },
+  {
+    "name": "Connectill",
+    "slug": "connectill",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465467-connectill_logo.svg"
+  },
+  {
+    "name": "Sextant Promag",
+    "slug": "sextant-promag",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465467-sextant_promag.svg"
+  },
+  {
+    "name": "Pro Dukaan",
+    "slug": "pro-dukaan",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302323-pro-dukaan-deliverect-logo.svg"
+  },
+  {
+    "name": "Lightspeed G-Series",
+    "slug": "lightspeed-gseries",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464331-lightspeed_160wide-01.svg"
+  },
+  {
+    "name": "Cashmag",
+    "slug": "cashmag",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465422-untitled-623_x_160_px-1.svg"
+  },
+  {
+    "name": "Everyware Limited",
+    "slug": "everyware-limited",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465549-everyware_lmt_logo_final_smol.svg"
+  },
+  {
+    "name": "Fruits360",
+    "slug": "fruits360",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465142-fruits_360.svg"
+  },
+  {
+    "name": "CompuCash",
+    "slug": "compucash",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465758-compucash_160x160-01.svg"
+  },
+  {
+    "name": "DOOD",
+    "slug": "dood",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464828-dood-deliverect-logo.svg"
+  },
+  {
+    "name": "typo.00",
+    "slug": "typo-00",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465012-typo-00-on-white.svg"
+  },
+  {
+    "name": "Qromo",
+    "slug": "qromo",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302258-qromo-deliverect-logo.svg"
+  },
+  {
+    "name": "Chuzeat",
+    "slug": "chuzeat",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300978-foodea-deliverect-logo.svg"
+  },
+  {
+    "name": "Ebriza",
+    "slug": "ebriza",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300804-ebriza-deliverect-logo.svg"
+  },
+  {
+    "name": "Labware",
+    "slug": "labware",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300840-labware-deliverect-logo.svg"
+  },
+  {
+    "name": "Dame Jidlo",
+    "slug": "dame-jidlo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465694-untitled_design-2.svg"
+  },
+  {
+    "name": "EMenu Now",
+    "slug": "emenu-now",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465186-emenu_now.svg"
+  },
+  {
+    "name": "helloTESS!",
+    "slug": "hellotess",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302211-hellotess-deliverect-logo.svg"
+  },
+  {
+    "name": "Flexybox",
+    "slug": "flexybox",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465144-flexybox-1.svg"
+  },
+  {
+    "name": "Hey You",
+    "slug": "hey-you",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465543-hey_you_final_logo_smol.svg"
+  },
+  {
+    "name": "Horago",
+    "slug": "horago",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302166-horago-deliverect-logo.svg"
+  },
+  {
+    "name": "Hotel Manager",
+    "slug": "hotel-manager",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465143-hotel_manager.svg"
+  },
+  {
+    "name": "Kurve",
+    "slug": "kurve",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465189-kurve.svg"
+  },
+  {
+    "name": "Karma",
+    "slug": "karma",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465246-karma-deliverect-logo.svg"
+  },
+  {
+    "name": "MicroSys Technology Company",
+    "slug": "microsys-technology-company",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465549-microsys.svg"
+  },
+  {
+    "name": "Minitable Tech",
+    "slug": "minitable-tech",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301971-minitable-tech-deliverect-logo.svg"
+  },
+  {
+    "name": "MyChefTool",
+    "slug": "mycheftool",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465149-copy_of_see_you_food.svg"
+  },
+  {
+    "name": "Treebyte",
+    "slug": "treebyte",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300767-treebyte-deliverect-logo.svg"
+  },
+  {
+    "name": "BIM POS",
+    "slug": "bim-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302088-bimpos-deliverect-logo.svg"
+  },
+  {
+    "name": "Bowo",
+    "slug": "bowo",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300735-bowo-deliverect-logo.svg"
+  },
+  {
+    "name": "Bart App",
+    "slug": "bart-app",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465468-bart_app_logo.svg"
+  },
+  {
+    "name": "NemTakeAway",
+    "slug": "nemtakeaway",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302044-nemtakeaway-deliverect-logo.svg"
+  },
+  {
+    "name": "OnlinePOS",
+    "slug": "onlinepos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465682-onlinepos_logo.svg"
+  },
+  {
+    "name": "MNASATI",
+    "slug": "mnasati",
+    "logo_url": "https://www.datocms-assets.com/165162/1756302006-mnasati-deliverect-logo.svg"
+  },
+  {
+    "name": "OnShip",
+    "slug": "onship",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465469-onship_240.svg"
+  },
+  {
+    "name": "OVVI",
+    "slug": "ovvi",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300655-ovvi-deliverect-logo.svg"
+  },
+  {
+    "name": "PikaPoint",
+    "slug": "pikapoint",
+    "logo_url": "https://www.datocms-assets.com/165162/1756194057-pikapoint.svg"
+  },
+  {
+    "name": "Rest Pro",
+    "slug": "rest-pro",
+    "logo_url": "https://www.datocms-assets.com/165162/1756300534-rest-pro-deliverect-logo.svg"
+  },
+  {
+    "name": "Servy",
+    "slug": "servy",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465606-servy_logo.svg"
+  },
+  {
+    "name": "SACRE ARMAND",
+    "slug": "sacre-armand",
+    "logo_url": "https://www.datocms-assets.com/165162/1756386173-sacre-armand-deliverect-logo.svg"
+  },
+  {
+    "name": "Peng Kitchens",
+    "slug": "peng-kitchens",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465543-peng_kitchen_logo_small.svg"
+  },
+  {
+    "name": "Plento",
+    "slug": "plento",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464971-plento-logo.svg"
+  },
+  {
+    "name": "SitBack App",
+    "slug": "sitback-app",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465541-sitback_final_logo_small.svg"
+  },
+  {
+    "name": "Ryde",
+    "slug": "ryde",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465047-ryde-logo.svg"
+  },
+  {
+    "name": "Starrtec Solutions",
+    "slug": "starrtec-solutions",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464899-starrtec-solutions-deliverect-logo.svg"
+  },
+  {
+    "name": "Swype2Go",
+    "slug": "swype2go",
+    "logo_url": "https://www.datocms-assets.com/165162/1756301062-swype2go-deliverect-logo.svg"
+  },
+  {
+    "name": "QuickFuel",
+    "slug": "quickfuel",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465136-quickfuel.svg"
+  },
+  {
+    "name": "POSBANK Middle East",
+    "slug": "posbank-middle-east",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765914408-posbank-me.png&w=64&q=75"
+  },
+  {
+    "name": "Invu POS",
+    "slug": "invu-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465000-invu-pos-deliverect.svg"
+  },
+  {
+    "name": "Nonius",
+    "slug": "nonius",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464899-nonius-deliverect-logo.svg"
+  },
+  {
+    "name": "GoLivro",
+    "slug": "go-livro",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465031-go_livro-logo.svg"
+  },
+  {
+    "name": "FORKPOS",
+    "slug": "forkpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464972-forkpos-logo.svg"
+  },
+  {
+    "name": "Eatamigo",
+    "slug": "eatamigo",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465086-eatamigo.svg"
+  },
+  {
+    "name": "Bite",
+    "slug": "bite",
+    "logo_url": "https://www.datocms-assets.com/165162/1753464943-bite-deliverect-logo.svg"
+  },
+  {
+    "name": "xMenu",
+    "slug": "xmenu",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465085-xmenu.svg"
+  },
+  {
+    "name": "Zetus",
+    "slug": "zetus",
+    "logo_url": "https://www.datocms-assets.com/165162/1767714432-zetus-logo-1.svg"
+  },
+  {
+    "name": "Future Ordering",
+    "slug": "future-ordering",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1753464824-future_ordering_logo.png&w=64&q=75"
+  },
+  {
+    "name": "CloudPOS",
+    "slug": "cloudpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1753465579-cloudpos_final_small_logo.svg"
+  },
+  {
+    "name": "Techtris Development",
+    "slug": "techtris-development",
+    "logo_url": "https://www.datocms-assets.com/165162/1757671371-techtris-development-deliverect-logo.svg"
+  },
+  {
+    "name": "MenuSifu",
+    "slug": "menusifu",
+    "logo_url": "https://www.datocms-assets.com/165162/1757671863-menusifu-deliverect-logo.svg"
+  },
+  {
+    "name": "Too Good to Go",
+    "slug": "too-good-to-go",
+    "logo_url": "https://www.datocms-assets.com/165162/1757672785-too-good-to-go-deliverect-logo.svg"
+  },
+  {
+    "name": "Adial",
+    "slug": "adial",
+    "logo_url": "https://www.datocms-assets.com/165162/1757927653-adial-logo-deliverect.svg"
+  },
+  {
+    "name": "Alfonsino",
+    "slug": "Alfonsino",
+    "logo_url": "https://www.datocms-assets.com/165162/1759394711-alfonsino-deliverect-logo.svg"
+  },
+  {
+    "name": "KateMedia",
+    "slug": "KateMedia",
+    "logo_url": "https://www.datocms-assets.com/165162/1760695241-katemedia-deliverect-logo.svg"
+  },
+  {
+    "name": "Winpos",
+    "slug": "winpos",
+    "logo_url": "https://www.datocms-assets.com/165162/1760695877-winpos-deliverect-logo.svg"
+  },
+  {
+    "name": "JET GO",
+    "slug": "jet-go",
+    "logo_url": "https://www.datocms-assets.com/165162/1760697295-jetgo-deliverect-logo.svg"
+  },
+  {
+    "name": "Smart Volution",
+    "slug": "smart-volution",
+    "logo_url": "https://www.datocms-assets.com/165162/1760696773-register-smart-volution-deliverect-logo.svg"
+  },
+  {
+    "name": "FeYum",
+    "slug": "feyum",
+    "logo_url": "https://www.datocms-assets.com/165162/1762334055-feyum-deliverect-logo.svg"
+  },
+  {
+    "name": "eCard Systems",
+    "slug": "ecard-systems",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763503105-ecard-logo-benjamin-berg.png&w=64&q=75"
+  },
+  {
+    "name": "Naqlah",
+    "slug": "naqlah",
+    "logo_url": "https://www.datocms-assets.com/165162/1763544966-naqlah-deliverect-logo.svg"
+  },
+  {
+    "name": "Onesix",
+    "slug": "Onesix",
+    "logo_url": "https://www.datocms-assets.com/165162/1765884764-onesix-deliverect-logo.svg"
+  },
+  {
+    "name": "TotalPlay Go",
+    "slug": "totalplay-go",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763973623-67608eac6d74175f640e4274_1738082547267.png&w=64&q=75"
+  },
+  {
+    "name": "Yalutec",
+    "slug": "yalutec",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763973628-62d1882542465247446d819b_1693254692543.png&w=64&q=75"
+  },
+  {
+    "name": "Noon On Demand",
+    "slug": "noon-on-demand",
+    "logo_url": "https://www.datocms-assets.com/165162/1763979848-noon-logo-en.svg"
+  },
+  {
+    "name": "Punchh",
+    "slug": "punchh",
+    "logo_url": "https://www.datocms-assets.com/165162/1763998964-punchh-deliverect-logo.svg"
+  },
+  {
+    "name": "Splio",
+    "slug": "splio",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763974197-splio.jpg&w=64&q=75"
+  },
+  {
+    "name": "Aptsys",
+    "slug": "aptsys",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763974201-aptsys.png&w=64&q=75"
+  },
+  {
+    "name": "Front",
+    "slug": "front",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763974214-667f29470b12b81ec11c5897_1719903966220.png&w=64&q=75"
+  },
+  {
+    "name": "Merim Groupe",
+    "slug": "merim-groupe",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763974227-merim_groupe_1703614556912.png&w=64&q=75"
+  },
+  {
+    "name": "Xenial-Cloud",
+    "slug": "xenial-cloud",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763974235-xenial.jpeg&w=64&q=75"
+  },
+  {
+    "name": "Zelty",
+    "slug": "zelty",
+    "logo_url": "https://www.datocms-assets.com/165162/1763974239-zelty_logo_symbol-61b764526cf2b10018e82119.svg"
+  },
+  {
+    "name": "Glovo Retail",
+    "slug": "glovo-retail",
+    "logo_url": "https://www.datocms-assets.com/165162/1763974244-glovo_logo_symbol.svg"
+  },
+  {
+    "name": "Bbot",
+    "slug": "bbot",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996362-62beeeca9cc889ef8b6d194e_1658655041536.png&w=64&q=75"
+  },
+  {
+    "name": "DeliverEasy",
+    "slug": "delivereasy",
+    "logo_url": "https://www.datocms-assets.com/165162/1764063416-delivereasy-deliverect-logo.svg"
+  },
+  {
+    "name": "Flytrex Drone Delivery",
+    "slug": "flytrex",
+    "logo_url": "https://www.datocms-assets.com/165162/1764078039-flytrex-deliverect-logo.svg"
+  },
+  {
+    "name": "Snoonu",
+    "slug": "snoonu",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996572-66e13d92bb9093d90d0bde1a_1726062108281.png&w=64&q=75"
+  },
+  {
+    "name": "Alshrouq Express",
+    "slug": "alshrouq-express",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996592-67851feaf2c90b9c81b6e147_1736780999755.png&w=64&q=75"
+  },
+  {
+    "name": "Armada Delivery",
+    "slug": "armada-delivery",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996600-pyhz_87l_400x400.jpeg&w=64&q=75"
+  },
+  {
+    "name": "LynxSparc",
+    "slug": "lynxsparc",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996608-68dd8667379fd6c38aa7f977_1759436075120.png&w=64&q=75"
+  },
+  {
+    "name": "Fuse",
+    "slug": "fuse",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996627-64a28a93bae6f0660ae5367d_1689004881518.png&w=64&q=75"
+  },
+  {
+    "name": "V-Thru",
+    "slug": "v-thru",
+    "logo_url": "https://www.datocms-assets.com/165162/1763996631-v_thru_logo.svg"
+  },
+  {
+    "name": "Dojo",
+    "slug": "dojo",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996635-668fea7797442ebcf8b83d73_1721221580803.png&w=64&q=75"
+  },
+  {
+    "name": "Jamezz",
+    "slug": "jamezz",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996642-662644b82def25b92d86c3d5_1740417217118.png&w=64&q=75"
+  },
+  {
+    "name": "Qikserve",
+    "slug": "qikserve",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996650-61a8ac04304bac77a2b19d9b_1710909909846.png&w=64&q=75"
+  },
+  {
+    "name": "Andromeda",
+    "slug": "andromeda",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996657-680ba25ca779d28a88cd2d81_1749715921329.png&w=64&q=75"
+  },
+  {
+    "name": "Chimera",
+    "slug": "chimera",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996665-61e17be6ea4cf8cb4dbd927e_1655984034958.png&w=64&q=75"
+  },
+  {
+    "name": "Curbngo",
+    "slug": "curbngo",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996677-curbngo_1672227535653.png&w=64&q=75"
+  },
+  {
+    "name": "Devit Soft",
+    "slug": "devit-soft",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996684-68cda4a4351495a5e135e9cf_1758738075515.jpg&w=64&q=75"
+  },
+  {
+    "name": "Eats365 POS",
+    "slug": "eats365-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996692-eats_365_1693282568331.png&w=64&q=75"
+  },
+  {
+    "name": "Touch Express",
+    "slug": "touch-express",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996700-global-20touch-20express.jpg&w=64&q=75"
+  },
+  {
+    "name": "Honor POS",
+    "slug": "honor-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996715-62d1883abbddc0f733f68d95_1724600801055.png&w=64&q=75"
+  },
+  {
+    "name": "IGT Microelectronics",
+    "slug": "igt-microelectronics",
+    "logo_url": "https://www.datocms-assets.com/165162/1764068906-igt-microelectronics-deliverect-logo.svg"
+  },
+  {
+    "name": "Linga POS",
+    "slug": "linga-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1764069490-linga-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "NCR - BSP",
+    "slug": "ncr-bsp",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996742-61a8ac04304bac77a2b19c9c_1693261644100.png&w=64&q=75"
+  },
+  {
+    "name": "NCR SDM",
+    "slug": "ncr-sdm",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996749-61d86aed272dbbab8b2a9904_1693261172554.png&w=64&q=75"
+  },
+  {
+    "name": "Omega POS",
+    "slug": "omega-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1763996757-omega_logo_symbol-61b764217d7430001973e4a3.svg"
+  },
+  {
+    "name": "POSist Technologies",
+    "slug": "posist-technologies",
+    "logo_url": "https://www.datocms-assets.com/165162/1763996761-posist_logo_symbol-61b764056cf2b10018e820ed.svg"
+  },
+  {
+    "name": "Shopwave",
+    "slug": "shopwave",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996766-shopwave-pos-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Tiller by SumUp",
+    "slug": "tiller-by-sumup",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996774-5f9972007dcd573b7179c197_1693309500594.png&w=64&q=75"
+  },
+  {
+    "name": "Xenial Encounter (Sicom v6)",
+    "slug": "sicom",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1763996781-61a8ac04304bac77a2b19ca4_1668571848517.png&w=64&q=75"
+  },
+  {
+    "name": "Al Shrouq Express",
+    "slug": "al-shrouq-express",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153855-64300513aa5248aa926738c2_1710756606877.png&w=64&q=75"
+  },
+  {
+    "name": "Ancon",
+    "slug": "ancon",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153862-large-app_icon-03.png&w=64&q=75"
+  },
+  {
+    "name": "AUPOS",
+    "slug": "aupos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153870-aupos_1681902850126.png&w=64&q=75"
+  },
+  {
+    "name": "Bill-App",
+    "slug": "bill-app",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764236869-bill-app-deliverect-logo.png&w=64&q=75"
+  },
+  {
+    "name": "ChanceTop",
+    "slug": "chancetop",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153884-67d7d9954235b5bd104c575e_1742205157363.jpg&w=64&q=75"
+  },
+  {
+    "name": "Checkqrpay",
+    "slug": "checkqrpay",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153888-63284ddbb7cf8403e4146beb_1668499928431.png&w=64&q=75"
+  },
+  {
+    "name": "CodeZone",
+    "slug": "codezone",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153895-codezone_1669129412255.jpeg&w=64&q=75"
+  },
+  {
+    "name": "Computanse",
+    "slug": "computanse",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153902-computanse_1671216592407.png&w=64&q=75"
+  },
+  {
+    "name": "Comtech",
+    "slug": "comtech",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153909-comtechlogo.png&w=64&q=75"
+  },
+  {
+    "name": "DebittechPOS",
+    "slug": "debittechpos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153923-661917682637425e425eb012_1712922574217.png&w=64&q=75"
+  },
+  {
+    "name": "Dgtera",
+    "slug": "dgtera",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153930-6479f19a597560d30f04e5db_1705826136135.png&w=64&q=75"
+  },
+  {
+    "name": "Dig-In",
+    "slug": "dig-in",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153937-65608b612bf6de63ce3d222c_1701776790693.png&w=64&q=75"
+  },
+  {
+    "name": "DLIVRD",
+    "slug": "dlivrd",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153944-689e48e3c75e6d60440db4e4_1756129952232.jpeg&w=64&q=75"
+  },
+  {
+    "name": "Dragon Foods POS",
+    "slug": "dragon-foods-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153952-67abad924716353f6520ab93_1749573575851.png&w=64&q=75"
+  },
+  {
+    "name": "Embargo",
+    "slug": "embargo",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153966-63e254463a02fbf7aea0f6cf_1736418240842.png&w=64&q=75"
+  },
+  {
+    "name": "FLYDER",
+    "slug": "flyder",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153987-652655d84d86a1430032a523_1697020517580.png&w=64&q=75"
+  },
+  {
+    "name": "FocusPOS",
+    "slug": "focuspos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764153994-68cbd4e59fa379b116e8a151_1758783975381.png&w=64&q=75"
+  },
+  {
+    "name": "Fodo",
+    "slug": "fodo",
+    "logo_url": "https://www.datocms-assets.com/165162/1764249429-fodoapps-deliverect-logo.svg"
+  },
+  {
+    "name": "GoTab",
+    "slug": "gotab",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154017-64798286e91c90e85518783e_1685693959399.png&w=64&q=75"
+  },
+  {
+    "name": "Hi-Iberia",
+    "slug": "hi-iberia",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154024-61a8ac04304bac77a2b19cc7_1713253594352.png&w=64&q=75"
+  },
+  {
+    "name": "HotelGenie",
+    "slug": "hotelgenie",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154032-hotelgenie.png&w=64&q=75"
+  },
+  {
+    "name": "Instashop",
+    "slug": "instashop",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154039-instashop_1672921438956.png&w=64&q=75"
+  },
+  {
+    "name": "Intelligent POS (iPOS)",
+    "slug": "intelligent-pos-ipos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154046-67c08c6f4e0e8146e1785ddb_1740672239865.png&w=64&q=75"
+  },
+  {
+    "name": "iPos",
+    "slug": "ipos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154053-68dc204c5278558f9cdcf951_1759301411521.ico&w=64&q=75"
+  },
+  {
+    "name": "Koinz",
+    "slug": "koinz",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154060-674f08c3a546dedd9fae5d58_1735140463453.png&w=64&q=75"
+  },
+  {
+    "name": "KwickPOS",
+    "slug": "kwickpos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154071-663be5f0f0bddc05e5da0af8_1724600147868.png&w=64&q=75"
+  },
+  {
+    "name": "LivePepper",
+    "slug": "livepepper",
+    "logo_url": "https://www.datocms-assets.com/165162/1764250298-livepepper-logo.svg"
+  },
+  {
+    "name": "Marn POS",
+    "slug": "marn-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154086-653a61943af25ec96b4e3462_1711375231687.jpg&w=64&q=75"
+  },
+  {
+    "name": "Mercurio Sistemi",
+    "slug": "mercurio-sistemi",
+    "logo_url": "https://www.datocms-assets.com/165162/1764154093-mercurio_sistemi_logo_symbol-61b7647a7d7430001973e4c9.svg"
+  },
+  {
+    "name": "Ocims",
+    "slug": "ocims",
+    "logo_url": "https://www.datocms-assets.com/165162/1764250637-ocims-deliverect-logo.svg"
+  },
+  {
+    "name": "Open",
+    "slug": "open",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154110-61a8ac04304bac77a2b19caa_1691690175577.jpeg&w=64&q=75"
+  },
+  {
+    "name": "Orderswift",
+    "slug": "orderswift",
+    "logo_url": "https://www.datocms-assets.com/165162/1764250794-orderswift-deliverect-logo.svg"
+  },
+  {
+    "name": "Primary POS",
+    "slug": "primary-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154132-6650742968b8d63af32fb37c_1743272059669.png&w=64&q=75"
+  },
+  {
+    "name": "Prior",
+    "slug": "prior",
+    "logo_url": "https://www.datocms-assets.com/165162/1764154139-prior_logo.svg"
+  },
+  {
+    "name": "Qlub",
+    "slug": "qlub",
+    "logo_url": "https://www.datocms-assets.com/165162/1764789801-qlub-logo.svg"
+  },
+  {
+    "name": "Quick Delivery Co",
+    "slug": "quick-delivery-co",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764790061-quick-delivery-co-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Riders Castell\u00f3n",
+    "slug": "riders-app",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154151-6880e2182e0913045994d78e_1754295036670.png&w=64&q=75"
+  },
+  {
+    "name": "Rushable",
+    "slug": "rushable",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154159-651c1d4d15aa5d9ae5af8c45_1696390794869.png&w=64&q=75"
+  },
+  {
+    "name": "Sequential Soft",
+    "slug": "sequential-soft",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154166-61a8ac04304bac77a2b19d12_1718823711114.png&w=64&q=75"
+  },
+  {
+    "name": "Skipcart",
+    "slug": "skipcart",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764858936-skipcar-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Smilein",
+    "slug": "smilein",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154202-119516197_2850911671819516_1043246904092953027_n.jpeg&w=64&q=75"
+  },
+  {
+    "name": "SpotlightPOS",
+    "slug": "spotlight-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154209-273659965_129349506269244_2869700742962228972_n.jpeg&w=64&q=75"
+  },
+  {
+    "name": "Sticky",
+    "slug": "sticky",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154216-277315468_157799819993953_7676310130884823202_n.jpeg&w=64&q=75"
+  },
+  {
+    "name": "StoresAce",
+    "slug": "storesace",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764791610-storesace-logo.avif&w=64&q=75"
+  },
+  {
+    "name": "Surpass",
+    "slug": "surpass",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154220-caterlord_logo-61b764be7d7430001973e4ed.png&w=64&q=75"
+  },
+  {
+    "name": "Taker",
+    "slug": "taker",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154228-taker-628df9d40cbde40019eb412e.jpg&w=64&q=75"
+  },
+  {
+    "name": "Tiger Touch POS",
+    "slug": "tiger-touch-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154235-659d5b2148675b32578d7ba9_1704812939211.png&w=64&q=75"
+  },
+  {
+    "name": "WESHOP",
+    "slug": "weshop",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154257-weshop_1689147364740.jpg&w=64&q=75"
+  },
+  {
+    "name": "WizBang",
+    "slug": "wizbang",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764154268-65bb6c93b69749adae2bdf6e_1711622797184.png&w=64&q=75"
+  },
+  {
+    "name": "Xudox",
+    "slug": "xudox",
+    "logo_url": "https://www.datocms-assets.com/165162/1764154275-xudox_logo_symbol-61b764316cf2b10018e820ff.svg"
+  },
+  {
+    "name": "Ask Arthur",
+    "slug": "ask-arthur",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764182581-askarthur_deliverect.png&w=64&q=75"
+  },
+  {
+    "name": "Sadie",
+    "slug": "sadie",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764183487-sadie-logo-blue-florence-labrie.png&w=64&q=75"
+  },
+  {
+    "name": "Retail Business Solutions",
+    "slug": "retail-business-solutions",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1764857213-rbs-new-logo-in-deep-navy-blue-omar-karim-kfoury.png&w=64&q=75"
+  },
+  {
+    "name": "n8n",
+    "slug": "n8n",
+    "logo_url": "https://www.datocms-assets.com/165162/1765363507-n8n-deliverect-logo.svg"
+  },
+  {
+    "name": "AdolunaPos",
+    "slug": "adolunapos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378143-670587bd497ed1611692104a_1728438822748.png&w=64&q=75"
+  },
+  {
+    "name": "Akanh Infotech",
+    "slug": "akanh-infotech",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378150-677b5fa52bd884a35909591f_1740488022691.png&w=64&q=75"
+  },
+  {
+    "name": "Appetizr",
+    "slug": "appetizr",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378157-appetizr_logo.png&w=64&q=75"
+  },
+  {
+    "name": "Apptology Inc",
+    "slug": "apptology-inc",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378168-67e290d5aaa1e8aaf6374527_1743770116321.png&w=64&q=75"
+  },
+  {
+    "name": "Avocaty",
+    "slug": "avocaty",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378190-6666cf0f430e0ade9e1b4303_1718094429586.png&w=64&q=75"
+  },
+  {
+    "name": "Baemingo",
+    "slug": "baemingo",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378197-63ea4606627a10f2586e99ea_1758202346682.png&w=64&q=75"
+  },
+  {
+    "name": "Bonbell",
+    "slug": "bonbell",
+    "logo_url": "https://www.datocms-assets.com/165162/1765447613-bonbell-deliverect-logo.svg"
+  },
+  {
+    "name": "BossIt",
+    "slug": "bossit",
+    "logo_url": "https://www.datocms-assets.com/165162/1765447935-bossit-deliverect-logo.svg"
+  },
+  {
+    "name": "BRG POS",
+    "slug": "brg-pos",
+    "logo_url": "https://www.datocms-assets.com/165162/1765448112-brg-pos-deliverect-logo.svg"
+  },
+  {
+    "name": "Camarero 10",
+    "slug": "camarero-10",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378205-6841505d02a3f574cd63adbe_1749138016245.png&w=64&q=75"
+  },
+  {
+    "name": "Cashdrop",
+    "slug": "cashdrop",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378212-662ffbd5b7cd6a87e8a4a052_1715787351513.png&w=64&q=75"
+  },
+  {
+    "name": "Cata",
+    "slug": "cata",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378220-674eb8c4b38cebf7ef574f4c_1738747502394.png&w=64&q=75"
+  },
+  {
+    "name": "ChaChaPOS",
+    "slug": "chachapos",
+    "logo_url": "https://www.datocms-assets.com/165162/1765451042-chachapos-deliverect-logo.svg"
+  },
+  {
+    "name": "Cheaf",
+    "slug": "cheaf",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378234-64ec450e96153bad03ba8060_1693589620811.png&w=64&q=75"
+  },
+  {
+    "name": "CityXerpa",
+    "slug": "cityxerpa",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378242-655dcd0c07a4d15061cc8cfd_1700651541174.png&w=64&q=75"
+  },
+  {
+    "name": "Compop",
+    "slug": "compop",
+    "logo_url": "https://www.datocms-assets.com/165162/1765795046-compop-deliverect-logo.svg"
+  },
+  {
+    "name": "Delivery Boadilla",
+    "slug": "delivery-boadilla",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378260-interdelivery_soluciones_1667897221448.jpg&w=64&q=75"
+  },
+  {
+    "name": "Dripos",
+    "slug": "dripos",
+    "logo_url": "https://www.datocms-assets.com/165162/1765795340-dripos-deliverect-logo.svg"
+  },
+  {
+    "name": "EasyCloud POS",
+    "slug": "easycloud-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378274-easycloud_pos_1672664537754.png&w=64&q=75"
+  },
+  {
+    "name": "EasyFood",
+    "slug": "easyfood",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378281-63bfaed6fa329cfb65eb96a3_1673506764315.png&w=64&q=75"
+  },
+  {
+    "name": "EasyLivery",
+    "slug": "easylivery",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378289-63ea47d98136dc32b6f54b8f_1676392001519.png&w=64&q=75"
+  },
+  {
+    "name": "EasyTake",
+    "slug": "easytake",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378300-easy_take_1702043659433.png&w=64&q=75"
+  },
+  {
+    "name": "Edgeserv POS",
+    "slug": "edgeserv-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378307-6440f4ccc0a52b757bd8742c_1689951202847.jpeg&w=64&q=75"
+  },
+  {
+    "name": "EVA",
+    "slug": "eva",
+    "logo_url": "https://www.datocms-assets.com/165162/1765878382-eva-deliverect-logo.svg"
+  },
+  {
+    "name": "Fleetlery",
+    "slug": "fleetlery",
+    "logo_url": "https://www.datocms-assets.com/165162/1765878681-fleetlery-deliverect-logo.svg"
+  },
+  {
+    "name": "Food Amigos",
+    "slug": "food-amigos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378325-67bef8139f701d7694266abd_1740580617361.png&w=64&q=75"
+  },
+  {
+    "name": "FoodCollect",
+    "slug": "foodcollect",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378332-63bead49ecf0ed0f03e118bd_1673440960497.png&w=64&q=75"
+  },
+  {
+    "name": "Furider",
+    "slug": "furider",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378340-675b5d2c95e8f67b7a619a3e_1734530065321.png&w=64&q=75"
+  },
+  {
+    "name": "Gormic",
+    "slug": "gormic",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378354-68184de8ac45d0c1f84279cc_1746464666092.png&w=64&q=75"
+  },
+  {
+    "name": "HantePay",
+    "slug": "hantepay",
+    "logo_url": "https://www.datocms-assets.com/165162/1765879702-hantepay-deliverect-logo.svg"
+  },
+  {
+    "name": "Imagatec",
+    "slug": "imagatec",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378376-imagatec_pos_1677587620447.png&w=64&q=75"
+  },
+  {
+    "name": "Jetsontech",
+    "slug": "jetsontech",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378390-66eac2de59edcfe803af1f49_1727254477595.png&w=64&q=75"
+  },
+  {
+    "name": "Knoz Elhekma",
+    "slug": "knoz-elhekma",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378416-68a6f90ca6abe3cd8e36d1b7_1756123769957.png&w=64&q=75"
+  },
+  {
+    "name": "MCR Systems",
+    "slug": "mcr-systems",
+    "logo_url": "https://www.datocms-assets.com/165162/1765882545-mcr-systems-deliverect-logo.svg"
+  },
+  {
+    "name": "Memoria Technology",
+    "slug": "memoria-technology",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378431-66a8a19e2c2f48cb3dedbd62_1722339238458.jpg&w=64&q=75"
+  },
+  {
+    "name": "Next Order",
+    "slug": "next-order",
+    "logo_url": "https://www.datocms-assets.com/165162/1765883166-next-order-deliverect-logo.svg"
+  },
+  {
+    "name": "NextGenKitchens",
+    "slug": "nextgenkitchens",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378460-66308111791f75a2ad42bda2_1714562647745.jpeg&w=64&q=75"
+  },
+  {
+    "name": "OMAK Technologies",
+    "slug": "omak-technologies",
+    "logo_url": "https://www.datocms-assets.com/165162/1765883755-omak-deliverect-logo.svg"
+  },
+  {
+    "name": "OnTimeDelivery",
+    "slug": "ontimedelivery",
+    "logo_url": "https://www.datocms-assets.com/165162/1765885226-ontimedelivery-deliverect-logo.svg"
+  },
+  {
+    "name": "Peasy",
+    "slug": "peasy",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378492-peasy_1671711274207.jpg&w=64&q=75"
+  },
+  {
+    "name": "Pepper",
+    "slug": "pepper",
+    "logo_url": "https://www.datocms-assets.com/165162/1765889640-pepper-deliverect-logo.svg"
+  },
+  {
+    "name": "Pinapp",
+    "slug": "pinapp",
+    "logo_url": "https://www.datocms-assets.com/165162/1765889989-pinapp-deliverect-logo.svg"
+  },
+  {
+    "name": "Prepitapp",
+    "slug": "prepitapp",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378508-prepitlogo2.png&w=64&q=75"
+  },
+  {
+    "name": "Self Serve",
+    "slug": "self-serve",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378524-63284de58bf883eb30473d0d_1664788105242.png&w=64&q=75"
+  },
+  {
+    "name": "Slider",
+    "slug": "slider",
+    "logo_url": "https://www.datocms-assets.com/165162/1765892794-slider-app-deliverect-logo.svg"
+  },
+  {
+    "name": "Smart business 4.0",
+    "slug": "smart-business-4-0",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378538-64929f463aba933b759f4e98_1687538408289.png&w=64&q=75"
+  },
+  {
+    "name": "Smarttab",
+    "slug": "smarttab",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378545-6556262a7dfd87a62756158b_1705008968179.png&w=64&q=75"
+  },
+  {
+    "name": "SPARK EPoS",
+    "slug": "spark-epos",
+    "logo_url": "https://www.datocms-assets.com/165162/1765893298-spark-epos-deliverect-logo.svg"
+  },
+  {
+    "name": "TabSense",
+    "slug": "tabsense",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378549-665ebdd3e98b3219dd2c232b_1719214595205.png&w=64&q=75"
+  },
+  {
+    "name": "TastyFuture",
+    "slug": "tastyfuture",
+    "logo_url": "https://www.datocms-assets.com/165162/1765893724-tastyfuture-deliverect-logo.svg"
+  },
+  {
+    "name": "Tatbeeqi",
+    "slug": "tatbeeqi",
+    "logo_url": "https://www.datocms-assets.com/165162/1765893941-tatbeeqi-deliverect-logo.svg"
+  },
+  {
+    "name": "Ultimate Solutions",
+    "slug": "ultimate-solutions",
+    "logo_url": "https://www.datocms-assets.com/165162/1765894612-ultimate-solutions-deliverect-logo.svg"
+  },
+  {
+    "name": "WaiterPro",
+    "slug": "waiterpro",
+    "logo_url": "https://www.datocms-assets.com/165162/1765895032-waiterpro-deliverect-logo.svg"
+  },
+  {
+    "name": "Waitry",
+    "slug": "waitry",
+    "logo_url": "https://www.datocms-assets.com/165162/1765378595-waitry_logo.svg"
+  },
+  {
+    "name": "Yokitup",
+    "slug": "yokitup",
+    "logo_url": "https://www.datocms-assets.com/165162/1765895367-yokitup-deliverect-logo.svg"
+  },
+  {
+    "name": "Zenorder",
+    "slug": "zenorder",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1765378613-63c0fdb422addc1aa17a1c0f_1727262197254.webp&w=64&q=75"
+  },
+  {
+    "name": "askPepper",
+    "slug": "askPepper",
+    "logo_url": "https://www.datocms-assets.com/165162/1765446236-askpepper-deliverect-logo.svg"
+  },
+  {
+    "name": "Ballurh",
+    "slug": "Ballurh",
+    "logo_url": "https://www.datocms-assets.com/165162/1765447117-ballurh-deliverect-logo.svg"
+  },
+  {
+    "name": "Bronze",
+    "slug": "Bronze",
+    "logo_url": "https://www.datocms-assets.com/165162/1765450237-bronze-deliverect-logo.svg"
+  },
+  {
+    "name": "Timeshark",
+    "slug": "Timeshark",
+    "logo_url": "https://www.datocms-assets.com/165162/1765894351-timeshark-deliverect-logo.svg"
+  },
+  {
+    "name": "Kayana",
+    "slug": "kayana",
+    "logo_url": "https://www.datocms-assets.com/165162/1765882251-kayana-deliverect-logo.svg"
+  },
+  {
+    "name": "Sadie AI",
+    "slug": "sadie-ai",
+    "logo_url": "https://www.datocms-assets.com/165162/1765895909-sadie-ai-deliverect-logo.svg"
+  },
+  {
+    "name": "Ordering360",
+    "slug": "ordering360",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484066-ordering360_pos_1669270302270.png&w=64&q=75"
+  },
+  {
+    "name": "Aladdinmiles",
+    "slug": "aladdinmiles",
+    "logo_url": "https://www.datocms-assets.com/165162/1768554309-aladdinmiles-deliverect-logo.svg"
+  },
+  {
+    "name": "Beluga",
+    "slug": "beluga",
+    "logo_url": "https://www.datocms-assets.com/165162/1768484076-beluga_logo_symbol.svg"
+  },
+  {
+    "name": "BHC",
+    "slug": "bhc",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484081-66f145adb25469fdc468bf13_1727609044325.png&w=64&q=75"
+  },
+  {
+    "name": "BISTROSOFT",
+    "slug": "bistrosoft",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484088-bistrosoft_1675500770240.png&w=64&q=75"
+  },
+  {
+    "name": "Captain",
+    "slug": "captain",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768555500-captainlabs-deliverect-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Cartwheel",
+    "slug": "cartwheel",
+    "logo_url": "https://www.datocms-assets.com/165162/1768555678-cartwheel-deliverect-logo.svg"
+  },
+  {
+    "name": "Certus AI",
+    "slug": "certus-ai",
+    "logo_url": "https://www.datocms-assets.com/165162/1768555804-certus-deliverect-logo.svg"
+  },
+  {
+    "name": "Chat my order",
+    "slug": "chat-my-order",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484111-chat_my-20order_1686555200900.jpeg&w=64&q=75"
+  },
+  {
+    "name": "Cygen POS",
+    "slug": "cygen-pos",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768557105-cygen-logo.webp&w=64&q=75"
+  },
+  {
+    "name": "Delivery Mates",
+    "slug": "delivery-mates",
+    "logo_url": "https://www.datocms-assets.com/165162/1768484133-deliverymates_logo-61a7615430733e0017930e4e.svg"
+  },
+  {
+    "name": "dyne",
+    "slug": "dyne",
+    "logo_url": "https://www.datocms-assets.com/165162/1768557524-dyne-deliverect-logo.svg"
+  },
+  {
+    "name": "Extenda Retail",
+    "slug": "extenda-retail",
+    "logo_url": "https://www.datocms-assets.com/165162/1768557794-extendaretail-deliverect-logo.svg"
+  },
+  {
+    "name": "Food Karma",
+    "slug": "food-karma",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484145-food_karma_1686311545737.png&w=64&q=75"
+  },
+  {
+    "name": "Glary",
+    "slug": "glary",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484162-glary_sa_1701324134164.png&w=64&q=75"
+  },
+  {
+    "name": "Himenus",
+    "slug": "himenus",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484167-651fbc77d1500a40cd27bd6d_1707575748464.png&w=64&q=75"
+  },
+  {
+    "name": "Ivend",
+    "slug": "ivend",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484182-ivend_1706769323055.png&w=64&q=75"
+  },
+  {
+    "name": "Jeavensoft",
+    "slug": "jeavensoft",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484186-61e848bc6279f54273d87e66_1675067075768.png&w=64&q=75"
+  },
+  {
+    "name": "Kaem Solution",
+    "slug": "kaem-solution",
+    "logo_url": "https://www.datocms-assets.com/165162/1768559493-kaem-deliverect-logo.svg"
+  },
+  {
+    "name": "Komdab",
+    "slug": "komdab",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484208-65707b1c6c7a4eb0a6347f33_1705650934561.png&w=64&q=75"
+  },
+  {
+    "name": "Kravein",
+    "slug": "kravein",
+    "logo_url": "https://www.datocms-assets.com/165162/1768559804-kravein-deliverect-logo.svg"
+  },
+  {
+    "name": "Kuokko",
+    "slug": "kuokko",
+    "logo_url": "https://www.datocms-assets.com/165162/1768560012-kuokko-deliverect-logo.svg"
+  },
+  {
+    "name": "LineSkip",
+    "slug": "lineskip",
+    "logo_url": "https://www.datocms-assets.com/165162/1768560248-lineskip-deliverect-logo.svg"
+  },
+  {
+    "name": "Noona",
+    "slug": "noona",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768560625-noona-deliverect-logo.png&w=64&q=75"
+  },
+  {
+    "name": "Oolio",
+    "slug": "oolio",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484289-6262950454084fc603fb25ff_1667543937686.png&w=64&q=75"
+  },
+  {
+    "name": "QARTT",
+    "slug": "qartt",
+    "logo_url": "https://www.datocms-assets.com/165162/1768816010-qartt-deliverect-logo.svg"
+  },
+  {
+    "name": "Restomax",
+    "slug": "restomax",
+    "logo_url": "https://www.datocms-assets.com/165162/1768816332-restomax-deliverect-logo.svg"
+  },
+  {
+    "name": "Silky Systems",
+    "slug": "silky-systems",
+    "logo_url": "https://www.datocms-assets.com/165162/1768816733-silky-systems-deliverect-logo.svg"
+  },
+  {
+    "name": "Suppli",
+    "slug": "suppli",
+    "logo_url": "https://www.datocms-assets.com/165162/1768816962-suppli-deliverect-logo.svg"
+  },
+  {
+    "name": "Tabin",
+    "slug": "tabin",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484357-6564b7267b59bbaa37ea6e4b_1703750937462.png&w=64&q=75"
+  },
+  {
+    "name": "The Digital Hotelier",
+    "slug": "the-digital-hotelier",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484365-67a9c780a7a2a5aaf56a8b81_1739187951202.png&w=64&q=75"
+  },
+  {
+    "name": "Wags",
+    "slug": "wags",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1768484369-6819b2ea3e0f1282583c5e69_1748519006025.png&w=64&q=75"
+  },
+  {
+    "name": "YQueue",
+    "slug": "yqueue",
+    "logo_url": "https://www.datocms-assets.com/165162/1768817756-yqueue-deliverect-logo.svg"
+  },
+  {
+    "name": "Think Wise",
+    "slug": "think-wise",
+    "logo_url": "https://www.datocms-assets.com/165162/1768820895-think-wise-deliverect-logo.svg"
+  },
+  {
+    "name": "HeapsGo",
+    "slug": "heapsgo",
+    "logo_url": "https://www.datocms-assets.com/165162/1770390027-heapsgo-logo.svg"
+  },
+  {
+    "name": "DataCandy",
+    "slug": "datacandy",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1771345170-datacandy-primary-bianca-raguindin.png&w=64&q=75"
+  },
+  {
+    "name": "Spoonity",
+    "slug": "spoonity",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1771345606-spoonity-loyalty-partner-kristina-medina.png&w=64&q=75"
+  },
+  {
+    "name": "InfoCaja",
+    "slug": "infocaja",
+    "logo_url": "/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F165162%2F1771346817-logo-direccion-tu-oficina-1.png&w=64&q=75"
+  },
+  {
+    "name": "Converse Now",
+    "slug": "converse-now",
+    "logo_url": "https://www.datocms-assets.com/165162/1771347073-conversenow-logo.svg"
+  },
+  {
+    "name": "Zipline",
+    "slug": "zipline",
+    "logo_url": "https://www.datocms-assets.com/165162/1771471412-zipline-logo-1.svg"
+  },
+  {
+    "name": "7-Now",
+    "slug": "7-now",
+    "logo_url": "https://www.datocms-assets.com/165162/1771471628-7-11_now.svg"
+  },
+  {
+    "name": "Flybuy",
+    "slug": "flybuy",
+    "logo_url": "https://www.datocms-assets.com/165162/1771472064-flybuy-logo.svg"
+  },
+  {
+    "name": "unPLUG Dining Inc.",
+    "slug": "unplug-dining",
+    "logo_url": "https://www.datocms-assets.com/165162/1772219024-unpluglogo.svg"
+  }
+]

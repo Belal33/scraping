@@ -1,320 +1,306 @@
 """
-Deliverect Integrations Page Scraper
-Extracts all partner details segmented by countries, categories, and tags.
-Uses scrapling for fetching and parsing.
+Deliverect Integrations Scraper
+Phase 1: Parse partner slugs from MCP-fetched JS-rendered HTML
+Phase 2: Fetch each partner detail page via HTTP for structured data
 """
 import csv
 import json
 import os
 import re
-from scrapling.fetchers import StealthyFetcher
+import sys
+import time
+from scrapling import Selector
+from scrapling.fetchers import Fetcher
 
-
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_URL = "https://www.deliverect.com"
 
-URL = "https://www.deliverect.com/en/integrations"
-
-
-def fetch_page():
-    """Fetch the integrations page using StealthyFetcher."""
-    print(f"Fetching {URL} ...")
-    page = StealthyFetcher.fetch(
-        URL,
-        headless=True,
-        network_idle=True,
-    )
-    print(f"Status: {page.status}")
-    return page
+# Category slugs to skip (these are category pages, not partners)
+SKIP_SLUGS = {
+    "pos-systems", "delivery-channels", "online-ordering",
+    "in-house-dining-apps", "fulfilment", "loyalty", "retail",
+    "on-site-ordering", "inventory-management", "analytics",
+    "payments", "kiosk", "digital-signage", "restaurant-ai-integrations",
+}
 
 
-def extract_next_data(page):
-    """Try to extract __NEXT_DATA__ JSON from the page."""
-    script = page.css("script#__NEXT_DATA__::text").get()
-    if script:
-        return json.loads(script)
-    return None
+def phase1_extract_slugs():
+    """Extract partner slugs from the MCP-fetched HTML."""
+    raw_file = os.path.join(OUTPUT_DIR, "deliverect_page_raw.json")
+    if not os.path.exists(raw_file):
+        print(f"ERROR: {raw_file} not found. Fetch the page first via Scrapling MCP.")
+        sys.exit(1)
 
+    print("  Loading cached HTML...")
+    with open(raw_file, "r", encoding="utf-8") as f:
+        raw = f.read()
 
-def extract_filters(page):
-    """Extract filter options (countries, categories, tags) from the page."""
-    filters = {"countries": [], "categories": [], "tags": []}
+    # Parse the MCP JSON wrapper
+    try:
+        data = json.loads(raw)
+        html = data["content"][0] if isinstance(data.get("content"), list) else data.get("content", raw)
+    except (json.JSONDecodeError, KeyError):
+        html = raw
 
-    # Look for filter/dropdown sections in the page
-    # The page has filter buttons/dropdowns for segmentation
-    filter_sections = page.css(".c-filter-dropdown, .c-filter, .c-dropdown, [class*='filter']")
-    print(f"Found {len(filter_sections)} filter sections")
+    print(f"  HTML size: {len(html):,} chars")
+    page = Selector(html, url="https://www.deliverect.com/en/integrations")
 
-    for section in filter_sections:
-        section_text = section.get_all_text(strip=True) if hasattr(section, 'get_all_text') else ""
-        print(f"  Filter section: {section_text[:100]}")
-
-    return filters
-
-
-def extract_partners_from_search_results(page):
-    """Extract partner data from the search result list items."""
-    partners = []
-
-    # The page has search results with partner cards
-    search_items = page.css(".c-search__item")
-    print(f"Found {len(search_items)} search result items")
-
-    for item in search_items:
-        link = item.css("a.c-search-result")
-        if not link:
-            continue
-        link = link[0]
-
-        name_text = link.get_all_text(strip=True) if hasattr(link, 'get_all_text') else ""
-        href = link.attrib.get("href", "")
-
-        img = link.css("img")
-        logo_url = ""
-        if img:
-            logo_url = img[0].attrib.get("src", "") or img[0].attrib.get("srcset", "").split(" ")[0] if img[0].attrib.get("srcset") else ""
-            if not logo_url:
-                logo_url = img[0].attrib.get("src", "")
-
-        partners.append({
-            "name": name_text.strip(),
-            "url": f"https://www.deliverect.com{href}" if href.startswith("/") else href,
-            "logo_url": logo_url,
-        })
-
-    return partners
-
-
-def extract_integration_cards(page):
-    """Extract partner data from integration card grid."""
-    partners = []
-
-    # Try various card selectors
-    selectors = [
-        ".c-integration-card",
-        ".c-partner-card",
-        "[class*='integration-card']",
-        "[class*='partner-card']",
-        ".c-card",
-        "[class*='card']",
-    ]
-
-    for sel in selectors:
-        cards = page.css(sel)
-        if cards:
-            print(f"Found {len(cards)} cards with selector: {sel}")
-            for card in cards[:3]:
-                print(f"  Card classes: {card.attrib.get('class', '')}")
-                print(f"  Card text: {card.get_all_text(strip=True)[:100]}")
-            break
-
-    return partners
-
-
-def extract_all_partner_links(page):
-    """Extract all integration partner links from any part of the page."""
     partners = []
     seen = set()
 
-    # All links that point to /en/integrations/<slug>
-    all_links = page.css("a[href*='/integrations/']")
-    print(f"Found {len(all_links)} links matching /integrations/")
-
+    # Find all links to /en/integrations/<slug>
+    all_links = page.css("a[href]")
     for link in all_links:
         href = link.attrib.get("href", "")
-        # Only actual partner pages (not category pages)
-        if not re.match(r"^/en/integrations/[a-z0-9]", href):
-            continue
-        # Skip category/filter pages
-        skip_slugs = [
-            "pos-systems", "delivery-channels", "online-ordering",
-            "in-house-dining-apps", "fulfilment", "loyalty",
-        ]
-        slug = href.split("/")[-1] if "/" in href else ""
-        if slug in skip_slugs:
+        match = re.match(r"^/en/integrations/([a-zA-Z0-9][a-zA-Z0-9\-]*)$", href)
+        if not match:
             continue
 
-        if href in seen:
+        slug = match.group(1)
+        if slug in SKIP_SLUGS or slug in seen:
             continue
-        seen.add(href)
+        seen.add(slug)
 
-        # Get partner name from link text or img alt
-        name = link.get_all_text(strip=True) if hasattr(link, 'get_all_text') else ""
-        if not name:
-            img = link.css("img")
-            if img:
-                name = img[0].attrib.get("alt", "") or img[0].attrib.get("title", "")
-
-        logo_url = ""
+        # Get name
+        name = ""
         img = link.css("img")
+        if img:
+            name = img[0].attrib.get("alt", "") or img[0].attrib.get("title", "")
+        if not name:
+            texts = link.css("::text").getall()
+            name = " ".join(t.strip() for t in texts if t.strip())
+
+        # Get logo
+        logo_url = ""
         if img:
             logo_url = img[0].attrib.get("src", "")
 
         partners.append({
             "name": name.strip(),
-            "url": f"https://www.deliverect.com{href}" if href.startswith("/") else href,
+            "slug": slug,
             "logo_url": logo_url,
         })
 
     return partners
 
 
-def scrape_partner_detail(url):
-    """Scrape a single partner detail page for countries, categories, tags."""
-    try:
-        page = StealthyFetcher.fetch(url, headless=True, network_idle=True)
-    except Exception as e:
-        print(f"  Error fetching {url}: {e}")
-        return {"countries": [], "categories": [], "tags": [], "description": ""}
+def extract_dast_text(dast_obj):
+    """Extract plain text from DatoCMS Structured Text (DAST)."""
+    if isinstance(dast_obj, str):
+        return dast_obj
 
-    data = {
-        "countries": [],
-        "categories": [],
-        "tags": [],
-        "description": "",
-    }
+    if not isinstance(dast_obj, dict):
+        return str(dast_obj) if dast_obj else ""
 
-    # Try to extract __NEXT_DATA__ for structured info
-    next_data = extract_next_data(page)
-    if next_data:
+    # Handle {"value": {"schema":"dast", "document":{...}}}
+    if "value" in dast_obj:
+        return extract_dast_text(dast_obj["value"])
+
+    texts = []
+    doc = dast_obj.get("document", dast_obj)
+    for child in doc.get("children", []):
+        if child.get("type") == "paragraph":
+            for span in child.get("children", []):
+                if span.get("type") == "span":
+                    texts.append(span.get("value", ""))
+        elif child.get("type") == "span":
+            texts.append(child.get("value", ""))
+
+    return " ".join(texts).strip()
+
+
+def phase2_fetch_details(partners):
+    """Fetch each partner detail page for countries/categories/tags."""
+    results = []
+    total = len(partners)
+    errors = 0
+
+    for i, p in enumerate(partners):
+        slug = p["slug"]
+        url = f"{BASE_URL}/en/integrations/{slug}"
+        print(f"  [{i+1}/{total}] {p['name'] or slug}", end="", flush=True)
+
+        detail = {
+            "name": p["name"],
+            "slug": slug,
+            "url": url,
+            "logo_url": p.get("logo_url", ""),
+            "countries": "",
+            "categories": "",
+            "tags": "",
+            "description": "",
+        }
+
         try:
-            page_props = next_data.get("props", {}).get("pageProps", {})
-            partner = page_props.get("partner", page_props.get("integration", {}))
-            if partner:
-                data["countries"] = [c.get("name", c) if isinstance(c, dict) else str(c)
-                                     for c in partner.get("countries", partner.get("availableCountries", []))]
-                data["categories"] = [c.get("name", c) if isinstance(c, dict) else str(c)
-                                      for c in partner.get("categories", partner.get("category", []))]
-                data["tags"] = [t.get("name", t) if isinstance(t, dict) else str(t)
-                                for t in partner.get("tags", [])]
-                data["description"] = partner.get("description", partner.get("shortDescription", ""))
-                return data
-        except Exception:
-            pass
+            page = Fetcher.get(url)
+            if page.status != 200:
+                print(f" ✗ {page.status}")
+                errors += 1
+                results.append(detail)
+                continue
 
-    # Fallback: parse from visible page content
-    # Look for country/category/tag labels
-    labels = page.css(".c-tag, .c-badge, .c-chip, [class*='tag'], [class*='badge'], [class*='chip']")
-    for label in labels:
-        text = label.get_all_text(strip=True) if hasattr(label, 'get_all_text') else ""
-        if text:
-            data["tags"].append(text)
+            # Extract __NEXT_DATA__
+            script_text = page.css("script#__NEXT_DATA__::text").get()
+            if not script_text:
+                print(" ✗ no data")
+                errors += 1
+                results.append(detail)
+                continue
 
-    # Description from hero/intro section
-    hero_desc = page.css(".c-hero__content p::text, .c-partner__description::text, [class*='description'] p::text")
-    if hero_desc:
-        data["description"] = " ".join(hero_desc.getall()).strip()
+            nd = json.loads(script_text)
+            pp = nd.get("props", {}).get("pageProps", {})
+            page_obj = pp.get("page", {})
+            comps = page_obj.get("components", [])
 
-    return data
+            # --- Extract categories from components ---
+            categories = []
+            for comp in comps:
+                tn = comp.get("__typename", "")
+                # IntegrationsFiltering has the category list
+                if "IntegrationsFiltering" in tn:
+                    for cat in comp.get("categories", []):
+                        cat_title = cat.get("title", "")
+                        if cat_title:
+                            categories.append(cat_title)
+
+                # Integration detail blocks may have category info
+                if "IntegrationDetail" in tn or "PartnerDetail" in tn:
+                    cat_val = comp.get("category", comp.get("categories", ""))
+                    if isinstance(cat_val, list):
+                        categories.extend(c.get("title", str(c)) if isinstance(c, dict) else str(c) for c in cat_val)
+                    elif isinstance(cat_val, str) and cat_val:
+                        categories.append(cat_val)
+
+            # --- Extract countries from enabled markets ---
+            countries = []
+            enabled_markets = page_obj.get("enabledMarkets", [])
+            for m in enabled_markets:
+                iso = m.get("countryIsoCode", "")
+                if iso and iso != "XX":
+                    countries.append(iso)
+
+            # --- Extract tags ---
+            tags = []
+            meta = page_obj.get("metaTags", {})
+            kw = meta.get("keywords", "")
+            if kw:
+                tags = [t.strip() for t in kw.split(",") if t.strip()]
+
+            # --- Description ---
+            desc = meta.get("description", "")
+            if not desc:
+                # Try from hero component
+                for comp in comps:
+                    if "Hero" in comp.get("__typename", ""):
+                        desc = extract_dast_text(comp.get("content", comp.get("description", "")))
+                        if desc:
+                            break
+
+            # --- Also check for partner-specific integration data ---
+            # Some pages have specific integration details in components
+            for comp in comps:
+                tn = comp.get("__typename", "")
+                if "IntegrationHero" in tn or "PartnerHero" in tn:
+                    # May have specific category/tag assignments
+                    comp_cats = comp.get("categories", comp.get("types", []))
+                    if isinstance(comp_cats, list):
+                        for c in comp_cats:
+                            title = c.get("title", "") if isinstance(c, dict) else str(c)
+                            if title and title not in categories:
+                                categories.append(title)
+
+                    comp_tags = comp.get("tags", [])
+                    if isinstance(comp_tags, list):
+                        for t in comp_tags:
+                            tag = t.get("title", t.get("name", "")) if isinstance(t, dict) else str(t)
+                            if tag and tag not in tags:
+                                tags.append(tag)
+
+                    comp_countries = comp.get("countries", comp.get("availableIn", []))
+                    if isinstance(comp_countries, list):
+                        for c in comp_countries:
+                            cn = c.get("name", c.get("title", "")) if isinstance(c, dict) else str(c)
+                            if cn and cn not in countries:
+                                countries.append(cn)
+
+            detail["countries"] = "; ".join(countries)
+            detail["categories"] = "; ".join(categories)
+            detail["tags"] = "; ".join(tags)
+            detail["description"] = desc[:500] if desc else ""
+
+            marker = "✓" if (countries or categories or tags) else "~"
+            print(f" {marker}")
+
+        except Exception as e:
+            print(f" ✗ error: {e}")
+            errors += 1
+
+        results.append(detail)
+
+        # Rate limit
+        if i < total - 1:
+            time.sleep(0.3)
+
+    print(f"\n  Completed: {total - errors} ok, {errors} errors")
+    return results
 
 
-def save_to_csv(partners, filename):
-    """Save partner data to CSV."""
+def save_csv(partners, filename):
+    """Save to CSV."""
     filepath = os.path.join(OUTPUT_DIR, filename)
-
-    if not partners:
-        print(f"No partners to save to {filename}")
-        return
-
-    # Determine all fieldnames
-    fieldnames = list(partners[0].keys())
+    fieldnames = ["name", "slug", "url", "logo_url", "countries", "categories", "tags", "description"]
 
     with open(filepath, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
-        for partner in partners:
-            # Convert lists to semicolon-separated strings
-            row = {}
-            for k, v in partner.items():
-                if isinstance(v, list):
-                    row[k] = "; ".join(str(x) for x in v)
-                else:
-                    row[k] = v
-            writer.writerow(row)
+        for p in partners:
+            writer.writerow(p)
 
-    print(f"Saved {len(partners)} partners to {filepath}")
+    print(f"\n✓ Saved {len(partners)} partners → {filepath}")
+    return filepath
 
 
 def main():
-    # Step 1: Fetch the main integrations page
-    page = fetch_page()
+    print("=" * 60)
+    print("  Deliverect Integrations Scraper")
+    print("=" * 60)
 
-    # Step 2: Try __NEXT_DATA__ first (most reliable)
-    next_data = extract_next_data(page)
-    if next_data:
-        print("Found __NEXT_DATA__ - extracting structured data...")
-        try:
-            page_props = next_data.get("props", {}).get("pageProps", {})
-            # Save raw data for debugging
-            with open(os.path.join(OUTPUT_DIR, "pageProps.json"), "w") as f:
-                json.dump(page_props, f, indent=2)
-            print(f"Saved pageProps.json ({len(json.dumps(page_props))} bytes)")
+    # Phase 1: Extract slugs
+    print("\n[Phase 1] Extracting partner slugs from cached HTML...")
+    partners = phase1_extract_slugs()
+    print(f"  ✓ Found {len(partners)} unique partners")
 
-            # Extract partners from structured data
-            all_partners = page_props.get("partners", page_props.get("integrations", []))
-            if all_partners:
-                print(f"Found {len(all_partners)} partners in __NEXT_DATA__")
-                partners = []
-                for p in all_partners:
-                    name = p.get("name", p.get("title", ""))
-                    slug = p.get("slug", "")
-                    countries = [c.get("name", c) if isinstance(c, dict) else str(c)
-                                 for c in p.get("countries", p.get("availableCountries", []))]
-                    categories = [c.get("name", c) if isinstance(c, dict) else str(c)
-                                  for c in p.get("categories", p.get("category", []))]
-                    tags = [t.get("name", t) if isinstance(t, dict) else str(t)
-                            for t in p.get("tags", [])]
-                    logo = ""
-                    if "logo" in p and isinstance(p["logo"], dict):
-                        logo = p["logo"].get("url", "")
-                    elif "logo" in p:
-                        logo = str(p["logo"])
-
-                    partners.append({
-                        "name": name,
-                        "slug": slug,
-                        "url": f"https://www.deliverect.com/en/integrations/{slug}",
-                        "logo_url": logo,
-                        "countries": countries,
-                        "categories": categories,
-                        "tags": tags,
-                        "description": p.get("description", p.get("shortDescription", "")),
-                    })
-
-                save_to_csv(partners, "deliverect_integrations.csv")
-                return
-        except Exception as e:
-            print(f"Error processing __NEXT_DATA__: {e}")
-
-    # Step 3: Fallback - extract partner links from HTML
-    print("No __NEXT_DATA__ found or failed to parse. Extracting from HTML...")
-    partners_basic = extract_all_partner_links(page)
-    print(f"Found {len(partners_basic)} unique partner links from HTML")
-
-    if not partners_basic:
-        print("No partners found! Dumping page HTML for debugging...")
-        with open(os.path.join(OUTPUT_DIR, "debug_page.html"), "w") as f:
-            f.write(page.html_content if hasattr(page, 'html_content') else str(page))
+    if not partners:
+        print("ERROR: No partners found!")
         return
 
-    # Step 4: Scrape each partner detail page for countries/categories/tags
-    full_partners = []
-    total = len(partners_basic)
-    for i, partner in enumerate(partners_basic):
-        print(f"[{i+1}/{total}] Scraping details for: {partner['name']}")
-        details = scrape_partner_detail(partner["url"])
-        full_partners.append({
-            "name": partner["name"],
-            "url": partner["url"],
-            "logo_url": partner["logo_url"],
-            "countries": details["countries"],
-            "categories": details["categories"],
-            "tags": details["tags"],
-            "description": details["description"],
-        })
+    # Save slugs list for reference
+    slugs_path = os.path.join(OUTPUT_DIR, "partner_slugs.json")
+    with open(slugs_path, "w") as f:
+        json.dump(partners, f, indent=2)
+    print(f"  Saved slugs → {slugs_path}")
 
-    save_to_csv(full_partners, "deliverect_integrations.csv")
-    print("Done!")
+    # Phase 2: Fetch details
+    print(f"\n[Phase 2] Fetching detail pages ({len(partners)} partners)...")
+    full_data = phase2_fetch_details(partners)
+
+    # Phase 3: Save CSV
+    print("\n[Phase 3] Saving CSV...")
+    csv_path = save_csv(full_data, "deliverect_integrations.csv")
+
+    # Summary
+    print("\n" + "=" * 60)
+    with_c = sum(1 for p in full_data if p["countries"])
+    with_cat = sum(1 for p in full_data if p["categories"])
+    with_t = sum(1 for p in full_data if p["tags"])
+    with_d = sum(1 for p in full_data if p["description"])
+    print(f"  Total: {len(full_data)} partners")
+    print(f"  With countries:    {with_c}")
+    print(f"  With categories:   {with_cat}")
+    print(f"  With tags:         {with_t}")
+    print(f"  With description:  {with_d}")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
