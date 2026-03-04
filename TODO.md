@@ -26,7 +26,7 @@
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
   - ✅ Output: `foodics/output/foodics_marketplace.csv`
 
-- [ ] **TGA (Logistics Partners for Loops Track)** — Identify Licensed Companies
+- [-] **TGA (Logistics Partners for Loops Track)** — Identify Licensed Companies
   - 🔗 https://www.tga.gov.sa/ar/LicensedCompanies
   - 📋 Get all info by filters. Get Partner Details. Segment by countries, categories, tags.
 
