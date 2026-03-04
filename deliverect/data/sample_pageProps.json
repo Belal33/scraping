@@ -1,0 +1,5016 @@
+{
+  "locale": "en",
+  "slugPrefix": "en",
+  "page": {
+    "id": "eIaWnWBvTPukfwP7jzu54g",
+    "title": "Integrations",
+    "slug": "integrations",
+    "_allSlugLocales": [
+      {
+        "locale": "ar",
+        "value": "integrations"
+      },
+      {
+        "locale": "de",
+        "value": "integrations"
+      },
+      {
+        "locale": "en",
+        "value": "integrations"
+      },
+      {
+        "locale": "es",
+        "value": "integrations"
+      },
+      {
+        "locale": "fr",
+        "value": "integrations"
+      },
+      {
+        "locale": "it",
+        "value": "integrations"
+      },
+      {
+        "locale": "nl",
+        "value": "integrations"
+      },
+      {
+        "locale": "pt",
+        "value": "integrations"
+      },
+      {
+        "locale": "sv",
+        "value": "integrations"
+      }
+    ],
+    "enabledMarkets": [
+      {
+        "countryIsoCode": "FI",
+        "enabledLanguages": [
+          "en"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "en",
+            "value": "en-fi"
+          },
+          {
+            "locale": "sv",
+            "value": "en-fi"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "SE",
+        "enabledLanguages": [
+          "sv"
+        ],
+        "defaultLanguage": "sv",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "sv",
+            "value": "sv-se"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "IT",
+        "enabledLanguages": [
+          "it"
+        ],
+        "defaultLanguage": "it",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": ""
+          },
+          {
+            "locale": "de",
+            "value": ""
+          },
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "es",
+            "value": ""
+          },
+          {
+            "locale": "fr",
+            "value": ""
+          },
+          {
+            "locale": "it",
+            "value": "it-it"
+          },
+          {
+            "locale": "nl",
+            "value": ""
+          },
+          {
+            "locale": "pt",
+            "value": ""
+          },
+          {
+            "locale": "sv",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "DE",
+        "enabledLanguages": [
+          "de"
+        ],
+        "defaultLanguage": "de",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": ""
+          },
+          {
+            "locale": "de",
+            "value": "de-de"
+          },
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "es",
+            "value": ""
+          },
+          {
+            "locale": "fr",
+            "value": ""
+          },
+          {
+            "locale": "it",
+            "value": ""
+          },
+          {
+            "locale": "nl",
+            "value": ""
+          },
+          {
+            "locale": "pt",
+            "value": ""
+          },
+          {
+            "locale": "sv",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "XX",
+        "enabledLanguages": [
+          "en",
+          "fr",
+          "es"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "en"
+          },
+          {
+            "locale": "de",
+            "value": "en"
+          },
+          {
+            "locale": "en",
+            "value": "en"
+          },
+          {
+            "locale": "es",
+            "value": "es"
+          },
+          {
+            "locale": "fr",
+            "value": "fr"
+          },
+          {
+            "locale": "it",
+            "value": "en"
+          },
+          {
+            "locale": "nl",
+            "value": "en"
+          },
+          {
+            "locale": "pt",
+            "value": "en"
+          },
+          {
+            "locale": "sv",
+            "value": "en"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "GB",
+        "enabledLanguages": [
+          "en"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "en-gb"
+          },
+          {
+            "locale": "de",
+            "value": "en-gb"
+          },
+          {
+            "locale": "en",
+            "value": "en-gb"
+          },
+          {
+            "locale": "es",
+            "value": "en-gb"
+          },
+          {
+            "locale": "fr",
+            "value": "en-gb"
+          },
+          {
+            "locale": "it",
+            "value": "en-gb"
+          },
+          {
+            "locale": "nl",
+            "value": "en-gb"
+          },
+          {
+            "locale": "pt",
+            "value": "en-gb"
+          },
+          {
+            "locale": "sv",
+            "value": "en-gb"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "AU",
+        "enabledLanguages": [
+          "en"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "en-au"
+          },
+          {
+            "locale": "de",
+            "value": "en-au"
+          },
+          {
+            "locale": "en",
+            "value": "en-au"
+          },
+          {
+            "locale": "es",
+            "value": "en-au"
+          },
+          {
+            "locale": "fr",
+            "value": "en-au"
+          },
+          {
+            "locale": "it",
+            "value": "en-au"
+          },
+          {
+            "locale": "nl",
+            "value": "en-au"
+          },
+          {
+            "locale": "pt",
+            "value": "en-au"
+          },
+          {
+            "locale": "sv",
+            "value": "en-au"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "MX",
+        "enabledLanguages": [
+          "en",
+          "es"
+        ],
+        "defaultLanguage": "es",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "en-mx"
+          },
+          {
+            "locale": "de",
+            "value": "en-mx"
+          },
+          {
+            "locale": "en",
+            "value": "en-mx"
+          },
+          {
+            "locale": "es",
+            "value": "es-mx"
+          },
+          {
+            "locale": "fr",
+            "value": "en-mx"
+          },
+          {
+            "locale": "it",
+            "value": "en-mx"
+          },
+          {
+            "locale": "nl",
+            "value": "en-mx"
+          },
+          {
+            "locale": "pt",
+            "value": "en-mx"
+          },
+          {
+            "locale": "sv",
+            "value": "en-mx"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "NL",
+        "enabledLanguages": [
+          "nl",
+          "en"
+        ],
+        "defaultLanguage": "nl",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "en",
+            "value": "en-nl"
+          },
+          {
+            "locale": "nl",
+            "value": "nl-nl"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "CA",
+        "enabledLanguages": [
+          "en",
+          "fr"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "en-ca"
+          },
+          {
+            "locale": "de",
+            "value": "en-ca"
+          },
+          {
+            "locale": "en",
+            "value": "en-ca"
+          },
+          {
+            "locale": "es",
+            "value": "en-ca"
+          },
+          {
+            "locale": "fr",
+            "value": "fr-ca"
+          },
+          {
+            "locale": "it",
+            "value": "en-ca"
+          },
+          {
+            "locale": "nl",
+            "value": "en-ca"
+          },
+          {
+            "locale": "pt",
+            "value": "en-ca"
+          },
+          {
+            "locale": "sv",
+            "value": "en-ca"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "AE",
+        "enabledLanguages": [
+          "en",
+          "ar"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "ar-ae"
+          },
+          {
+            "locale": "en",
+            "value": "en-ae"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "US",
+        "enabledLanguages": [
+          "en",
+          "es"
+        ],
+        "defaultLanguage": "en",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": "en-us"
+          },
+          {
+            "locale": "de",
+            "value": "en-us"
+          },
+          {
+            "locale": "en",
+            "value": "en-us"
+          },
+          {
+            "locale": "es",
+            "value": "es-us"
+          },
+          {
+            "locale": "fr",
+            "value": "en-us"
+          },
+          {
+            "locale": "it",
+            "value": "en-us"
+          },
+          {
+            "locale": "nl",
+            "value": "en-us"
+          },
+          {
+            "locale": "pt",
+            "value": "en-us"
+          },
+          {
+            "locale": "sv",
+            "value": "en-us"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "FR",
+        "enabledLanguages": [
+          "fr"
+        ],
+        "defaultLanguage": "fr",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": ""
+          },
+          {
+            "locale": "de",
+            "value": ""
+          },
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "es",
+            "value": ""
+          },
+          {
+            "locale": "fr",
+            "value": "fr-fr"
+          },
+          {
+            "locale": "it",
+            "value": ""
+          },
+          {
+            "locale": "nl",
+            "value": ""
+          },
+          {
+            "locale": "pt",
+            "value": ""
+          },
+          {
+            "locale": "sv",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "ES",
+        "enabledLanguages": [
+          "es"
+        ],
+        "defaultLanguage": "es",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": ""
+          },
+          {
+            "locale": "de",
+            "value": ""
+          },
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "es",
+            "value": "es-es"
+          },
+          {
+            "locale": "fr",
+            "value": ""
+          },
+          {
+            "locale": "it",
+            "value": ""
+          },
+          {
+            "locale": "nl",
+            "value": ""
+          },
+          {
+            "locale": "pt",
+            "value": ""
+          },
+          {
+            "locale": "sv",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "BE",
+        "enabledLanguages": [
+          "fr",
+          "nl"
+        ],
+        "defaultLanguage": "nl",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": ""
+          },
+          {
+            "locale": "de",
+            "value": ""
+          },
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "es",
+            "value": ""
+          },
+          {
+            "locale": "fr",
+            "value": "fr-be"
+          },
+          {
+            "locale": "it",
+            "value": ""
+          },
+          {
+            "locale": "nl",
+            "value": "nl-be"
+          },
+          {
+            "locale": "pt",
+            "value": ""
+          },
+          {
+            "locale": "sv",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "CH",
+        "enabledLanguages": [
+          "fr"
+        ],
+        "defaultLanguage": "fr",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "fr",
+            "value": "fr-ch"
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "PT",
+        "enabledLanguages": [
+          "pt"
+        ],
+        "defaultLanguage": "pt",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "ar",
+            "value": ""
+          },
+          {
+            "locale": "de",
+            "value": ""
+          },
+          {
+            "locale": "en",
+            "value": ""
+          },
+          {
+            "locale": "es",
+            "value": ""
+          },
+          {
+            "locale": "fr",
+            "value": ""
+          },
+          {
+            "locale": "it",
+            "value": ""
+          },
+          {
+            "locale": "nl",
+            "value": ""
+          },
+          {
+            "locale": "pt",
+            "value": "pt-pt"
+          },
+          {
+            "locale": "sv",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "countryIsoCode": "CO",
+        "enabledLanguages": [
+          "es"
+        ],
+        "defaultLanguage": "es",
+        "_allSlugPrefixLocales": [
+          {
+            "locale": "es",
+            "value": "es-co"
+          }
+        ]
+      }
+    ],
+    "_allEnabledLocalesLocales": [
+      {
+        "locale": "ar",
+        "value": true
+      },
+      {
+        "locale": "de",
+        "value": true
+      },
+      {
+        "locale": "en",
+        "value": true
+      },
+      {
+        "locale": "es",
+        "value": true
+      },
+      {
+        "locale": "fr",
+        "value": true
+      },
+      {
+        "locale": "it",
+        "value": true
+      },
+      {
+        "locale": "nl",
+        "value": true
+      },
+      {
+        "locale": "pt",
+        "value": true
+      },
+      {
+        "locale": "sv",
+        "value": true
+      }
+    ],
+    "alternativeHeader": null,
+    "metaTags": {
+      "title": "Two-Way eCommerce Integrations",
+      "noindex": false,
+      "keywords": "",
+      "nofollow": false,
+      "canonical": "",
+      "description": "Reliable two-way integrations so you can manage your online orders from a single point-of-sale with ease. Find the e-commerce integration you need here \u2014check more"
+    },
+    "marketsMetaTags": null,
+    "metaImage": null,
+    "minimalHeader": false,
+    "minimalHeaderAction": null,
+    "components": [
+      {
+        "__typename": "BlockIntegrationsFilteringModelRecord",
+        "id": "Ixv2nX6MRcCwx6GGFpRC6A",
+        "title": "Deliverect integrations hub",
+        "description": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "We have partnered with the world\u2019s best food ordering companies to offer the highest-quality, most reliable API integrations across delivery apps, POS systems, inventory software, last-mile delivery solutions, and more.\u00a0"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "smallBlock": {
+          "title": "Request a New Integration",
+          "icon": "ti-apps",
+          "description": {
+            "value": {
+              "schema": "dast",
+              "document": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "span",
+                        "value": "Can't find an integration with a tool you use? Tell us what software you'd like Deliverect to connect with, and we'll explore adding it to our ecosystem. "
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "action": {
+            "id": "dGevbXhGS9-IJP54iW7vOg",
+            "title": "Request an integration",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "interface/arrow-right",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "O7vVHc92SQyiA_i1QVmcnA",
+                "title": "Request an integration",
+                "slug": "request-an-integration",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "categories": [
+          {
+            "id": "Qrv9xWzmQIG9ib4T1T5pXA",
+            "title": "POS systems",
+            "slug": "pos-systems",
+            "bodyTitle": "POS System Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Our team at Deliverect understands the importance of a smooth integration process with POS Systems for Restaurants and POS Systems for C-stores. That's why we build integrations with the top point-of-sale providers globally, ensuring an effortless setup process for our customers."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "QBIgkr_eSlCs_6HmQOIYBw",
+            "title": "3rd-party marketplace",
+            "slug": "delivery-channels",
+            "bodyTitle": "Food delivery platform integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "We team up with the best global third-party delivery apps, seamlessly consolidating all your channels into one simple system. Say goodbye to delivery headaches and hello to streamlined success with Deliverect."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "KD-jUwEIRMmHOxA_I0H1vg",
+            "title": "3rd-party dispatch",
+            "slug": "fulfilment",
+            "bodyTitle": "Fulfillment Software Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "We integrate with\u00a0fulfillment partners (Dispatch)\u00a0worldwide to\u00a0deliver your online orders and connect the dots between your online sales channels and customers.\u00a0Do you use a delivery network that isn\u2019t included in the list? Let us know, and we\u2019ll add it to our upcoming integrations."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "eIVJSqT6Sva0HNm4ApjRKw",
+            "title": "Online ordering",
+            "slug": "online-ordering",
+            "bodyTitle": "Online Ordering Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Simplify online ordering for your restaurant or grocery store with Deliverect. "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Our platform seamlessly integrates multiple online ordering systems"
+                        },
+                        {
+                          "type": "span",
+                          "value": ", consolidating orders from all channels into one easy-to-manage dashboard. "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Upgrade your business ordering system today."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "PUdLrAiwRxCdafRXFCDnwA",
+            "title": "On-site ordering",
+            "slug": "in-house-dining-apps",
+            "bodyTitle": "Kiosk and In-house dining app Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "We partner with in-house dining apps around the world to incorporate them into your POS. Do you use an in-house dining app that isn\u2019t included in the list? Let us know and we\u2019ll add it to our upcoming integrations."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "FCnubwfVRsOF5mwIncjqgg",
+            "title": "Loyalty & CRM",
+            "slug": "loyalty",
+            "bodyTitle": "Loyalty Program Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Sell, engage, and grow more with our loyalty integrations for restaurants, ghost kitchens, and C-stores. Deliverect integrates multiple loyalty and marketing solutions, online ordering systems, POS systems, and other solutions into one easy-to-manage platform."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "Wt2MNTxGRTmhQmo20lpiMA",
+            "title": "KDS, inventory & reporting",
+            "slug": "inventory-management",
+            "bodyTitle": "Inventory and Stock Management Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "We partner with stock management software around the world to incorporate them into your POS. Do you use stock management software that isn\u2019t included in the list? Let us know and we\u2019ll add it to our upcoming integrations."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "QU0AXfiGTQCCleyMFtsk-Q",
+            "title": "Payment platforms",
+            "slug": "payments",
+            "bodyTitle": "Payments Integrations",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "We have partnered with the world\u2019s best payment providers to offer the highest-quality, most reliable API integrations across first party online ordering sites, apps, kiosks and more."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": null
+          },
+          {
+            "id": "HMvYhvRYSHOWiyxybgaQNQ",
+            "title": "AI integrations",
+            "slug": "restaurant-ai-integrations",
+            "bodyTitle": "AI Integrations for Restaurant Automation",
+            "introCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Connect AI workflow automation tools and intelligent agents with Deliverect to streamline restaurant operations. Integrate platforms like n8n to automate order management, inventory tracking, and customer communications across your tech stack."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "bodyCopy": {
+              "value": {
+                "schema": "dast",
+                "document": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "BlockLogosModelRecord",
+        "id": "UTfvacqfQwajtbiKuZ0OnQ",
+        "title": "Fuelling the fastest growing food businesses globally",
+        "logos": [
+          {
+            "__typename": "LogoModelRecord",
+            "id": "IMSSkTSbR5ScdR292YbXwg",
+            "name": "KFC",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1753465551-kcf_logo_final_smol.svg"
+            }
+          },
+          {
+            "__typename": "LogoModelRecord",
+            "id": "ScpdiJZ3S52INyl3M9Clqw",
+            "name": "Burger King",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1753464418-burger_king_2020.svg"
+            }
+          },
+          {
+            "__typename": "LogoModelRecord",
+            "id": "any74nX3QMmlrGEFztNFTg",
+            "name": "Taco Bell",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1753464418-taco_bell_2016.svg"
+            }
+          },
+          {
+            "__typename": "LogoModelRecord",
+            "id": "LLX_7WmmT-WRNdmqg-abcg",
+            "name": "Chipotle Mexican Grill",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1753464418-chipotle-mexican-grill.svg"
+            }
+          },
+          {
+            "__typename": "LogoModelRecord",
+            "id": "RAnxzvSrTDCvNEHk8bolNQ",
+            "name": "Ben & Jerry's",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1767796307-ben-and-jerrys-logo.png"
+            }
+          },
+          {
+            "__typename": "LogoModelRecord",
+            "id": "J_g-qH04Q1qvvUPLSbHVIg",
+            "name": "Popeyes",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1753464748-popeyes-logo.svg"
+            }
+          },
+          {
+            "__typename": "LogoModelRecord",
+            "id": "flg2ONo9Qc6SGyFHSAPgkA",
+            "name": "Pizza Hut",
+            "svgIcon": {
+              "url": "https://www.datocms-assets.com/165162/1767609033-pizza_hut-deliverect-logo.svg"
+            }
+          }
+        ],
+        "cta": null
+      },
+      {
+        "__typename": "BlockCtaModelRecord",
+        "id": "It5topitS9-ATxNgk9BFNw",
+        "title": "Ready to sell everywhere and deliver anywhere?",
+        "text": null,
+        "action": {
+          "id": "d8WmLHZURZWs3LbS9yZ8OQ",
+          "title": "Get Started",
+          "subtext": "",
+          "externalUrl": "",
+          "accessibleText": "",
+          "relativePath": "/request-a-demo",
+          "sendUtmParams": true,
+          "icon": "",
+          "trackingId": "",
+          "image": null,
+          "logo": null,
+          "background": null,
+          "content": []
+        },
+        "secondaryAction": null,
+        "anchor": "",
+        "theme": "dark"
+      }
+    ]
+  },
+  "availablePaths": [
+    {
+      "marketIsoCode": "FI",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en-fi",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "SE",
+      "marketDefaultLanguage": "sv",
+      "locale": "sv",
+      "slugPrefix": "sv-se",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "IT",
+      "marketDefaultLanguage": "it",
+      "locale": "it",
+      "slugPrefix": "it-it",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "DE",
+      "marketDefaultLanguage": "de",
+      "locale": "de",
+      "slugPrefix": "de-de",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "XX",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "XX",
+      "marketDefaultLanguage": "en",
+      "locale": "fr",
+      "slugPrefix": "fr",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "XX",
+      "marketDefaultLanguage": "en",
+      "locale": "es",
+      "slugPrefix": "es",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "GB",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en-gb",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "AU",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en-au",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "MX",
+      "marketDefaultLanguage": "es",
+      "locale": "en",
+      "slugPrefix": "en-mx",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "MX",
+      "marketDefaultLanguage": "es",
+      "locale": "es",
+      "slugPrefix": "es-mx",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "NL",
+      "marketDefaultLanguage": "nl",
+      "locale": "nl",
+      "slugPrefix": "nl-nl",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "NL",
+      "marketDefaultLanguage": "nl",
+      "locale": "en",
+      "slugPrefix": "en-nl",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "CA",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en-ca",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "CA",
+      "marketDefaultLanguage": "en",
+      "locale": "fr",
+      "slugPrefix": "fr-ca",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "AE",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en-ae",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "AE",
+      "marketDefaultLanguage": "en",
+      "locale": "ar",
+      "slugPrefix": "ar-ae",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "US",
+      "marketDefaultLanguage": "en",
+      "locale": "en",
+      "slugPrefix": "en-us",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "US",
+      "marketDefaultLanguage": "en",
+      "locale": "es",
+      "slugPrefix": "es-us",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "FR",
+      "marketDefaultLanguage": "fr",
+      "locale": "fr",
+      "slugPrefix": "fr-fr",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "ES",
+      "marketDefaultLanguage": "es",
+      "locale": "es",
+      "slugPrefix": "es-es",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "BE",
+      "marketDefaultLanguage": "nl",
+      "locale": "fr",
+      "slugPrefix": "fr-be",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "BE",
+      "marketDefaultLanguage": "nl",
+      "locale": "nl",
+      "slugPrefix": "nl-be",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "CH",
+      "marketDefaultLanguage": "fr",
+      "locale": "fr",
+      "slugPrefix": "fr-ch",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "PT",
+      "marketDefaultLanguage": "pt",
+      "locale": "pt",
+      "slugPrefix": "pt-pt",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    },
+    {
+      "marketIsoCode": "CO",
+      "marketDefaultLanguage": "es",
+      "locale": "es",
+      "slugPrefix": "es-co",
+      "slug": "integrations/retail",
+      "integrationCategory": "retail",
+      "category": null
+    }
+  ],
+  "header": {
+    "id": "H0bsYHe-S5KSQO-Bjh_fRQ",
+    "managementTitle": "Global Market Header (Press)",
+    "primaryAction": {
+      "id": "CQK9wHTPRwSfD9SGQXUaZQ",
+      "title": "Get Started",
+      "subtext": "One location? Get free access for 14 days",
+      "externalUrl": "",
+      "accessibleText": "",
+      "relativePath": "/request-a-demo",
+      "sendUtmParams": true,
+      "icon": "",
+      "trackingId": "",
+      "image": null,
+      "logo": null,
+      "background": null,
+      "content": []
+    },
+    "secondaryAction": {
+      "id": "HcxYyIsGSKqrMuBP1KC4cQ",
+      "title": "Log in",
+      "subtext": "",
+      "externalUrl": "https://frontend.deliverect.com/",
+      "accessibleText": "",
+      "relativePath": "",
+      "sendUtmParams": false,
+      "icon": "",
+      "trackingId": "",
+      "image": null,
+      "logo": null,
+      "background": null,
+      "content": []
+    },
+    "thirdAction": null,
+    "mainNavigation": [
+      {
+        "id": "HnGQGkTuS1GozyReD3-wTw",
+        "managementTitle": "Global: Solutions (April 2025 - New Style) ",
+        "title": "Solutions",
+        "navigationItem": {
+          "id": "D0Xg_pPOS66bQ_GwUggZFg",
+          "title": "Solutions",
+          "subtext": "",
+          "externalUrl": "",
+          "accessibleText": "",
+          "relativePath": "",
+          "sendUtmParams": false,
+          "icon": "",
+          "trackingId": "",
+          "image": null,
+          "logo": null,
+          "background": null,
+          "content": [
+            {
+              "__typename": "PageModelRecord",
+              "id": "TVy8_0u3QiWyqfovpiUalA",
+              "title": "Solutions overview",
+              "slug": "solutions",
+              "enabledMarkets": [
+                {
+                  "slugPrefix": "en"
+                },
+                {
+                  "slugPrefix": "en-au"
+                },
+                {
+                  "slugPrefix": "en-gb"
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": "en-mx"
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": "en-nl"
+                },
+                {
+                  "slugPrefix": "en-fi"
+                },
+                {
+                  "slugPrefix": "en-ae"
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                }
+              ]
+            }
+          ]
+        },
+        "dropdown": {
+          "id": "NTxp2vC4RF62GE-ZEa4lLA",
+          "managementTitle": "Global: Solutions > April 2025 (New Style) with Kiosk",
+          "dropdownBottomText": null,
+          "contentBlocks": [
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "cOQg35zlRN-xuT05VtK6xQ",
+              "title": "Third party ordering",
+              "navigationItems": [
+                {
+                  "icon": "",
+                  "id": "CwKB70ayRSSZ8hgHJ26hBw",
+                  "title": "Restaurants",
+                  "subtext": "Order & menu management",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Deliverect Restaurants Light logo",
+                    "alt": "Deliverect Restaurants Light logo",
+                    "filename": "deliverect-restaurants-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464373-deliverect-restaurants-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "JT-lqtF_QH2VS21mBMtwBQ",
+                      "title": "Deliverect Restaurants",
+                      "slug": "deliverect-restaurants",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "",
+                  "id": "e1rM7r19Q6qoJPKXwUCZiA",
+                  "title": "Sentinel",
+                  "subtext": "24/7 store monitoring",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/sentinel",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Sentinel by Deliverect - Light logo",
+                    "alt": "Sentinel by Deliverect - Light logo",
+                    "filename": "pulse-deliverect-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464372-pulse-deliverect-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-apps",
+                  "id": "eGdac0wFT_C5Nt9DUR4ohg",
+                  "title": "Delivery Manager App",
+                  "subtext": "All orders on one screen",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Delivery Manager App - Light logo",
+                    "alt": "Delivery Manager App - Light logo",
+                    "filename": "delivery-manager-app-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464372-delivery-manager-app-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "J-RJQovoT_m_eIYBVx6Ifw",
+                      "title": "Delivery Manager App (DMA)",
+                      "slug": "delivery-manager-app",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "GjBgEgigToum_TB0UlW1uw",
+              "title": "First party ordering",
+              "navigationItems": [
+                {
+                  "icon": "",
+                  "id": "GSt73rdJTEWXhEYvp3XILA",
+                  "title": "Direct",
+                  "subtext": "Branded website & app",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Deliverect Direct - Light logo",
+                    "alt": "Deliverect Direct - Light logo",
+                    "filename": "deliverect-direct-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464373-deliverect-direct-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "G5UCG0_SSSyxSfZ2h76hrA",
+                      "title": "Deliverect Direct",
+                      "slug": "deliverect-direct",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-moped",
+                  "id": "B3MLM9-1RNqWSDT90_Wc3A",
+                  "title": "Dispatch",
+                  "subtext": "Delivery partners on demand",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Dispatch - Light logo",
+                    "alt": "Dispatch - Light logo",
+                    "filename": "dispatch-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464372-dispatch-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "QifBZPTuTASoC6oY0zST7Q",
+                      "title": "Dispatch by Deliverect",
+                      "slug": "dispatch",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "",
+                  "id": "Yx_utZywSpOX6HKJ2KLYNQ",
+                  "title": "Courier App",
+                  "subtext": "Stay connected to your fleet",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/dispatch#CourierApp",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Courier App - Light logo",
+                    "alt": "Courier App - Light logo",
+                    "filename": "courier-app-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464370-courier-app-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": []
+                }
+              ]
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "PU-D1cjPT5qdUfEE1Ptx3Q",
+              "title": "In store service",
+              "navigationItems": [
+                {
+                  "icon": "",
+                  "id": "IK4M9rUbQCenXxTnT4_IRw",
+                  "title": "Kiosk",
+                  "subtext": "Self-serve ordering",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/deliverect-kiosk",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Deliverect Kiosk - Light logo",
+                    "alt": "Deliverect Kiosk - Light logo",
+                    "filename": "deliverect-kiosk-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464370-deliverect-kiosk-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-qrcode",
+                  "id": "LxRldkAyQey-KxBqQHs_8Q",
+                  "title": "Table Ordering",
+                  "subtext": "QR codes for dine in",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Table Ordering - light logo",
+                    "alt": "Table Ordering - light logo",
+                    "filename": "table-ordering-light-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464370-table-ordering-light-logo.svg"
+                  },
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "Ps5iX2ScRVmuMZNQvUvKsA",
+                      "title": "Table Ordering (FKA Order & Pay)",
+                      "slug": "order-and-pay",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "TFMF98y9RKqHkQElp0UsLQ",
+              "title": "Retail",
+              "navigationItems": [
+                {
+                  "icon": "",
+                  "id": "a3_GMUM5QneIll_J98Zi9g",
+                  "title": "Retail",
+                  "subtext": "Catalogue management",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/deliverect-retail",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Deliverect Retail logo",
+                    "alt": "Deliverect Retail logo",
+                    "filename": "deliverect-retail-new-icon.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464509-deliverect-retail-new-icon.svg"
+                  },
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-barcode",
+                  "id": "PbqzF4kIR62-uWua2S72nQ",
+                  "title": "Quest App",
+                  "subtext": "Pick and pack orders",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/quest-app",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": {
+                    "title": "Quest app dark logo",
+                    "alt": "Quest app dark logo",
+                    "filename": "quest-app-dark-logo.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464354-quest-app-dark-logo.svg"
+                  },
+                  "background": null,
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "ECQTQYJYT4G4zYuup9rxaQ",
+        "managementTitle": "Global: Integrations",
+        "title": "Integrations",
+        "navigationItem": {
+          "id": "PqkdEqJwSZ-K9a2B_gOIsw",
+          "title": "All integrations",
+          "subtext": "",
+          "externalUrl": "",
+          "accessibleText": "",
+          "relativePath": "",
+          "sendUtmParams": false,
+          "icon": "",
+          "trackingId": "",
+          "image": null,
+          "logo": null,
+          "background": null,
+          "content": [
+            {
+              "__typename": "PageModelRecord",
+              "id": "eIaWnWBvTPukfwP7jzu54g",
+              "title": "Integrations",
+              "slug": "integrations",
+              "enabledMarkets": [
+                {
+                  "slugPrefix": "en-fi"
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": "en"
+                },
+                {
+                  "slugPrefix": "en-gb"
+                },
+                {
+                  "slugPrefix": "en-au"
+                },
+                {
+                  "slugPrefix": "en-mx"
+                },
+                {
+                  "slugPrefix": "en-nl"
+                },
+                {
+                  "slugPrefix": "en-ca"
+                },
+                {
+                  "slugPrefix": "en-ae"
+                },
+                {
+                  "slugPrefix": "en-us"
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                }
+              ]
+            }
+          ]
+        },
+        "dropdown": {
+          "id": "P12-wfORQma33zALjDgiLw",
+          "managementTitle": "Integrations Global",
+          "dropdownBottomText": null,
+          "contentBlocks": [
+            {
+              "__typename": "HeaderContentBlockModelRecord",
+              "id": "fjcgduoUQNOVs0ghDAP8qQ",
+              "title": "Integrations",
+              "content": {
+                "value": {
+                  "schema": "dast",
+                  "document": {
+                    "type": "root",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "span",
+                            "marks": [
+                              "strong"
+                            ],
+                            "value": "1000+ Integration partners"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "span",
+                            "value": "All the right solutions for your business in one place."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "span",
+                            "value": "\n"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "image": null,
+              "action": {
+                "id": "PqkdEqJwSZ-K9a2B_gOIsw",
+                "title": "All integrations",
+                "subtext": "",
+                "externalUrl": "",
+                "accessibleText": "",
+                "relativePath": "",
+                "sendUtmParams": false,
+                "icon": "",
+                "trackingId": "",
+                "image": null,
+                "logo": null,
+                "background": null,
+                "content": [
+                  {
+                    "__typename": "PageModelRecord",
+                    "id": "eIaWnWBvTPukfwP7jzu54g",
+                    "title": "Integrations",
+                    "slug": "integrations",
+                    "enabledMarkets": [
+                      {
+                        "slugPrefix": "en-fi"
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": "en"
+                      },
+                      {
+                        "slugPrefix": "en-gb"
+                      },
+                      {
+                        "slugPrefix": "en-au"
+                      },
+                      {
+                        "slugPrefix": "en-mx"
+                      },
+                      {
+                        "slugPrefix": "en-nl"
+                      },
+                      {
+                        "slugPrefix": "en-ca"
+                      },
+                      {
+                        "slugPrefix": "en-ae"
+                      },
+                      {
+                        "slugPrefix": "en-us"
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      },
+                      {
+                        "slugPrefix": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              "variant": "green"
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "aYaY_qMYQ8S2-0NIFb0b-g",
+              "title": "Our integrations",
+              "navigationItems": [
+                {
+                  "icon": "ti-device-imac-dollar",
+                  "id": "DfJMRE-uTOC-69tkrRousA",
+                  "title": "POS systems",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/integrations/pos-systems",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-car",
+                  "id": "OMRAbyhuSOC5UzSq-yXtEQ",
+                  "title": "3P Marketplace",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/integrations/delivery-channels",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-devices",
+                  "id": "ZqP8SKs6SZi8zRjUIMTh1w",
+                  "title": "Online ordering",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/integrations/online-ordering",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-tools-kitchen",
+                  "id": "CG6FB1AGRIeqKWwVu9xlnQ",
+                  "title": "On-Site Ordering",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/integrations/in-house-dining-apps",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-route-2",
+                  "id": "JQZNvHlDSim52_cyoCpZcg",
+                  "title": "3P Dispatch",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/integrations/fulfilment",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-infinity",
+                  "id": "aDtCVYNoRQKFIEWPdjv7Bg",
+                  "title": "Loyalty & CRM",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "/integrations/loyalty",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                }
+              ]
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "J1NUbskPR2WntROPljqvDg",
+              "title": "Our partners",
+              "navigationItems": [
+                {
+                  "icon": "",
+                  "id": "YORzSSb5Q2On52KevL0seQ",
+                  "title": "Uber Eats",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": {
+                    "title": "Uber Eats icon",
+                    "alt": null,
+                    "filename": "uber-eats-icon.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464727-uber-eats-icon.svg"
+                  },
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "IntegrationModelRecord",
+                      "id": "WqiQ_tW-RlCnenxvjRVgbQ",
+                      "title": "Uber Eats",
+                      "slug": "uber-eats"
+                    }
+                  ]
+                },
+                {
+                  "icon": "",
+                  "id": "YMEcZXUYQQSKOVH7uwh6RQ",
+                  "title": "Square",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": {
+                    "title": "Square icon",
+                    "alt": null,
+                    "filename": "square-logo-svg-vector_1.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464417-square-logo-svg-vector_1.svg"
+                  },
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "IntegrationModelRecord",
+                      "id": "Z3Mg9R38TP-K2AbC7KpJpg",
+                      "title": "Square",
+                      "slug": "square"
+                    }
+                  ]
+                },
+                {
+                  "icon": "",
+                  "id": "Gksj5nlvQUqHJ5swIapqoA",
+                  "title": "DoorDash",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": {
+                    "title": "Doordash icon",
+                    "alt": null,
+                    "filename": "svg_logo_container.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464681-svg_logo_container.svg"
+                  },
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "IntegrationModelRecord",
+                      "id": "BLpk4hgqSdKbIV8FjUNnvQ",
+                      "title": "DoorDash",
+                      "slug": "doordash"
+                    }
+                  ]
+                },
+                {
+                  "icon": "",
+                  "id": "fREYNtsjRcK0649k0Y9KVA",
+                  "title": "Clover",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": {
+                    "title": "Clover icon",
+                    "alt": null,
+                    "filename": "clover-icon.svg",
+                    "url": "https://www.datocms-assets.com/165162/1753464681-clover-icon.svg"
+                  },
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "IntegrationModelRecord",
+                      "id": "DpkCUKgrRum53U4ClMQoZw",
+                      "title": "Clover",
+                      "slug": "clover"
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-user-circle",
+                  "id": "Adcne4MdQ-6JwZiJTYMVmg",
+                  "title": "Become a partner",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "NxRRjtKbQc2t3dE4OBfPLA",
+                      "title": "\ud83c\udf0e Become a partner - Global (NEW)",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "IwqyjMsUSjqjtfohF1aNRw",
+                      "title": "\ud83c\uddfa\ud83c\uddf8US - Become a partner V2",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-us"
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "Y_s-vRSqQVS-xKPHH7S3BQ",
+                      "title": "\ud83c\uddf2\ud83c\uddfd Mexico - Become a partner V2",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "b38bZ5UKSHSRqXC-KLR4VA",
+                      "title": "\ud83c\udde8\ud83c\udde6 CA - Become a partner V2",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-ca"
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "Yuj1epUpSWyWX9BT_aqf6w",
+                      "title": "\ud83c\udde6\ud83c\uddea MENA - Become a partner V2",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-ae"
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "C_c5Z6fgSNqa4r5kq3wNrQ",
+                      "title": " \ud83c\udde6\ud83c\uddfa AUS - Become a partner V2",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-au"
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "WeHr9KzHTguKqxp8cbq7EQ",
+                      "title": "\ud83c\uddec\ud83c\udde7 UK - Become a partner V2",
+                      "slug": "become-a-partner",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-gb"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-tool",
+                  "id": "RbrLm4YXT62m3joSpLUWZg",
+                  "title": "Build your integration",
+                  "subtext": "",
+                  "externalUrl": "https://developers.deliverect.com/",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "J65l8-wITfOjEXExyxyLLg",
+        "managementTitle": "Global: Pricing",
+        "title": "Pricing",
+        "navigationItem": {
+          "id": "cJZFSO-IQNWRLcPE1CvAEQ",
+          "title": "Pricing",
+          "subtext": "",
+          "externalUrl": "",
+          "accessibleText": "",
+          "relativePath": "/pricing",
+          "sendUtmParams": false,
+          "icon": "",
+          "trackingId": "",
+          "image": null,
+          "logo": null,
+          "background": null,
+          "content": []
+        },
+        "dropdown": null
+      },
+      {
+        "id": "ZwyjGGGnSF6pW6GvsQV5zw",
+        "managementTitle": "Global: Resources (+Press)",
+        "title": "Resources",
+        "navigationItem": {
+          "id": "PKrjIeNRTyOrad53Kw9c7A",
+          "title": "Blog",
+          "subtext": "",
+          "externalUrl": "",
+          "accessibleText": "",
+          "relativePath": "",
+          "sendUtmParams": false,
+          "icon": "",
+          "trackingId": "",
+          "image": null,
+          "logo": null,
+          "background": null,
+          "content": [
+            {
+              "__typename": "PageModelRecord",
+              "id": "AaEFENwSQTSuZepmzBoWCg",
+              "title": "Blog",
+              "slug": "blog",
+              "enabledMarkets": [
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": "en-fi"
+                },
+                {
+                  "slugPrefix": "en"
+                },
+                {
+                  "slugPrefix": "en-gb"
+                },
+                {
+                  "slugPrefix": "en-au"
+                },
+                {
+                  "slugPrefix": "en-mx"
+                },
+                {
+                  "slugPrefix": "en-nl"
+                },
+                {
+                  "slugPrefix": "en-ca"
+                },
+                {
+                  "slugPrefix": "en-ae"
+                },
+                {
+                  "slugPrefix": "en-us"
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                },
+                {
+                  "slugPrefix": ""
+                }
+              ]
+            }
+          ]
+        },
+        "dropdown": {
+          "id": "dw48A1y9SEqpomTYHF2zcg",
+          "managementTitle": "Global: Resources (+Press)",
+          "dropdownBottomText": null,
+          "contentBlocks": [
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "fTLiD9uMQRK05xkY5QB_8Q",
+              "title": "Education",
+              "navigationItems": [
+                {
+                  "icon": "ti-text-caption",
+                  "id": "QmjdS5oFR0myCBIwwifZRw",
+                  "title": "Blog",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "AaEFENwSQTSuZepmzBoWCg",
+                      "title": "Blog",
+                      "slug": "blog",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-book",
+                  "id": "OW3FeH5vTiaPxrNbto2-9g",
+                  "title": "Ebooks",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "UV7ihy3PTY-fHayMKICc-g",
+                      "title": "Download our free eBooks (ebook overview page)",
+                      "slug": "download-our-free-ebooks",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-news",
+                  "id": "LBjbjp-sQIWIDKo0cx0RHg",
+                  "title": "Press",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "Az1GWs8dQfSfec4S-o508w",
+                      "title": "Press Page (Press Releases and News)",
+                      "slug": "press",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "eQnePUlPTBinCfoyatw86g",
+              "title": "Support",
+              "navigationItems": [
+                {
+                  "icon": "ti-help",
+                  "id": "biwuJvqvQNatZF61a-hCeQ",
+                  "title": "Help Center",
+                  "subtext": "",
+                  "externalUrl": "https://help.deliverect.com/en",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-messages",
+                  "id": "OGfEGDW5TZKGgkddeoNFGw",
+                  "title": "FAQ",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "bPinqMK6RkG9wfGj-SbUXg",
+                      "title": "FAQ",
+                      "slug": "faq",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-send",
+                  "id": "J8N4X0UKSpK8ThCpFwnrVw",
+                  "title": "Contact us",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "LYsC5OUkQKWLUBDLMUs-YQ",
+                      "title": "Contact us",
+                      "slug": "contact-us",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "__typename": "HeaderNavigationBlockModelRecord",
+              "id": "NutEZseCSPi7FwMqZubJpQ",
+              "title": "Company",
+              "navigationItems": [
+                {
+                  "icon": "ti-users",
+                  "id": "BiKNeJt7RyO4V63yCnKBbQ",
+                  "title": "About us",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "Hs_pQnLtT7-Aw838PBk6WA",
+                      "title": "About us",
+                      "slug": "about-us",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "icon": "ti-briefcase",
+                  "id": "COyplwe3SNCIhXIrKVDO5Q",
+                  "title": "Careers",
+                  "subtext": "",
+                  "externalUrl": "https://www.deliverect.com/en/careers",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": []
+                },
+                {
+                  "icon": "ti-tool",
+                  "id": "CSmdbao1RjyAvlZg_dEf5w",
+                  "title": "How it works",
+                  "subtext": "",
+                  "externalUrl": "",
+                  "accessibleText": "",
+                  "relativePath": "",
+                  "sendUtmParams": false,
+                  "trackingId": "",
+                  "image": null,
+                  "logo": null,
+                  "background": null,
+                  "content": [
+                    {
+                      "__typename": "PageModelRecord",
+                      "id": "OLSeDGGBTvKZ1ACSHIBwVQ",
+                      "title": "How it works",
+                      "slug": "how-it-works",
+                      "enabledMarkets": [
+                        {
+                          "slugPrefix": "en-nl"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-ae"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-au"
+                        },
+                        {
+                          "slugPrefix": "en-ca"
+                        },
+                        {
+                          "slugPrefix": "en-us"
+                        },
+                        {
+                          "slugPrefix": "en-mx"
+                        },
+                        {
+                          "slugPrefix": "en-gb"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en"
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": ""
+                        },
+                        {
+                          "slugPrefix": "en-fi"
+                        },
+                        {
+                          "slugPrefix": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "market": {
+    "id": "NzjoDLwqRL62mdK8ZVPOuA",
+    "title": "Global",
+    "localName": "",
+    "flag": "\ud83c\udf10",
+    "slugPrefix": "en",
+    "countryIsoCode": "XX",
+    "currencySymbol": "$",
+    "languages": [
+      "en",
+      "fr",
+      "es"
+    ],
+    "pageTitlePrefix": "Deliverect",
+    "defaultLanguage": "en",
+    "phoneNumber": "",
+    "pricing": {
+      "id": "e8vwGUbLTdCXXq84IcosOg",
+      "setupCostFootnote": {
+        "value": {
+          "schema": "dast",
+          "document": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "span",
+                    "value": "* Average set-up fee of \u20ac249. Overage fees may apply when passing the monthly order volume of chosen tier."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "tiers": [
+        {
+          "label": "Small",
+          "tierTitle": "Small",
+          "minOrders": null,
+          "maxOrders": 350,
+          "maxOrderThreshold": 1,
+          "monthlyPrice": 119,
+          "yearlyPrice": 119,
+          "totalAnnualPrice": 1428,
+          "monthlySetupFee": 249,
+          "annualSetupFee": null,
+          "displayTitle": ""
+        },
+        {
+          "label": "Medium",
+          "tierTitle": "Medium",
+          "minOrders": 351,
+          "maxOrders": 750,
+          "maxOrderThreshold": 351,
+          "monthlyPrice": 199,
+          "yearlyPrice": 199,
+          "totalAnnualPrice": 2388,
+          "monthlySetupFee": 249,
+          "annualSetupFee": null,
+          "displayTitle": ""
+        },
+        {
+          "label": "Large",
+          "tierTitle": "Large",
+          "minOrders": 751,
+          "maxOrders": 1500,
+          "maxOrderThreshold": 751,
+          "monthlyPrice": 249,
+          "yearlyPrice": 249,
+          "totalAnnualPrice": 2988,
+          "monthlySetupFee": 249,
+          "annualSetupFee": null,
+          "displayTitle": ""
+        }
+      ]
+    },
+    "svgFlag": {
+      "url": "https://www.datocms-assets.com/165162/1753465811-globe.svg"
+    },
+    "svgFlagRound": {
+      "title": "Global round icon",
+      "alt": "Global round icon",
+      "url": "https://www.datocms-assets.com/165162/1753464366-global.svg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  "footer": {
+    "id": "SfRsl2yyRs2yNd0P7bCWTw",
+    "mainNavigation": [
+      {
+        "id": "A1IWzKkwS3KeuQWGXWwt7A",
+        "title": "Resources",
+        "navigationItems": [
+          {
+            "id": "BiKNeJt7RyO4V63yCnKBbQ",
+            "title": "About us",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "ti-users",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "Hs_pQnLtT7-Aw838PBk6WA",
+                "title": "About us",
+                "slug": "about-us",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "COyplwe3SNCIhXIrKVDO5Q",
+            "title": "Careers",
+            "subtext": "",
+            "externalUrl": "https://www.deliverect.com/en/careers",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "ti-briefcase",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "J8N4X0UKSpK8ThCpFwnrVw",
+            "title": "Contact us",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "ti-send",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "LYsC5OUkQKWLUBDLMUs-YQ",
+                "title": "Contact us",
+                "slug": "contact-us",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "CJgbxLYDTAi0QanU1Bt8ZA",
+            "title": "FAQ",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "bPinqMK6RkG9wfGj-SbUXg",
+                "title": "FAQ",
+                "slug": "faq",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PKrjIeNRTyOrad53Kw9c7A",
+            "title": "Blog",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "AaEFENwSQTSuZepmzBoWCg",
+                "title": "Blog",
+                "slug": "blog",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TSz_xf6sTa6YxMVMCAkCtg",
+            "title": "Customer stories ",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "Mn5n-bZERYSZX71Hss5v0A",
+                "title": "Customers Global",
+                "slug": "customers",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ACdksg3oQ8yJ4smCNxNLfQ",
+            "title": "Sign up for our newsletter",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "GK5ksSEZRa2oI3sHLdTFDA",
+                "title": "Newsletter",
+                "slug": "newsletter",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "column": 1
+      },
+      {
+        "id": "b1mWDT9gTpmNUR0t8iqb2A",
+        "title": "Solutions",
+        "navigationItems": [
+          {
+            "id": "NCSDEqetScS1Yi6_aQvcpw",
+            "title": "Sentinel",
+            "subtext": "Grow on delivery apps",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/sentinel",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": {
+              "title": "Pulse logo",
+              "alt": null,
+              "filename": "deliverect-pulse-new-icon.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464556-deliverect-pulse-new-icon.svg"
+            },
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "eGdac0wFT_C5Nt9DUR4ohg",
+            "title": "Delivery Manager App",
+            "subtext": "All orders on one screen",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "ti-apps",
+            "trackingId": "",
+            "image": null,
+            "logo": {
+              "title": "Delivery Manager App - Light logo",
+              "alt": "Delivery Manager App - Light logo",
+              "filename": "delivery-manager-app-light-logo.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464372-delivery-manager-app-light-logo.svg"
+            },
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "J-RJQovoT_m_eIYBVx6Ifw",
+                "title": "Delivery Manager App (DMA)",
+                "slug": "delivery-manager-app",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fjo5SrtTQ5eutny_G9_aQQ",
+            "title": "Direct",
+            "subtext": "End-to-end online ordering solution",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": {
+              "title": "Deliverect Direct navigation menu card",
+              "alt": null,
+              "filename": "direct-illustration.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464560-direct-illustration.svg"
+            },
+            "logo": {
+              "title": "Deliverect Direct new icon",
+              "alt": null,
+              "filename": "deliverect-direct-new-icon.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464564-deliverect-direct-new-icon.svg"
+            },
+            "background": {
+              "title": "Direct Nav Background",
+              "alt": null,
+              "filename": "direct-nav-background.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464560-direct-nav-background.svg"
+            },
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "G5UCG0_SSSyxSfZ2h76hrA",
+                "title": "Deliverect Direct",
+                "slug": "deliverect-direct",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Ahg5a_TsT4-ecguYXR7jlQ",
+            "title": "Dispatch",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "ti-motorbike",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "QifBZPTuTASoC6oY0zST7Q",
+                "title": "Dispatch by Deliverect",
+                "slug": "dispatch",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "IK4M9rUbQCenXxTnT4_IRw",
+            "title": "Kiosk",
+            "subtext": "Self-serve ordering",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/deliverect-kiosk",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": {
+              "title": "Deliverect Kiosk - Light logo",
+              "alt": "Deliverect Kiosk - Light logo",
+              "filename": "deliverect-kiosk-light-logo.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464370-deliverect-kiosk-light-logo.svg"
+            },
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "NH5wjhLiToi_itx1TarocQ",
+            "title": "Table Ordering",
+            "subtext": "QR codes for dine in",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "ti-qrcode",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "Ps5iX2ScRVmuMZNQvUvKsA",
+                "title": "Table Ordering (FKA Order & Pay)",
+                "slug": "order-and-pay",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PbqzF4kIR62-uWua2S72nQ",
+            "title": "Quest App",
+            "subtext": "Pick and pack orders",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/quest-app",
+            "sendUtmParams": false,
+            "icon": "ti-barcode",
+            "trackingId": "",
+            "image": null,
+            "logo": {
+              "title": "Quest app dark logo",
+              "alt": "Quest app dark logo",
+              "filename": "quest-app-dark-logo.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464354-quest-app-dark-logo.svg"
+            },
+            "background": null,
+            "content": []
+          }
+        ],
+        "column": 2
+      },
+      {
+        "id": "HyEgW02RR9aKqRtvv5UFFQ",
+        "title": "Integrations",
+        "navigationItems": [
+          {
+            "id": "PqkdEqJwSZ-K9a2B_gOIsw",
+            "title": "All integrations",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "eIaWnWBvTPukfwP7jzu54g",
+                "title": "Integrations",
+                "slug": "integrations",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "SoT6tbJyT-u7wp4Z2pkItA",
+            "title": "POS systems",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/integrations/pos-systems",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "OMRAbyhuSOC5UzSq-yXtEQ",
+            "title": "3P Marketplace",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/integrations/delivery-channels",
+            "sendUtmParams": false,
+            "icon": "ti-car",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "ZqP8SKs6SZi8zRjUIMTh1w",
+            "title": "Online ordering",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/integrations/online-ordering",
+            "sendUtmParams": false,
+            "icon": "ti-devices",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "bmJn3fWsQmSKUpYXdITX6Q",
+            "title": "Retail",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/integrations/retail",
+            "sendUtmParams": false,
+            "icon": "ti-shopping-cart-dollar",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "aDtCVYNoRQKFIEWPdjv7Bg",
+            "title": "Loyalty & CRM",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/integrations/loyalty",
+            "sendUtmParams": false,
+            "icon": "ti-infinity",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "Z4hJMpN0QqyVSaCyG6c4sw",
+            "title": "Become a partner",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "Become a partner",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "NxRRjtKbQc2t3dE4OBfPLA",
+                "title": "\ud83c\udf0e Become a partner - Global (NEW)",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              },
+              {
+                "__typename": "PageModelRecord",
+                "id": "Yuj1epUpSWyWX9BT_aqf6w",
+                "title": "\ud83c\udde6\ud83c\uddea MENA - Become a partner V2",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-ae"
+                  }
+                ]
+              },
+              {
+                "__typename": "PageModelRecord",
+                "id": "b38bZ5UKSHSRqXC-KLR4VA",
+                "title": "\ud83c\udde8\ud83c\udde6 CA - Become a partner V2",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-ca"
+                  }
+                ]
+              },
+              {
+                "__typename": "PageModelRecord",
+                "id": "IwqyjMsUSjqjtfohF1aNRw",
+                "title": "\ud83c\uddfa\ud83c\uddf8US - Become a partner V2",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-us"
+                  }
+                ]
+              },
+              {
+                "__typename": "PageModelRecord",
+                "id": "WeHr9KzHTguKqxp8cbq7EQ",
+                "title": "\ud83c\uddec\ud83c\udde7 UK - Become a partner V2",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-gb"
+                  }
+                ]
+              },
+              {
+                "__typename": "PageModelRecord",
+                "id": "C_c5Z6fgSNqa4r5kq3wNrQ",
+                "title": " \ud83c\udde6\ud83c\uddfa AUS - Become a partner V2",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-au"
+                  }
+                ]
+              },
+              {
+                "__typename": "PageModelRecord",
+                "id": "Y_s-vRSqQVS-xKPHH7S3BQ",
+                "title": "\ud83c\uddf2\ud83c\uddfd Mexico - Become a partner V2",
+                "slug": "become-a-partner",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "column": 3
+      },
+      {
+        "id": "O0yP4JH6Tlu9kq4Rxl4KLA",
+        "title": "Deliverect for",
+        "navigationItems": [
+          {
+            "id": "f7C0Hd1jRzeFJXSwq4pBSg",
+            "title": "Restaurants",
+            "subtext": "Central management hub",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": {
+              "title": "Deliverect Restaurants Icon",
+              "alt": null,
+              "filename": "deliverect-restaurants-new-icon.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464565-deliverect-restaurants-new-icon.svg"
+            },
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "JT-lqtF_QH2VS21mBMtwBQ",
+                "title": "Deliverect Restaurants",
+                "slug": "deliverect-restaurants",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  },
+                  {
+                    "slugPrefix": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a3_GMUM5QneIll_J98Zi9g",
+            "title": "Retail",
+            "subtext": "Catalogue management",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "/deliverect-retail",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": {
+              "title": "Deliverect Retail logo",
+              "alt": "Deliverect Retail logo",
+              "filename": "deliverect-retail-new-icon.svg",
+              "url": "https://www.datocms-assets.com/165162/1753464509-deliverect-retail-new-icon.svg"
+            },
+            "background": null,
+            "content": []
+          },
+          {
+            "id": "Iiu7V9XsT2iJB6Wi2OiwiQ",
+            "title": "Enterprise",
+            "subtext": "",
+            "externalUrl": "",
+            "accessibleText": "",
+            "relativePath": "",
+            "sendUtmParams": false,
+            "icon": "",
+            "trackingId": "",
+            "image": null,
+            "logo": null,
+            "background": null,
+            "content": [
+              {
+                "__typename": "PageModelRecord",
+                "id": "DMcbxraCRBCAluPoMYf0zQ",
+                "title": "Enterprise page - Focused USPs",
+                "slug": "enterprise",
+                "enabledMarkets": [
+                  {
+                    "slugPrefix": "en-us"
+                  },
+                  {
+                    "slugPrefix": "en-ca"
+                  },
+                  {
+                    "slugPrefix": "en-gb"
+                  },
+                  {
+                    "slugPrefix": "en-au"
+                  },
+                  {
+                    "slugPrefix": "en-ae"
+                  },
+                  {
+                    "slugPrefix": "en"
+                  },
+                  {
+                    "slugPrefix": "en-nl"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-mx"
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": ""
+                  },
+                  {
+                    "slugPrefix": "en-fi"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "column": 4
+      }
+    ],
+    "legalNavigation": [
+      {
+        "id": "LI34PXd5SxSP1jcQFzKq9g",
+        "title": "Terms of service",
+        "subtext": "",
+        "externalUrl": "",
+        "accessibleText": "",
+        "relativePath": "",
+        "sendUtmParams": false,
+        "icon": "interface/arrow-right",
+        "trackingId": "",
+        "image": null,
+        "logo": null,
+        "background": null,
+        "content": [
+          {
+            "__typename": "PageModelRecord",
+            "id": "IkUfiqrdSBO6AK__V9ZC4Q",
+            "title": "Terms of service T&Cs - Last Update: December 2023",
+            "slug": "terms-of-service",
+            "enabledMarkets": [
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-fi"
+              },
+              {
+                "slugPrefix": "en"
+              },
+              {
+                "slugPrefix": "en-gb"
+              },
+              {
+                "slugPrefix": "en-au"
+              },
+              {
+                "slugPrefix": "en-mx"
+              },
+              {
+                "slugPrefix": "en-nl"
+              },
+              {
+                "slugPrefix": "en-ca"
+              },
+              {
+                "slugPrefix": "en-ae"
+              },
+              {
+                "slugPrefix": "en-us"
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "C6zIDvdqRUCz4xPBw6Ef7A",
+        "title": "Privacy & Cookie notice",
+        "subtext": "",
+        "externalUrl": "",
+        "accessibleText": "",
+        "relativePath": "",
+        "sendUtmParams": false,
+        "icon": "",
+        "trackingId": "",
+        "image": null,
+        "logo": null,
+        "background": null,
+        "content": [
+          {
+            "__typename": "PageModelRecord",
+            "id": "W-eZByCQQY2FYkiXkgxamQ",
+            "title": "Privacy and cookie notice - September 2024",
+            "slug": "privacy-and-cookie-notice",
+            "enabledMarkets": [
+              {
+                "slugPrefix": "en-ae"
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-us"
+              },
+              {
+                "slugPrefix": "en-nl"
+              },
+              {
+                "slugPrefix": "en-mx"
+              },
+              {
+                "slugPrefix": "en-au"
+              },
+              {
+                "slugPrefix": "en-gb"
+              },
+              {
+                "slugPrefix": "en-fi"
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-ca"
+              },
+              {
+                "slugPrefix": "en"
+              },
+              {
+                "slugPrefix": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "H0Fv7ZOWSN-VHsxdGaByJg",
+        "title": "Security",
+        "subtext": "",
+        "externalUrl": "",
+        "accessibleText": "",
+        "relativePath": "",
+        "sendUtmParams": false,
+        "icon": "",
+        "trackingId": "",
+        "image": null,
+        "logo": null,
+        "background": null,
+        "content": [
+          {
+            "__typename": "PageModelRecord",
+            "id": "JePJtllsQput294Y9SWhlw",
+            "title": "Security policy - February 2026",
+            "slug": "security",
+            "enabledMarkets": [
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-fi"
+              },
+              {
+                "slugPrefix": "en-us"
+              },
+              {
+                "slugPrefix": "en-gb"
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-nl"
+              },
+              {
+                "slugPrefix": "en-ae"
+              },
+              {
+                "slugPrefix": "en-mx"
+              },
+              {
+                "slugPrefix": "en"
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-ca"
+              },
+              {
+                "slugPrefix": ""
+              },
+              {
+                "slugPrefix": "en-au"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "socialMedia": [
+      {
+        "id": "ejElNIDTTveX5X32pSpzfg",
+        "title": "Linkedin",
+        "subtext": "",
+        "externalUrl": "https://www.linkedin.com/company/deliverecthq/",
+        "accessibleText": "",
+        "relativePath": "",
+        "sendUtmParams": false,
+        "icon": "",
+        "trackingId": "",
+        "image": null,
+        "logo": null,
+        "background": null,
+        "content": []
+      },
+      {
+        "id": "KZcXz6b-TzyINAfEr8-h1w",
+        "title": "Youtube",
+        "subtext": "",
+        "externalUrl": "https://www.youtube.com/channel/UC6jtHl647D9N1LtiGZPZlWA",
+        "accessibleText": "",
+        "relativePath": "",
+        "sendUtmParams": false,
+        "icon": "",
+        "trackingId": "",
+        "image": null,
+        "logo": null,
+        "background": null,
+        "content": []
+      }
+    ],
+    "actions": [
+      {
+        "id": "eL1ollNORTudAGN1L2JPEQ",
+        "title": "Log in",
+        "subtext": "",
+        "externalUrl": "https://frontend.deliverect.com/",
+        "accessibleText": "",
+        "relativePath": "",
+        "sendUtmParams": false,
+        "icon": "",
+        "trackingId": "",
+        "image": null,
+        "logo": null,
+        "background": null,
+        "content": []
+      }
+    ]
+  },
+  "isIntegration": false
+}
